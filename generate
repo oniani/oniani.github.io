@@ -4,7 +4,7 @@
 # by David Oniani <onianidavid@gmail.com>
 # License: GNU GPLv3
 
-cd website || return
+cd _website || return
 
 zola build
 

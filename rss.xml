@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title></title>
+        <link>https://www.davidoniani.com/</link>
+        <description></description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://www.davidoniani.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Sun, 25 Nov 2018 00:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>The Essence of Programming - Functional Approach</title>
+                <pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate>
+                <link>https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/</link>
+                <guid>https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/</guid>
+                <description>&lt;p&gt;This blogpost is a general overview of a rather
+underappreciated programming methodology called
+functional programming.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>
