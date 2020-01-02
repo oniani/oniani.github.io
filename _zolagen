@@ -8,13 +8,8 @@ cd _website || return
 
 zola build
 
-cp static/CNAME public/
-cp static/favicon.ico public/
-
-mv public/* ../
-
-rm -rf public
+cp -f CNAME public/
+cp -Rf public/* ../
+rm -r public
 
 cd .. || return
-
-printf "Done!\n"
