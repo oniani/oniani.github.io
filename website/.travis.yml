@@ -1,0 +1,20 @@
+dist: bionic
+
+language: generic
+
+install:
+  - .travis/get_zola.sh
+
+script:
+  - zola build
+  - cp static/CNAME public/CNAME
+  - cp static/favicon.ico public/favicon.ico
+
+deploy:
+  provider: pages
+  target-branch: gh-pages
+  local-dir: public
+  github-token: $GITHUB_TOKEN
+  skip-cleanup: true
+  keep-history: false
+  allow-empty-commit: true

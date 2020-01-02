@@ -1,0 +1,20 @@
+#!/usr/bin/env sh
+
+# Generate a static website using Zola
+# by David Oniani <onianidavid@gmail.com>
+# License: GNU GPLv3
+
+cd website || return
+
+zola build
+
+cp static/CNAME public/
+cp static/favicon.ico public/
+
+mv public/* ../
+
+rm -rf public
+
+cd .. || return
+
+printf "Done!\n"
