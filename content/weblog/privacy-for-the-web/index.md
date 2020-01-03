@@ -1,5 +1,5 @@
 +++
-title = "The Essence of Programming - Functional Approach"
+title = "Privacy For the Web"
 date = 2020-01-03
 +++
 
