@@ -15,13 +15,3 @@ after_success: |
   sudo pip install ghp-import &&
   ghp-import -c davidoniani.com -n public -b master &&
   git push -fq https://${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git master
-
-deploy:
-  name: oniani
-  email: onianidavid@gmail.com
-  github-token: $GITHUB_TOKEN
-  provider: pages
-  target-branch: master
-  allow-empty-commit: true
-  keep-history: false
-  skip-cleanup: true
