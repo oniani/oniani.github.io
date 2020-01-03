@@ -16,4 +16,4 @@ after_success: |
   zola build &&
   sudo pip install ghp-import &&
   ghp-import -c davidoniani.com -n public &&
-  git push -fq https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git master
+  git push -fq https://${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git master
