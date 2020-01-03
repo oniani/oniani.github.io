@@ -11,8 +11,8 @@ computer science and mathematics. My CV is available [here](cv.pdf).
 Research interests
 
 - Machine Learning
-- Programming Languages
 - Parallel Computing
+- Programming Languages
 
 Other interests include art, music, linguistics, space exploration, climate,
 cancer research, information theory, and economic empowerment.
