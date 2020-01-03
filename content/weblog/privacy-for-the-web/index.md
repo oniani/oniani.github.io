@@ -1,5 +1,5 @@
 +++
-title = "Privacy For the Web"
+title = "Privacy for the Web"
 date = 2020-01-03
 +++
 
