@@ -26,6 +26,9 @@ taxonomies = [
 # Specify a theme
 theme="sam"
 
+# Specify a title
+title = "David Oniani's Website"
+
 [extra]
 # Put all your custom variables here
 sam_menu = [
