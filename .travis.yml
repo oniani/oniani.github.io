@@ -1,0 +1,19 @@
+dist: bionic
+
+language: minimal
+
+install:
+  - .travis/get_zola.sh
+
+script:
+  - zola build
+
+# If you are using a different folder than `public` for the output directory, you will
+# need to change the `zola` command and the `ghp-import` path
+after_success: |
+  [ $TRAVIS_BRANCH = code ] &&
+  [ $TRAVIS_PULL_REQUEST = false ] &&
+  zola build &&
+  sudo pip install ghp-import &&
+  ghp-import -c davidoniani.com -n public &&
+  git push -fq https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git master
