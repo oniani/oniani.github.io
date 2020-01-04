@@ -115,13 +115,13 @@ print (factorial 6)  -- prints out 720
 print (factorial 9)  -- prints out 362880
 ```
 
-As we see, something that in imperative languages would need importing modules,
-for loops or while loops can be writte as a one-liner in Haskell. This is one
-of the outcomes of obsession over functions. Most functional languages have a
-rich pool of predefined functions that help manipulate data. In the example
-above, we also see a very interesting notation. Namely, `[1..x]` which builds
-up a list of integers from 1 up to \\( x \\) (\\( x \\) must also be an integer
-such that \\( x \geq 1 \\)). Thus, another outcome is that data structures and
+As shown above, something that in imperative languages would require importing
+modules, looping, etc. is a single line in Haskell. This is one of the outcomes
+of obsession over functions. Most functional languages have a rich pool of
+predefined functions that help manipulate data. In the example above, we also
+see a very interesting notation. Namely, `[1..x]` which builds up a list of
+integers from 1 up to \\( x \\) (\\( x \\) must also be an integer such that
+\\( x \geq 1 \\)). Thus, another outcome is that data structures and
 collections can be created very easily, usually just in a single line of code,
 leaving more time for the programmer to deal with functions and the logic.
 These are some of the reasons why functional languages are so concise.
@@ -161,7 +161,7 @@ Here is the complete definition of the factorial function that we saw above:
 
 \\[ f : \mathbb{Z}^+\cup \{0\} \rightarrow \mathbb{Z}^+ : x \mapsto x! \\]
 
-Haskell defines it the similar manner.
+Haskell defines in the similar fashion.
 
 `factorial :: Integer -> Integer` says that `factorial`
 is a function that takes an element from the set of integers and maps it to
