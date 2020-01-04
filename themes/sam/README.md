@@ -133,6 +133,28 @@ To place some text at the end of pages, set the following:
 text = "Some footer text."
 ```
 
+### KaTeX math formula support
+
+This theme contains math formula support using [KaTeX](katex),
+which can be enabled by setting `katex_enable = true` in the `extra` section
+of `config.toml`:
+
+```toml
+[extra]
+katex_enable = true
+```
+
+After enabling this extension, the `katex` short code can be used in documents:
+* `{{ katex(body="\KaTeX") }}` to typeset a math formula inlined into a text,
+  similar to `$...$` in LaTeX
+* `{% katex(block=true) %}\KaTeX{% end %}` to typeset a block of math formulas,
+  similar to `$$...$$` in LaTeX
+
+#### Automatic rendering without short codes
+
+Optionally, `\\( \KaTeX \\)` inline and `\\[ \KaTeX \\]` / `$$ \KaTeX $$`
+block-style automatic rendering is also supported, if enabled in the config:
+
 [build-img]: https://travis-ci.com/janbaudisch/zola-sam.svg?branch=master
 [build-url]: https://travis-ci.com/janbaudisch/zola-sam
 [demo-img]: https://img.shields.io/badge/demo-live-green.svg
@@ -143,3 +165,4 @@ text = "Some footer text."
 [upstream-license]: https://github.com/janbaudisch/zola-sam/blob/master/upstream/LICENSE
 [config]: https://github.com/janbaudisch/zola-sam/blob/master/config.toml
 [date-format-docs]: https://docs.rs/chrono/latest/chrono/format/strftime/index.html
+[katex]: https://katex.org/
