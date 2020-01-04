@@ -80,8 +80,8 @@ that the piece of code like a function is also data.
 I will give you a concise proof of why functions are data. Remember the table
 representations of functions you've learned at some point in the elementary
 school? That's the proof! Any function can be represented as a table of values.
-For instance, consider a function $f(x) = 2x$. The following will be a table
-representation of the function.
+For instance, consider a function \\( f(x) = 2x \\). The following will be a
+table representation of the function.
 
 | \\( x \\) | \\( f(x) \\) |
 | :-------: | :----------: |
@@ -112,7 +112,7 @@ factorial x = product [1..x]  -- easy as that
 
 The function builds a list of integers from 1 up to x and then calculates
 the product of these elements. This way we effectively get a product
-$1 \times 2 \times 3 .. \times \ x$ which is the same as $x!$.
+\\( 1 \times 2 \times 3 .. \times \ x \\) which is the same as \\( x! \\).
 Since we now have a function, we can call it with the actual parameters!
 
 ```haskell
@@ -126,18 +126,18 @@ for loops or while loops can be writte as a one-liner in Haskell. This is one
 of the outcomes of obsession over functions. Most functional languages have a
 rich pool of predefined functions that help manipulate data. In the example
 above, we also see a very interesting notation. Namely, `[1..x]` which builds
-up a list of integers from 1 up to $x$ ($x$ must also be an integer such that
-$x \geq 1$). Thus, another outcome is that data structures and collections can
-be created very easily, usually just in a single line of code, leaving more
-time for the programmer to deal with functions and the logic. These are some
-of the reasons why functional languages are so concise.
+up a list of integers from 1 up to \\( x \\) (\\( x \\) must also be an integer
+such that \\( x \geq 1 \\)). Thus, another outcome is that data structures and
+collections can be created very easily, usually just in a single line of code,
+leaving more time for the programmer to deal with functions and the logic.
+These are some of the reasons why functional languages are so concise.
 
 ### [Math, Sets, and Haskell](#math-sets-and-haskell)
 
 Notice that in the factorial function above, I excluded the case when the
-function is called with $0$ ($0! = 1$). It was done on purpose so that now
-we are able to add some other notation and explain the whole function in
-detail. Below is a better and more complete version of the function.
+function is called with \\( 0 \\) (\\( 0! = 1 \\)). It was done on purpose so
+that now we are able to add some other notation and explain the whole function
+in detail. Below is a better and more complete version of the function.
 
 ```haskell
 -- | A function to find the factorial of a number
@@ -158,21 +158,21 @@ Looks similar to something you have seen before? If you have taken any
 undergraduate math class, there is a big chance that you've encountered
 the following notation:
 
-$$f : A \rightarrow B : x \mapsto y$$
+\\[ f : A \rightarrow B : x \mapsto y \\]
 
 The notation above describes/defines a simple function that takes an input
-from set $A$ and maps it to the output in the set $B$.
+from set \\( A \\) and maps it to the output in the set \\( B \\).
 
 Here is the complete definition of the factorial function that we saw above:
 
-$$f : \mathbb{Z}^+\cup \{0\} \rightarrow \mathbb{Z}^+ : x \mapsto x!$$
+\\[ f : \mathbb{Z}^+\cup \{0\} \rightarrow \mathbb{Z}^+ : x \mapsto x! \\]
 
 Haskell defines it the similar manner.
 
 `factorial :: Integer -> Integer` says that `factorial`
 is a function that takes an element from the set of integers and maps it to
 some other element in the set of integers. As opposed to math, however, Haskell
-does not use $\mapsto$ notation and instead has the statements below it.
+does not use \\( \mapsto \\) notation and instead has the statements below it.
 
 ```haskell
 factorial 0 = 1
@@ -362,8 +362,8 @@ they do their job - sum up the odd numbers in the list and return the value.
 
 ![Half-Life video game series](half-life-lambda.jpg)
 
-Lambda calculus (also written as $\lambda$-calculus) is a branch of mathematics
-which was developed by [Alonzo Church](https://en.wikipedia.org/wiki/Alonzo_Church)
+Lambda calculus (also written as (\\( \lambda \\)-calculus) is a branch of
+mathematics which was developed by [Alonzo Church](https://en.wikipedia.org/wiki/Alonzo_Church)
 in the 1930s. It is a formal system for expressing computation and an alternative
 to what's called [Turing machine](https://en.wikipedia.org/wiki/Turing_machine) which
 was introduced by [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing).
@@ -406,18 +406,18 @@ Those who read the [Math, Sets, and Haskell](#math-sets-and-haskell), remember
 the math notation for functions? I will use them to take the mystery out of
 this concept of being _pure_!
 
-Suppose we have a function $f : \mathbb{Z} \rightarrow \mathbb{Z}$. Then by
-just looking at the function, we see that it takes an input from a set of
+Suppose we have a function \\( f : \mathbb{Z} \rightarrow \mathbb{Z} \\). Then
+by just looking at the function, we see that it takes an input from a set of
 integers and its output is also in the set of integers. In other words,
-function $f$ cannot take inputs like -1.9, 0.2, 12.7 etc. as well as it cannot
-give an output like 12.6, 71.9, -9.1 etc. Its input(s) and output(s) could
-**<u>only</u>** be integers.
+function \\( f \\) cannot take inputs like -1.9, 0.2, 12.7 etc. as well as it
+cannot give an output like 12.6, 71.9, -9.1 etc. Its input(s) and output(s)
+could **<u>only</u>** be integers.
 
-Now, let's actually make this dull function $f$ do something. Consider the
-function $f : \mathbb{Z} \rightarrow \mathbb{Z} : x \mapsto 2x$. Thus, we have
-a function which does a fairly straightforward thing: takes an integer and maps
-it to twice its value (which will also be an integer). Let's now look at the
-Haskell implementation of this function
+Now, let's actually make this dull function \\( f \\) do something. Consider
+the function \\( f : \mathbb{Z} \rightarrow \mathbb{Z} : x \mapsto 2x \\).
+Thus, we have a function which does a fairly straightforward thing: takes an
+integer and maps it to twice its value (which will also be an integer). Let's
+now look at the Haskell implementation of this function
 
 ```haskell
 -- | A function that takes an input and outputs twice its value
