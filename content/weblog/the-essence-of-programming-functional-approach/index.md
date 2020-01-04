@@ -267,7 +267,7 @@ any loops because functional languages do not support loops. Instead, we
 defined a function, used the recursion and calculated the sum of the values
 through function calls.
 
-**<span style="color:purple">_Side note_</span>**
+_Side note_
 
 In this particular case, we do not even need to implement the recursive
 accumulator pattern. All we need to do is use the already predefined `sum`
