@@ -3,12 +3,6 @@ title = "The Essence of Programming - Functional Approach"
 date = 2018-11-25
 +++
 
-This blogpost is a general overview of a rather
-underappreciated programming methodology called
-functional programming.
-
-<!-- more -->
-
 This blogpost is a general overview of a rather underappreciated programming
 methodology called functional programming. Throughout the blogpost, I will
 occasionally use the purely functional programming language Haskell as well

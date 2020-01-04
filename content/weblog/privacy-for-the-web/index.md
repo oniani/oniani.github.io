@@ -5,8 +5,6 @@ date = 2020-01-03
 
 A few words concerning the privacy on the web.
 
-<!-- more -->
-
 NOTE: The blogpost will get occasional updates, when needed.
 
 Here are my recommendations for the web privacy.
