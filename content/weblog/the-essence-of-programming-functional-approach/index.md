@@ -83,16 +83,16 @@ school? That's the proof! Any function can be represented as a table of values.
 For instance, consider a function $f(x) = 2x$. The following will be a table
 representation of the function.
 
-| $x$ | $f(x)$ |
-| :-: | :----: |
-|  0  |   0    |
-|  1  |   2    |
-|  2  |   4    |
-|  3  |   6    |
-|  4  |   8    |
-|  5  |   10   |
-|  6  |   12   |
-| ... |  ...   |
+| \\( x \\) | \\( f(x) \\) |
+| :-------: | :----------: |
+|     0     |      0       |
+|     1     |      2       |
+|     2     |      4       |
+|     3     |      6       |
+|     4     |      8       |
+|     5     |      10      |
+|     6     |      12      |
+|    ...    |     ...      |
 
 Looks more like data? That's because it is the data! We have effectively
 generated a 2-column table where each of the cells has a certain value.
