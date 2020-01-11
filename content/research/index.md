@@ -9,7 +9,7 @@ no_header = true
 
 **Richard Merritt, David Oniani**
 
-_To be released by the end of May_
+_To be released by the end of 2020_
 
 ---
 
