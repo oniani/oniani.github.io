@@ -20,8 +20,6 @@ cancer research, information theory, and economic empowerment.
 Starting coming February, I will be working for Mayo Clinic, at the
 [Kern Center for the Science of Health Care Delivery](https://www.mayo.edu/research/centers-programs/robert-d-patricia-e-kern-center-science-health-care-delivery/about).
 
-Next fall, my research will revolve around the subject of climate change.
-
 All written content on this site is provided under the
 [Creative Commons ShareAlike license](https://creativecommons.org/licenses/by-sa/2.5/).
 
