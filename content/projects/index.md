@@ -23,6 +23,12 @@ Simple, fully responsive web template for a blog
 
 ---
 
+### [Document Preparation][document_preparation]
+
+Various templates for document preparation purposes
+
+---
+
 ### [Galton][galton]
 
 Galton board simulations using multithreading to achieve parallelism
@@ -102,6 +108,7 @@ Galactic VR experience (requires both Unity and Oculus)
 [arduino_stuff]: https://github.com/oniani/arduino-stuff
 [bizarre_structures]: https://github.com/oniani/bizarre-structures
 [blogplate]: https://github.com/oniani/blogplate
+[document_preparation]: https://github.com/oniani/document-preparation
 [galton]: https://github.com/oniani/galton
 [miniframe]: https://github.com/oniani/miniframe
 [nero]: https://github.com/oniani/nero
