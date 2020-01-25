@@ -11,29 +11,19 @@ Here are my recommendations for the web privacy.
 
 - Lightweight Privacy: Emphasis on Usability and Speed
 
-  - [Firefox](firefox) as the default browser
+  - [Firefox](https://www.mozilla.org/en-US/firefox/new/) as the default browser
 
-    - [Bitwarden](bitwarden) for password management
-    - [DuckDuckGo](duckduckgo) as the default search engine
-      - [DuckDuckGo Privacy Essentials](duckduckgo_privacy_essentials) extension for better integration
-    - [Privacy Possum](privacy_possum) to reduce and falsify data gathered by trackers
-    - [uBlock Origin](ublock_origin) to block ads (and other junk)
+    - [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/) for password management
+    - [DuckDuckGo](https://duckduckgo.com/) as the default search engine
+      - [DuckDuckGo Privacy Essentials](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/) extension for better integration
+    - [Privacy Possum](https://addons.mozilla.org/en-US/firefox/addon/privacy-possum/) to reduce and falsify data gathered by trackers
+    - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) to block ads (and other junk)
 
-  - [Signal](signal) as a messenger
-  - [Riot](riot) for group chats and collaborations
+  - [Signal](https://signal.org/) as a messenger
+  - [Riot](https://about.riot.im/) for group chats and collaborations
 
 - Heavier Privacy: Emphasis on Privacy
-  - Use [Tor](tor)
+  - Use [Tor](https://www.torproject.org/)
 
 * Super Advanced Privacy: Stronger Emphasis on Privacy
   - Do not use the web
-
-[firefox]: https://www.mozilla.org/en-US/firefox/new/
-[bitwarden]: https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/
-[duckduckgo]: https://duckduckgo.com/
-[duckduckgo_privacy_essentials]: https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/
-[privacy_possum]: https://addons.mozilla.org/en-US/firefox/addon/privacy-possum/
-[ublock_origin]: https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/
-[signal]: https://signal.org/
-[riot]: https://about.riot.im/
-[tor]: (https://www.torproject.org/)
