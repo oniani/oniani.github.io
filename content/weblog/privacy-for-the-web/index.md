@@ -21,6 +21,7 @@ Here are my recommendations for the web privacy.
 
   - [Signal](https://signal.org/) as a messenger
   - [Riot](https://about.riot.im/) for group chats and collaborations
+  - [Protonmail](https://protonmail.com/) for the email service
 
 - Heavier Privacy: Emphasis on Privacy
   - Use [Tor](https://www.torproject.org/)
