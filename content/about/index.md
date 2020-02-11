@@ -6,7 +6,9 @@ no_header = true
 +++
 
 Hello, I am David. Currently, an undergraduate student double majoring in
-computer science and mathematics. My CV is available [here](cv.pdf).
+computer science and mathematics. My CV is available [here](cv.pdf). I am also
+doing an R&D work for Mayo Clinic, at the
+[Kern Center for the Science of Health Care Delivery](https://www.mayo.edu/research/centers-programs/robert-d-patricia-e-kern-center-science-health-care-delivery/about).
 
 Research interests
 
@@ -16,9 +18,6 @@ Research interests
 
 Other interests include art, music, linguistics, space exploration, climate,
 cancer research, information theory, and economic empowerment.
-
-Starting coming February, I will be working for Mayo Clinic, at the
-[Kern Center for the Science of Health Care Delivery](https://www.mayo.edu/research/centers-programs/robert-d-patricia-e-kern-center-science-health-care-delivery/about).
 
 All written content on this site is provided under the
 [Creative Commons ShareAlike license](https://creativecommons.org/licenses/by-sa/2.5/).
