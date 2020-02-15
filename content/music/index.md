@@ -5,7 +5,7 @@ title = "music"
 no_header = true
 +++
 
-This is a library for the my music collection(s). Currently, it is just a small
+This is a library for my music collection(s). Currently, it is just a small
 chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 
 - 009 Sound System - Dreamscape
