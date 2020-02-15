@@ -1,0 +1,364 @@
++++
+title = "music"
+
+[extra]
+no_header = true
++++
+
+- 009 Sound System - Dreamscape
+- AC/DC - Thunderstruck
+- ASIAN KUNG-FU GENERATION - After Dark
+- AURORA - Runaway
+- AViVA - GRRRLS
+- Adventurer - Reality
+- Aero Chord - Shootin Stars
+- Aimer - Ref:rain
+- Aimer - Tone
+- Akacia - Show Me
+- Alabama Shakes - This Feeling
+- Alestorm - Hangover (Taio Cruz Cover)
+- Alestorm - Man the Pumps
+- Anberlin - The Feel Good Drag
+- Andrew Applepie - I'm So
+- Andrew Gold - Spooky, Scary Skeletons
+- Antti Martikainen - Lords of Iron
+- Anzo - Moonbound
+- Aqua Timez - Sen No Yoru Wo Koete
+- Aqua Timez - Velonica
+- Ariana Grande - Break Free
+- August Wilhelmsson - Floating, Floating
+- August Wilhelmsson - Now Is The Time To Leave
+- August Wilhelmsson - Somewhere In Between
+- Avril Lavigne - Girlfriend
+- Axwell /\ Ingrosso - Something New
+- BLUE ENCOUNT - Polaris
+- Balmorhea - Clear Language
+- Beach House - Myth
+- Beach Slang - Bad Art & Weirdo Ideas (Quiet Slang)
+- Big Sean - Bounce Back
+- Big Thief - Paul
+- Billy Talent - Surrender
+- Blur - Song 2
+- Bob Sinclar - Someone Who Needs Me
+- Bugge Wesseltoft - Psalm
+- Cage The Elephant - Ain't No Rest for the Wicked
+- Cage The Elephant - Cold Cold Cold
+- Cage The Elephant - Trouble
+- Caravan Palace - Beatophone
+- Caravan Palace - Lone Digger
+- Cash Cash - Belong
+- Charlie Puth - We Don't Talk Anymore
+- Cheat Codes - No Promises (feat. Demi Lovato)
+- Chelou - Don't Hate on Me
+- Cher Lloyd - With Ur Love
+- Chinese Man - I've got that tune
+- Chris Brown - Yeah 3x
+- Chris McDonald - I've Grown Accustomed To Her Face - Midnight Mood Album Version
+- Christopher Tin - Sogno di Volare (“The Dream of Flight”)
+- Chumbawamba - Tubthumping
+- Clean Bandit - Symphony (feat. Zara Larsson)
+- Coldplay - A Sky Full of Stars
+- Coldplay - Paradise
+- Coldplay - Viva La Vida
+- Coldplay - Yellow
+- Crankdat - Dollars
+- DEAMN - Give Me Your Love
+- DROELOE - Bon Voyage
+- Daft Punk - One More Time
+- Daigo Hanada - Butterfly
+- Damon Albarn - Heavy Seas Of Love
+- Danny L Harle - Me4U
+- Darren Styles - Us Against the World
+- Daryl Hall & John Oates - Kiss on My List
+- David Carbonara - Mad Men Suite
+- David Carbonara - Pacific Coast Highway
+- David Carbonara - Score Suite 1 - From "Retrospective: The Music Of Mad Men" Soundtrack
+- David Guetta - Where Them Girls At (feat. Nicki Minaj & Flo Rida)
+- Daydreamer - New Beginnings
+- DeJ Loaf - No Fear
+- Deep Watch - Endless Fragments of Time
+- Devin Townsend Project - March of the Poozers
+- Devlin - Rewind
+- Different Heaven - Safe & Sound
+- Dima Bilan - Болен тобой
+- Diplo - Revolution (feat. Faustix & Imanos and Kai) - Absence Remix
+- Donna Summer - This Time I Know It's for Real
+- Dr. Dre - The Next Episode
+- Dr. Fresch - Gangsta Gangsta (feat. Baby Eazy-E)
+- Duke Dumont - I Got U
+- Ed Sheeran - Shape of You
+- Eklipse - Clocks - Coldplay
+- Electric Mantis - Flips and Flops, Drips and Drops
+- Ellai - Помню твоё тело
+- Elvis Presley - A Little Less Conversation - JXL Radio Edit Remix
+- Emily Rubye - In Another Life
+- Emily Rubye - Sad News
+- England Dan - I'd Really Love to See You Tonight
+- Eric Prydz - Call On Me - Radio Edit
+- Falco - Vienna Calling
+- Fall Out Boy - HOLD ME TIGHT OR DON’T
+- Fatboy Slim - Ya Mama
+- Fauve - INFIRMIERE
+- Fauve - LETTRE A ZOE
+- Felix Snow - Evening Buffalo
+- Flight Facilities - Stand Still - Wave Racer Remix
+- Flo Rida - Good Feeling
+- Flo Rida - I Cry
+- Florian Bur - Lovely
+- Fools Garden - Lemon Tree - Album Edit
+- Fort Minor - Remember the Name (feat. Styles of Beyond)
+- Foster The People - Sit Next to Me
+- Gala - Freed From Desire
+- Galantis - Peanut Butter Jelly
+- Geoff Knorr - America (The Atomic Era)
+- Green Day - Boulevard of Broken Dreams (feat. John Gallagher Jr., Rebecca Naomi Jones, Stark Sands, Company)
+- Grimes - Genesis
+- Grimes - Kill V. Maim
+- Hans Zimmer - Jack Sparrow
+- Hans Zimmer - Time
+- Haywyre - Doppelgänger
+- Haywyre - I Am Me
+- Haywyre - I Am You
+- Hellberg - Hands of Time (feat. Jonny Rose)
+- Howard Shore - Concerning Hobbits
+- Howard Shore - Samwise the Brave
+- Howard Shore - The Bridge of Khazad Dum
+- Hozier - Take Me to Church
+- Hudson Thames - How I Want Ya
+- ILLENIUM - In Your Wake (feat. Jeza) - Original Mix
+- IOWA - Бьёт бит
+- Imagine Dragons - Believer
+- Imagine Dragons - Demons
+- Imagine Dragons - Radioactive
+- Imagine Dragons - Thunder
+- Imagine Dragons - Warriors
+- Jack Holiday & Mike Candys - The Riddle Anthem - Radio Mix
+- Jaffna - Immersion
+- James Blunt - You're Beautiful
+- James Horner - Becoming one of "The People" Becoming one with Neytiri
+- James Horner - Jake's first flight
+- Jessie J - Domino
+- Jessie J - Price Tag
+- Jigsaw - Sky High
+- Johnny Cash - Hurt
+- Jose Padilla - Adiós ayer
+- Josie O'Connor - Introspective
+- Junip - Line Of Fire
+- K-391 - Earth
+- KALEO - Way Down We Go
+- KC & The Sunshine Band - I'm Your Boogie Man
+- KYLE - Don't Wanna Fall In Love
+- Kasger - Out Here
+- Kenichi Asai - Motor City
+- Kesha - Tik Tok
+- Khalid - Bad Luck
+- Kraddy - Android Porn
+- Kölsch - Loreley
+- LAKEY INSPIRED - In My Dreams
+- LUCHS - Twin Tales
+- Labrinth - Beneath Your Beautiful
+- Labrinth - Express Yourself
+- Labrinth - Treatment
+- Labrinth - Vultures
+- Lady Gaga - Just Dance
+- Lana Del Rey - Summertime Sadness
+- Laszlo - Imaginary Friends
+- League of Legends - Braum
+- League of Legends - Edge of Infinity (feat. Minnesota)
+- League of Legends - Flash Funk (feat. Marshmello)
+- League of Legends - Get Jinxed
+- League of Legends - Legends Never Die (feat. Against the Current)
+- League of Legends - Piercing Light (feat. Mako)
+- League of Legends - The Curse of the Sad Mummy
+- League of Legends - Welcome to Planet Urf
+- League of Legends - Worlds Collide (feat. Nicki Taylor)
+- Lenny Kravitz - Fly Away
+- Lethal Bizzle - POW2011
+- LiSA - ADAMAS
+- Lookas - Alarm
+- Loote - Out Of My Head
+- Los Retros - Someone To Spend Time With
+- Lost Frequencies - Are You With Me - Radio Edit
+- Louis Armstrong - What A Wonderful World - Single Version
+- Ludovico Einaudi - Divenire
+- Ludovico Einaudi - Experience
+- Lukas Graham - 7 Years
+- Lukas Graham - Happy Home
+- Lukas Graham - Mama Said
+- LunchMoney Lewis - Bills
+- MUZZ - Junction Seven
+- Mac Miller - Donald Trump
+- Macklemore - Glorious (feat. Skylar Grey)
+- Madcon - Beggin'
+- Made in Heights - All The Places
+- Made in Heights - Murakami
+- Made in Heights - Viices
+- Madison Mars - Milky Way
+- Major Lazer - Lean On
+- Mariya Chaykovskaya - Крила
+- Mariya Chaykovskaya - Мiсто
+- Marvin Gaye - Let's Get It On
+- Massive Attack - Paradise Circus
+- Matt and Kim - Daylight
+- Max Richter - Recomposed By Max Richter: Vivaldi, The Four Seasons: Spring 1
+- Melanie Martinez - Dollhouse - Jai Wolf Remix
+- Melosense - Lines
+- Miley Cyrus - Party In The U.S.A.
+- Milky Chance - Down By The River
+- Milky Chance - Stolen Dance
+- MitiS - Moments
+- Moderat - Damage Done
+- Monodisc - Flock
+- Mounika. - Cut My Hair
+- Mr. Probz - Waves - Robin Schulz Radio Edit
+- My Chemical Romance - Teenagers
+- Møme - Mirage
+- NONONO - Pumpin Blood
+- No Doubt - Don't Speak
+- Oasis - Champagne Supernova - Remastered
+- Oasis - Live Forever - Remastered
+- Oasis - Wonderwall
+- Odyn v Kanoe - У мене немає дому
+- Okay - My
+- Old Sea Brigade - Love Brought Weight
+- OutKast - Ms. Jackson
+- OutKast - Rosa Parks
+- Owl City - Fireflies
+- Ozzy Osbourne - Dreamer
+- P!nk - Raise Your Glass
+- Panic! At The Disco - Always
+- Panic! At The Disco - Don't Threaten Me with a Good Time
+- Parov Stelar - Catgroove
+- Parov Stelar - You Got Me There
+- Paul Flint - Savage
+- Pegboard Nerds - Emoji VIP
+- Peter Sandberg - Truth
+- Philip George - Wish You Were Mine - Radio Edit
+- Phillip Phillips - Gone, Gone, Gone
+- Phoenix - Goodbye Soleil
+- Pixie Lott - All About Stars
+- Pixie Lott - Kiss The Stars
+- Placebo - Where Is My Mind? - XFM Live Version
+- Porter Robinson - Shelter
+- Portugal. The Man - Feel It Still
+- Public Enemy - He Got Game
+- Rachel Platten - Better Place
+- Rauf & Faik - Детство
+- Redondo - Every Single Piece - Original Mix
+- Rhodz - Floating on Your Memories
+- Rhye - Open
+- Rob Gasser - Supersonic
+- Robot Orchestra - Thinking of You
+- Rootkit - Against the Sun
+- Rosemary & Garlic - Old Now
+- Run–D.M.C. - It's Tricky
+- Saint Cava - Forget
+- San Holo - We Rise
+- Santana - Into the Night (feat. Chad Kroeger)
+- ScHoolboy Q - Man Of The Year
+- Sevdaliza - Human
+- Seven Lions - Cold Skin
+- Shawn Mendes - Treat You Better
+- Shayne Orok - Mukanjyo: Vinland Saga
+- Shinedown - State of My Head
+- Sia - Breathe Me
+- Sia - Elastic Heart
+- Sieber, Kammen, Fulton and Schatz - Lullaby Set (Kammen & Swan)
+- Sigala - Sweet Lovin' (feat. Bryn Christopher) - Original Mix
+- Sigma - Nobody To Love - Extended Mix
+- Sigur Rós - Ekki múkk
+- Skepta - That's Not Me
+- Skoop On Somebody - Happypeople
+- Skrillex - Purple Lamborghini (with Rick Ross)
+- Skálmöld - Vanaheimur
+- Smash Mouth - All Star
+- Snoop Dogg - Young, Wild & Free (feat. Bruno Mars)
+- Stromae - Papaoutai
+- Stromae - carmen
+- Syn Cole - Feel Good
+- T.I. - That's All She Wrote (feat. Eminem)
+- TOTO - Africa
+- Tears For Fears - Everybody Wants To Rule The World
+- Tehran Vocal Ensemble - Eternity Theme (From The Eternity and a Day)
+- Tep No - Pacing
+- The Black Eyed Peas - I Gotta Feeling
+- The Black Eyed Peas - Just Can’t Get Enough
+- The Chainsmokers - Something Just Like This
+- The Flaming Lips - The W.A.N.D.
+- The Fray - How to Save a Life
+- The Game - El Chapo
+- The Goo Goo Dolls - Iris
+- The Jackson 5 - I Want You Back
+- The Killers - Land Of The Free
+- The Killers - Mr. Brightside
+- The Killers - Shot At The Night
+- The Killers - Somebody Told Me
+- The Killers - When You Were Young
+- The Kinks - Lola - Coca Cola Version
+- The Lumineers - Ho Hey
+- The National - The Rains Of Castomere - From The "Game Of Thrones: Season 2" Soundtrack
+- The Neighbourhood - Sweater Weather
+- The Notorious B.I.G. - Notorious Thugs - 2014 Remaster
+- The O'Reillys and the Paddyhats - Barrels of Whiskey
+- The O'Reillys and the Paddyhats - Paddyhats
+- The O'Reillys and the Paddyhats - Yesterday's Rebel
+- The Real McKenzies - Chip
+- The Script - Six Degrees of Separation
+- The Script - Superheroes
+- The Shelters - Rebel Heart
+- The Turtles - Happy Together
+- The Verve - Bitter Sweet Symphony
+- The Who - You Better You Bet
+- TheFatRat - Fly Away
+- They Dream By Day - A Silver Lining
+- Third Eye Blind - Semi-Charmed Life
+- Thirty Seconds To Mars - This Is War
+- Thirty Seconds To Mars - Up In The Air
+- Thomas Bergersen - Archangel
+- Thomas Bergersen - Heart of Courage
+- Thomas Bergersen - Impossible
+- Thomas Bergersen - Protectors of the Earth
+- Thomas Bergersen - Strength of a Thousand Men
+- Thomas Newman - Dead Already
+- Three Days Grace - Pain
+- Tifita - Soundscape to Ardor (Morning Remembrance) [From “Bleach”]
+- Tobu - Nostalgia
+- Tom Day - Who We Want to Be
+- Tom Odell - Another Love
+- Tom Swoon - Synchronize (feat. Hadouken!) - Radio Edit
+- Trevor Hall - Where's The Love
+- Tristam - Far Away
+- Tristam - Frame of Mind
+- Two Feet - Go Fuck Yourself
+- Two Steps from Hell - Flight Of The Silverbird
+- Two Steps from Hell - No Honor In Blood
+- Two Steps from Hell - Rise Above
+- Two Steps from Hell - Star Sky
+- Two Steps from Hell - Unforgiven
+- Two Steps from Hell - Victory
+- UVERworld - Touch off
+- VHS Collection - Ghost
+- Vicetone - United We Dance - Radio Edit
+- Vickeblanka - Black Rover
+- Vince The II - Gates
+- Whethan - Good Nights (feat. Mascolo)
+- Wiley - Can You Hear Me? (Ayayaya) (feat. Skepta, Jme & Ms D)
+- Wiz Khalifa - The Plan (feat. Juicy J)
+- Wolftron - Morpheme Deathray
+- X Ambassadors - Renegades
+- XXXTENTACION - Jocelyn Flores
+- Ye Banished Privateers - Flintlock
+- Ye Banished Privateers - Parting Song
+- Ye Banished Privateers - Rowing with One Hand
+- Yeah Yeah Yeahs - Heads Will Roll - A-Trak Remix
+- Yes - Roundabout - 2003 Remaster
+- Yolka - Хочу
+- Youngbloodz - 85/Billy Dee Interlude
+- Youngr - '93
+- Yuki Sakura - Stillness Speaks
+- bvd kult - VIP
+- deadmau5 - The Veldt - Radio Edit
+- gnash - i hate u, i love u (feat. olivia o'brien)
+- grandson - Blood // Water
+- mewithoutYou - Julia (or, 'Holy to the LORD' on the Bells of Horses)
+- will.i.am - I Like To Move It
