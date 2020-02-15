@@ -72,6 +72,7 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Daigo Hanada - Butterfly
 - Damon Albarn - Heavy Seas Of Love
 - Danny L Harle - Me4U
+- Dappy, Brian May - Rockstar
 - Darren Styles - Us Against the World
 - Daryl Hall & John Oates - Kiss on My List
 - David Carbonara - Mad Men Suite
@@ -157,6 +158,7 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Kesha - Die Young
 - Kesha - TiK ToK
 - Khalid - Bad Luck
+- Kid Ink - Money and the Power
 - Kraddy - Android Porn
 - Kölsch - Loreley
 - LAKEY INSPIRED - In My Dreams
