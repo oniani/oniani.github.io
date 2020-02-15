@@ -29,6 +29,7 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Aqua Timez - Sen No Yoru Wo Koete
 - Aqua Timez - Velonica
 - Ariana Grande - Break Free
+- AronChupa - I'm an Albatraoz
 - August Wilhelmsson - Floating, Floating
 - August Wilhelmsson - Now Is The Time To Leave
 - August Wilhelmsson - Somewhere In Between
@@ -80,7 +81,6 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Daydreamer - New Beginnings
 - DeJ Loaf - No Fear
 - Deep Watch - Endless Fragments of Time
-- Devin Townsend Project - March of the Poozers
 - Devlin - Rewind
 - Different Heaven - Safe & Sound
 - Dima Bilan - Болен тобой
@@ -152,8 +152,10 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - KC & The Sunshine Band - I'm Your Boogie Man
 - KYLE - Don't Wanna Fall In Love
 - Kasger - Out Here
+- Katy Perry - Hot N Cold
 - Kenichi Asai - Motor City
-- Kesha - Tik Tok
+- Kesha - Die Young
+- Kesha - TiK ToK
 - Khalid - Bad Luck
 - Kraddy - Android Porn
 - Kölsch - Loreley
@@ -239,7 +241,7 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Philip George - Wish You Were Mine - Radio Edit
 - Phillip Phillips - Gone, Gone, Gone
 - Phoenix - Goodbye Soleil
-- Pixie Lott - All About Stars
+- Pixie Lott - All About Tonight
 - Pixie Lott - Kiss The Stars
 - Placebo - Where Is My Mind? - XFM Live Version
 - Porter Robinson - Shelter
@@ -347,7 +349,6 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Whethan - Good Nights (feat. Mascolo)
 - Wiley - Can You Hear Me? (Ayayaya) (feat. Skepta, Jme & Ms D)
 - Wiz Khalifa - The Plan (feat. Juicy J)
-- Wolftron - Morpheme Deathray
 - X Ambassadors - Renegades
 - XXXTENTACION - Jocelyn Flores
 - Ye Banished Privateers - Flintlock
