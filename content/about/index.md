@@ -10,7 +10,7 @@ computer science and mathematics. I am also doing an R&D work for Mayo Clinic, a
 [Kern Center for the Science of Health Care Delivery](https://www.mayo.edu/research/centers-programs/robert-d-patricia-e-kern-center-science-health-care-delivery/about).
 My CV is available [here](cv.pdf).
 
-Research interests
+Research interests:
 
 - Artificial Intelligence
 - Programming Languages
