@@ -12,12 +12,13 @@ My CV is available [here](cv.pdf).
 
 Research interests
 
-- Machine Learning
+- Artificial Intelligence
 - Programming Languages
 - Virtual Reality
 
-Other interests include art, music, linguistics, space exploration, climate,
-cancer research, information theory, and economic empowerment.
+Other interests include art, music, video games, linguistics, space
+exploration, climate, cancer research, information theory, and economic
+empowerment.
 
 All written content on this site is provided under the
 [Creative Commons ShareAlike license](https://creativecommons.org/licenses/by-sa/2.5/).
