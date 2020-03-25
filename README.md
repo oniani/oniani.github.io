@@ -1,5 +1,5 @@
 This is a personal website hosted via [GitHub Pages](https://pages.github.com/)
-and generating using [Zola](https://www.getzola.org/).
+and generated using [Zola](https://www.getzola.org/).
 
 Run the command below to build it locally.
 
