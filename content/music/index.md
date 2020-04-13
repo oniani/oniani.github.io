@@ -9,9 +9,11 @@ This is a library for my music collection(s). Currently, it is just a small
 chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 
 - 009 Sound System - Dreamscape
+- 50 Cent - Hustler's Ambition
 - AC/DC - Thunderstruck
 - ASIAN KUNG-FU GENERATION - After Dark
 - AURORA - Runaway
+- AViVA - BLACKOUT
 - AViVA - GRRRLS
 - Adventurer - Reality
 - Aero Chord - Shootin Stars
@@ -21,15 +23,18 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Alabama Shakes - This Feeling
 - Alestorm - Hangover (Taio Cruz Cover)
 - Alestorm - Man the Pumps
+- Alestorm - Mexico
 - Anberlin - The Feel Good Drag
+- Andrew Applepie - I'm So
 - Andrew Applepie - I'm So
 - Andrew Gold - Spooky, Scary Skeletons
 - Antti Martikainen - Lords of Iron
 - Anzo - Moonbound
-- Aqua Timez - Sen No Yoru Wo Koete
 - Aqua Timez - Velonica
+- Aqua Timez - 千の夜をこえて
 - Ariana Grande - Break Free
 - AronChupa - I'm an Albatraoz
+- Asdfgfa - Shotgun in the Bum
 - August Wilhelmsson - Floating, Floating
 - August Wilhelmsson - Now Is The Time To Leave
 - August Wilhelmsson - Somewhere In Between
@@ -42,14 +47,22 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Big Sean - Bounce Back
 - Big Thief - Paul
 - Billy Talent - Surrender
+- Black Eyed Peas - I Gotta Feeling
+- Black Eyed Peas - I Gotta Feeling
+- Black Eyed Peas - Just Can’t Get Enough
 - Blur - Song 2
 - Bob Sinclar - Someone Who Needs Me
+- Breaking Benjamin - Angels Fall
+- Breaking Benjamin - I Will Not Bow
+- Brendon Small - Dangertits
 - Bugge Wesseltoft - Psalm
 - Cage The Elephant - Ain't No Rest for the Wicked
 - Cage The Elephant - Cold Cold Cold
 - Cage The Elephant - Trouble
 - Caravan Palace - Beatophone
+- Caravan Palace - Black Betty
 - Caravan Palace - Lone Digger
+- Caroline Rose - More Of The Same
 - Cash Cash - Belong
 - Charlie Puth - We Don't Talk Anymore
 - Cheat Codes - No Promises (feat. Demi Lovato)
@@ -72,7 +85,7 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Daigo Hanada - Butterfly
 - Damon Albarn - Heavy Seas Of Love
 - Danny L Harle - Me4U
-- Dappy, Brian May - Rockstar
+- Dappy - Rockstar
 - Darren Styles - Us Against the World
 - Daryl Hall & John Oates - Kiss on My List
 - David Carbonara - Mad Men Suite
@@ -82,6 +95,7 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Daydreamer - New Beginnings
 - DeJ Loaf - No Fear
 - Deep Watch - Endless Fragments of Time
+- Devin Townsend Project - Ziltoid Goes Home
 - Devlin - Rewind
 - Different Heaven - Safe & Sound
 - Dima Bilan - Болен тобой
@@ -99,12 +113,14 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Emily Rubye - Sad News
 - England Dan - I'd Really Love to See You Tonight
 - Eric Prydz - Call On Me - Radio Edit
+- Euge Groove - Mr. Groove
 - Falco - Vienna Calling
 - Fall Out Boy - HOLD ME TIGHT OR DON’T
 - Fatboy Slim - Ya Mama
 - Fauve - INFIRMIERE
 - Fauve - LETTRE A ZOE
 - Felix Snow - Evening Buffalo
+- Five Finger Death Punch - Cold
 - Flight Facilities - Stand Still - Wave Racer Remix
 - Flo Rida - Good Feeling
 - Flo Rida - I Cry
@@ -115,11 +131,16 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Gala - Freed From Desire
 - Galantis - Peanut Butter Jelly
 - Geoff Knorr - America (The Atomic Era)
-- Green Day - Boulevard of Broken Dreams (feat. John Gallagher Jr., Rebecca Naomi Jones, Stark Sands, Company)
+- Gloryhammer - Masters of the Galaxy
+- Green Day - Boulevard of Broken Dreams (feat. John Gallagher Jr., Rebecca Naomi Jones, Stark Sands, The American Idiot Broadway Company)
 - Grimes - Genesis
 - Grimes - Kill V. Maim
+- Guns N' Roses - Sweet Child O' Mine
 - Hans Zimmer - Jack Sparrow
 - Hans Zimmer - Time
+- Harris Heller - Dark Matter
+- Harris Heller - Dreary Summer
+- Harris Heller - Meteor Binge
 - Haywyre - Doppelgänger
 - Haywyre - I Am Me
 - Haywyre - I Am You
@@ -139,14 +160,17 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Jack Holiday & Mike Candys - The Riddle Anthem - Radio Mix
 - Jaffna - Immersion
 - James Blunt - You're Beautiful
+- James Curry - I'm Sorry
 - James Horner - Becoming one of "The People" Becoming one with Neytiri
 - James Horner - Jake's first flight
 - Jessie J - Domino
 - Jessie J - Price Tag
 - Jigsaw - Sky High
+- Jinsang - slumpin
 - Johnny Cash - Hurt
 - Jose Padilla - Adiós ayer
 - Josie O'Connor - Introspective
+- Journey - Stone in Love
 - Junip - Line Of Fire
 - K-391 - Earth
 - KALEO - Way Down We Go
@@ -158,7 +182,6 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Kesha - Die Young
 - Kesha - TiK ToK
 - Khalid - Bad Luck
-- Kid Ink - Money and the Power
 - Kraddy - Android Porn
 - Kölsch - Loreley
 - LAKEY INSPIRED - In My Dreams
@@ -175,6 +198,7 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - League of Legends - Flash Funk (feat. Marshmello)
 - League of Legends - Get Jinxed
 - League of Legends - Legends Never Die (feat. Against the Current)
+- League of Legends - Ornn, the Fire Beneath the Mountain (From League of Legends: Season 7)
 - League of Legends - Piercing Light (feat. Mako)
 - League of Legends - The Curse of the Sad Mummy
 - League of Legends - Welcome to Planet Urf
@@ -186,6 +210,7 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Loote - Out Of My Head
 - Los Retros - Someone To Spend Time With
 - Lost Frequencies - Are You With Me - Radio Edit
+- Lost Frequencies - Reality
 - Louis Armstrong - What A Wonderful World - Single Version
 - Ludovico Einaudi - Divenire
 - Ludovico Einaudi - Experience
@@ -193,6 +218,7 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Lukas Graham - Happy Home
 - Lukas Graham - Mama Said
 - LunchMoney Lewis - Bills
+- Lynyrd Skynyrd - Sweet Home Alabama
 - MUZZ - Junction Seven
 - Mac Miller - Donald Trump
 - Macklemore - Glorious (feat. Skylar Grey)
@@ -202,14 +228,15 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Made in Heights - Viices
 - Madison Mars - Milky Way
 - Major Lazer - Lean On
-- Mariya Chaykovskaya - Крила
 - Mariya Chaykovskaya - Мiсто
+- Mariya Chaykovskaya - Крила
 - Marvin Gaye - Let's Get It On
 - Massive Attack - Paradise Circus
 - Matt and Kim - Daylight
 - Max Richter - Recomposed By Max Richter: Vivaldi, The Four Seasons: Spring 1
 - Melanie Martinez - Dollhouse - Jai Wolf Remix
 - Melosense - Lines
+- Miho Fukuhara - Let It Out
 - Miley Cyrus - Party In The U.S.A.
 - Milky Chance - Down By The River
 - Milky Chance - Stolen Dance
@@ -237,6 +264,7 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Panic! At The Disco - Don't Threaten Me with a Good Time
 - Parov Stelar - Catgroove
 - Parov Stelar - You Got Me There
+- Pascal Michael Stiefel - Peace and Tranquility
 - Paul Flint - Savage
 - Pegboard Nerds - Emoji VIP
 - Peter Sandberg - Truth
@@ -248,6 +276,7 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Placebo - Where Is My Mind? - XFM Live Version
 - Porter Robinson - Shelter
 - Portugal. The Man - Feel It Still
+- Powerwolf - Killers with the Cross - Orchestral Version
 - Public Enemy - He Got Game
 - Rachel Platten - Better Place
 - Rauf & Faik - Детство
@@ -259,6 +288,10 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Rootkit - Against the Sun
 - Rosemary & Garlic - Old Now
 - Run–D.M.C. - It's Tricky
+- SCANDAL - Shunkan Sentimental
+- SKÁLD - Ódinn
+- SPYAIR - Last Moment
+- Said the Sky - Show & Tell
 - Saint Cava - Forget
 - San Holo - We Rise
 - Santana - Into the Night (feat. Chad Kroeger)
@@ -282,20 +315,24 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Snoop Dogg - Young, Wild & Free (feat. Bruno Mars)
 - Stromae - Papaoutai
 - Stromae - carmen
+- Sukima Switch - ゴールデンタイムラバー
 - Syn Cole - Feel Good
 - T.I. - That's All She Wrote (feat. Eminem)
 - TOTO - Africa
 - Tears For Fears - Everybody Wants To Rule The World
 - Tehran Vocal Ensemble - Eternity Theme (From The Eternity and a Day)
 - Tep No - Pacing
-- The Black Eyed Peas - I Gotta Feeling
-- The Black Eyed Peas - Just Can’t Get Enough
+- Tesk - Hideout
+- The Beatles - Hello, Goodbye - Remastered 2009
 - The Chainsmokers - Something Just Like This
 - The Flaming Lips - The W.A.N.D.
 - The Fray - How to Save a Life
 - The Game - El Chapo
 - The Goo Goo Dolls - Iris
+- The Grateful 7 - Take Me for Granted
+- The Irish Rovers - The Jolly Roving Tar
 - The Jackson 5 - I Want You Back
+- The Jeff Healey Band - While My Guitar Gently Weeps
 - The Killers - Land Of The Free
 - The Killers - Mr. Brightside
 - The Killers - Shot At The Night
@@ -305,8 +342,12 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - The Lumineers - Ho Hey
 - The National - The Rains Of Castomere - From The "Game Of Thrones: Season 2" Soundtrack
 - The Neighbourhood - Sweater Weather
+- The New Pornographers - Falling Down The Stairs Of Your Smile
 - The Notorious B.I.G. - Notorious Thugs - 2014 Remaster
+- The O'Reillys and the Paddyhats - Another Town Another Girl
 - The O'Reillys and the Paddyhats - Barrels of Whiskey
+- The O'Reillys and the Paddyhats - Chief of the Sea
+- The O'Reillys and the Paddyhats - Irish Way
 - The O'Reillys and the Paddyhats - Paddyhats
 - The O'Reillys and the Paddyhats - Yesterday's Rebel
 - The Real McKenzies - Chip
@@ -353,15 +394,24 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Wiz Khalifa - The Plan (feat. Juicy J)
 - X Ambassadors - Renegades
 - XXXTENTACION - Jocelyn Flores
+- YAS - empty crown
+- YUI - Again
+- Ye Banished Privateers - Annabel
+- Ye Banished Privateers - Bring out Your Dead
+- Ye Banished Privateers - Elephants' Dance
 - Ye Banished Privateers - Flintlock
+- Ye Banished Privateers - Master of My Fate
+- Ye Banished Privateers - No Prey, No Pay
 - Ye Banished Privateers - Parting Song
 - Ye Banished Privateers - Rowing with One Hand
+- Ye Banished Privateers - Swords to Plowshares
 - Yeah Yeah Yeahs - Heads Will Roll - A-Trak Remix
 - Yes - Roundabout - 2003 Remaster
 - Yolka - Хочу
 - Youngbloodz - 85/Billy Dee Interlude
 - Youngr - '93
 - Yuki Sakura - Stillness Speaks
+- Yves V - Running Wild (feat. PollyAnna)
 - bvd kult - VIP
 - deadmau5 - The Veldt - Radio Edit
 - gnash - i hate u, i love u (feat. olivia o'brien)
