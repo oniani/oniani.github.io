@@ -18,10 +18,10 @@ no_header = true
 - [Purity][purity] - A collection of various purely functional algorithms and data structures
 - [QuickSpell][quickspell] - A simple and minimal spellchecker
 - [Regulated Minimalism][regulated_minimalism] - Minimal regulations
-- [Tic-tac-toe][tic_tac_toe] - A simple Tic-tac-toe game with the GUI and 3 levels of difficulty
 - [SAT Sudoku Solver][sat_sudoku_solver] - Python implementation of the paper "Sudoku as a SAT Problem"
 - [Smart Jokes][smart_joke_generator] - "Smart Joke" generator
 - [SpaceworldVR][spaceworldvr] - Galactic VR experience (requires both Unity and Oculus)
+- [Tic-tac-toe][tic_tac_toe] - A simple Tic-tac-toe game with the GUI and 3 levels of difficulty
 
 [arduino_stuff]: https://github.com/oniani/arduino-stuff
 [bizarre_structures]: https://github.com/oniani/bizarre-structures
