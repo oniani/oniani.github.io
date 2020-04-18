@@ -5,7 +5,7 @@ date = 2020-04-13
 
 A lot of people have asked me about my setup.
 
-Here it is (stolen from my [Regulated Minimalism](https://github.com/oniani/regulated-minimalism)
+Here it is (taken from my [Regulated Minimalism](https://github.com/oniani/regulated-minimalism)
 repo):
 
 - Colorscheme Generator: [pywal](https://github.com/dylanaraps/pywal)
