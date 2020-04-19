@@ -22,6 +22,7 @@ no_header = true
 - [Smart Jokes][smart_joke_generator] - "Smart Joke" generator
 - [SpaceworldVR][spaceworldvr] - Galactic VR experience (requires both Unity and Oculus)
 - [Tic-tac-toe][tic_tac_toe] - A simple Tic-tac-toe game with the GUI and 3 levels of difficulty
+- [wallpapers][wallpapers] - My wallpaper collection
 
 [arduino_stuff]: https://github.com/oniani/arduino-stuff
 [bizarre_structures]: https://github.com/oniani/bizarre-structures
@@ -40,3 +41,4 @@ no_header = true
 [sat_sudoku_solver]: https://github.com/oniani/sat-sudoku
 [smart_joke_generator]: https://github.com/oniani/smart-jokes
 [spaceworldvr]: https://drive.google.com/file/d/1Cd-EbvudiuenIP1wRMS1TkcMoIBTk5FS
+[wallpapers]: https://github.com/oniani/wallpapers
