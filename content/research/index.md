@@ -5,6 +5,8 @@ title = "research"
 no_header = true
 +++
 
+The page also includes unpublished manuscripts.
+
 ### Artificial Intelligence and Content Analysis at the End of Democracy<br>
 
 **Richard Merritt, David Oniani**
