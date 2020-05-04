@@ -15,6 +15,14 @@ _To be released by the end of 2020_
 
 ---
 
+### Setting Up Python Development Environment for Use in a Small Classroom
+
+**Roman Yasinovskyy, Karina Hoff, David Oniani, 2020**
+
+[PDF](mics2020_paper.pdf)
+
+---
+
 ### Textual and Statistical Analysis of Russian IRA Facebook Advertisements
 
 **David Oniani, 2019**
