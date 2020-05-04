@@ -19,7 +19,7 @@ Research interests:
 - Virtual Reality
 
 Other interests include art, music, [video games](https://www.davidoniani.com/gaming),
-anime and mange, linguistics, space exploration, climate, cancer research,
+anime and manga, linguistics, space exploration, climate, cancer research,
 information theory, and economic empowerment.
 
 All written content on this site is provided under the
