@@ -9,6 +9,7 @@ no_header = true
 - [Bizzare Structures][bizarre_structures] - Implementations of various "bizarre" data structures
 - [Blogplate][blogplate] - Simple, fully responsive web template for a blog
 - [Document Preparation][document_preparation] - Various templates for document preparation purposes
+- [dots][dots] - Configurations files and the setup wizard for \*nix (UNIX-like) meta distribution
 - [Galton][galton] - Galton board simulations using multithreading to achieve parallelism
 - [MiniFrame][miniframe] - Minimal data frames with relational algebra
 - [Nero][nero] - A tiny app that runs in terminal and helps manage daily tasks
@@ -17,7 +18,6 @@ no_header = true
 - [Profile Generation][profile_generation] - A simple, on-the-fly user profile generation (with API)
 - [Purity][purity] - A collection of various purely functional algorithms and data structures
 - [QuickSpell][quickspell] - A simple and minimal spellchecker
-- [Regulated Minimalism][regulated_minimalism] - Minimal regulations
 - [SAT Sudoku Solver][sat_sudoku_solver] - Python implementation of the paper "Sudoku as a SAT Problem"
 - [Smart Jokes][smart_joke_generator] - "Smart Joke" generator
 - [SpaceworldVR][spaceworldvr] - Galactic VR experience (requires both Unity and Oculus)
@@ -28,6 +28,7 @@ no_header = true
 [bizarre_structures]: https://github.com/oniani/bizarre-structures
 [blogplate]: https://github.com/oniani/blogplate
 [document_preparation]: https://github.com/oniani/document-preparation
+[dots]: https://github.com/oniani/dots
 [galton]: https://github.com/oniani/galton
 [miniframe]: https://github.com/oniani/miniframe
 [nero]: https://github.com/oniani/nero
@@ -36,7 +37,6 @@ no_header = true
 [profile_generation]: https://github.com/oniani/profile-generation
 [purity]: https://github.com/oniani/purity
 [quickspell]: https://github.com/oniani/quickspell
-[regulated_minimalism]: https://github.com/oniani/regulated-minimalism
 [tic_tac_toe]: https://github.com/oniani/tictactoe
 [sat_sudoku_solver]: https://github.com/oniani/sat-sudoku
 [smart_joke_generator]: https://github.com/oniani/smart-jokes
