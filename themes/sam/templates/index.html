@@ -15,10 +15,30 @@
         <meta property="og:description" content="David Oniani's Website"/>
         <meta property="og:url" content="www.davidoniani.com"/>
 
+        {% if config.extra.site_description %}
+          <meta name="description" itemprop="description" content="{{ config.extra.site_description }}">
+        {% endif %}
+
+        {% if config.extra.keywords %}
+          <meta name="keywords" itemprop="keywords" content="{{ config.extra.keywords }}">
+        {% endif %}
+
         <link rel="stylesheet" href="{{ get_url(path='fonts.css') }}">
         <link rel="stylesheet" href="{{ get_url(path='style.css') }}">
 
         <title>{% block htmltitle %}{{ config.title }}{% endblock htmltitle %}</title>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        {% if config.extra.google_analytics_id %}
+          <script async src="https://www.googletagmanager.com/gtag/js?id={{ config.extra.google_analytics_id | safe }}"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', '{{ config.extra.google_analytics_id }}');
+          </script>
+        {% endif %}
 
         {% if config.generate_rss %}
             <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path='rss.xml') }}">

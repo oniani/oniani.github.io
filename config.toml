@@ -4,10 +4,9 @@ base_url = "https://www.davidoniani.com/"
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
 
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme
-# supported by Zola
+# Enable syntax highlighting
 highlight_code = true
+highlight_theme = "nord"
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
@@ -47,6 +46,15 @@ sam_bottom_menu = true
 # Enable KaTeX
 katex_enable = true
 katex_auto_render = true
+
+# Specify a description
+site_description = "David Oniani's Website"
+
+# Specify keywords (for SEO)
+keywords = "Artificial Intelligence, Development, Engineering, Research"
+
+# Google analytics id
+google_analytics_id = "UA-116458005-1"
 
 [extra.sam_footer]
 text = "&#9400; 2020 David Oniani "
