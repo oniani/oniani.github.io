@@ -1,6 +1,6 @@
 +++
 title = "Power User Setup for Unix-based Operating Systems"
-date = 2020-04-13
+date = 2020-02-17
 +++
 
 A lot of people have asked me about my setup.
