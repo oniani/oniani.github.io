@@ -5,36 +5,21 @@ title = "datasets"
 no_header = true
 +++
 
-### [Russian Internet Research Agency (IRA) Facebook Advertisements' Datasets](#russian-internet-research-agency-ira-facebook-advertisements-datasets)
+### 1. Russian Internet Research Agency (IRA) Facebook Advertisements' Datasets
 
-- 2015
+| Year | Quarter 1                       | Quarter 2                                                                               | Quarter 3                     | Quarter 4                     |
+| ---- | ------------------------------- | --------------------------------------------------------------------------------------- | ----------------------------- | ----------------------------- |
+| 2015 | NA                              | [Dataset](2015-Quarter-2.csv)                                                           | [Dataset](2015-Quarter-3.csv) | [Dataset](2015-Quarter-4.csv) |
+| 2016 | [Dataset](2016-Quarter-1.csv)   | [Dataset](2016-Quarter-2.csv)                                                           | [Dataset](2016-Quarter-3.csv) | [Dataset](2016-Quarter-4.csv) |
+| 2017 | [Quarter 1](2017-Quarter-1.csv) | [Dataset (April)](2017-Quarter-2-April.csv) and [Dataset (May)](2017-Quarter-2-May.csv) | [Dataset](2017-Quarter-3.csv) | NA                            |
 
-  - [Quarter 2](2015-Quarter-2.csv)
-  - [Quarter 3](2015-Quarter-3.csv)
-  - [Quarter 4](2015-Quarter-4.csv)
+| Year | Combined                 |
+| ---- | ------------------------ |
+| 2015 | [Dataset](year-2015.csv) |
+| 2016 | [Dataset](year-2016.csv) |
+| 2017 | [Dataset](year-2017.csv) |
 
-- 2016
-
-  - [Quarter 1](2016-Quarter-1.csv)
-  - [Quarter 2](2016-Quarter-2.csv)
-  - [Quarter 3](2016-Quarter-3.csv)
-  - [Quarter 4](2016-Quarter-4.csv)
-
-- 2017
-
-  - [Quarter 1](2017-Quarter-1.csv)
-  - [Quarter 2, April](2017-Quarter-2-April.csv)
-  - [Quarter 2, May](2017-Quarter-2-May.csv)
-  - [Quarter 3](2017-Quarter-3.csv)
-
-- By Year
-
-  - [Year 2015](year-2015.csv)
-  - [Year 2016](year-2016.csv)
-  - [Year 2017](year-2017.csv)
-
-- All Years
-  - [All Years](all.csv)
+**All Years Combined**: [Dataset](all.csv)
 
 [Originally published in the PDF format by The House Permanent
 Select Committee on Intelligence.](https://intelligence.house.gov/social-media-content/)
