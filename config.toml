@@ -12,7 +12,8 @@ highlight_theme = "nord"
 build_search_index = true
 
 # Generate RSS
-generate_rss = true
+generate_feed = true
+feed_filename = "rss.xml"
 
 # Check for external links
 check_external_links = true
