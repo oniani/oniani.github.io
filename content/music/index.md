@@ -9,7 +9,9 @@ This is a library for my music collection(s). Currently, it is just a small
 chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 
 - 009 Sound System - Dreamscape
+- 3 Doors Down - By My Side
 - 50 Cent - Hustler's Ambition
+- 50 Cent - Many Men (Wish Death)
 - AC/DC - Thunderstruck
 - ASIAN KUNG-FU GENERATION - After Dark
 - AURORA - Runaway
@@ -20,10 +22,13 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Aimer - Ref:rain
 - Aimer - Tone
 - Akacia - Show Me
+- Al Green - Let's Stay Together
 - Alabama Shakes - This Feeling
 - Alestorm - Hangover (Taio Cruz Cover)
 - Alestorm - Man the Pumps
 - Alestorm - Mexico
+- Alien Ant Farm - Smooth Criminal
+- Alkaline Trio - Burn
 - Anberlin - The Feel Good Drag
 - Andrew Applepie - I'm So
 - Andrew Applepie - I'm So
@@ -42,6 +47,7 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Axwell /\ Ingrosso - Something New
 - BLUE ENCOUNT - Polaris
 - Balmorhea - Clear Language
+- Basshunter - All I Ever Wanted - Radio Edit
 - Beach House - Myth
 - Beach Slang - Bad Art & Weirdo Ideas (Quiet Slang)
 - Big Sean - Bounce Back
@@ -64,7 +70,8 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Caravan Palace - Lone Digger
 - Caroline Rose - More Of The Same
 - Cash Cash - Belong
-- Charlie Puth - We Don't Talk Anymore
+- CatDany - Get Enough
+- Charlie Puth - We Don't Talk Anymore (feat. Selena Gomez)
 - Cheat Codes - No Promises (feat. Demi Lovato)
 - Chelou - Don't Hate on Me
 - Cher Lloyd - With Ur Love
@@ -83,7 +90,7 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - DROELOE - Bon Voyage
 - Daft Punk - One More Time
 - Daigo Hanada - Butterfly
-- Damon Albarn - Heavy Seas Of Love
+- Damon Albarn - Heavy Seas of Love
 - Danny L Harle - Me4U
 - Dappy - Rockstar
 - Darren Styles - Us Against the World
@@ -95,6 +102,8 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Daydreamer - New Beginnings
 - DeJ Loaf - No Fear
 - Deep Watch - Endless Fragments of Time
+- Depeche Mode - Personal Jesus - 2006 Remaster
+- Devin Townsend Project - March of the Poozers
 - Devin Townsend Project - Ziltoid Goes Home
 - Devlin - Rewind
 - Different Heaven - Safe & Sound
@@ -102,10 +111,13 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Diplo - Revolution (feat. Faustix & Imanos and Kai) - Absence Remix
 - Donna Summer - This Time I Know It's for Real
 - Dr. Dre - The Next Episode
+- Dr. Dre - What's The Difference
 - Dr. Fresch - Gangsta Gangsta (feat. Baby Eazy-E)
 - Duke Dumont - I Got U
+- Ecliptix - Various Erf
 - Ed Sheeran - Shape of You
 - Eklipse - Clocks - Coldplay
+- Eldzhey - Розовое вино
 - Electric Mantis - Flips and Flops, Drips and Drops
 - Ellai - Помню твоё тело
 - Elvis Presley - A Little Less Conversation - JXL Radio Edit Remix
@@ -116,6 +128,7 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Euge Groove - Mr. Groove
 - Falco - Vienna Calling
 - Fall Out Boy - HOLD ME TIGHT OR DON’T
+- Fatboy Slim - Praise You
 - Fatboy Slim - Ya Mama
 - Fauve - INFIRMIERE
 - Fauve - LETTRE A ZOE
@@ -138,9 +151,21 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Guns N' Roses - Sweet Child O' Mine
 - Hans Zimmer - Jack Sparrow
 - Hans Zimmer - Time
+- Harris Heller - A Nomad's Way
 - Harris Heller - Dark Matter
 - Harris Heller - Dreary Summer
+- Harris Heller - Fly Me High
+- Harris Heller - Honey Lights
+- Harris Heller - Little Light
 - Harris Heller - Meteor Binge
+- Harris Heller - Moons of Neptune
+- Harris Heller - Peacekeeper
+- Harris Heller - Plaid
+- Harris Heller - Stargaze
+- Harris Heller - Unfortunate Fate
+- Harris Heller - Would You Kindly
+- Harris Heller - Yesterday's News
+- Harris Heller - Zen
 - Haywyre - Doppelgänger
 - Haywyre - I Am Me
 - Haywyre - I Am You
@@ -148,6 +173,7 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Howard Shore - Concerning Hobbits
 - Howard Shore - Samwise the Brave
 - Howard Shore - The Bridge of Khazad Dum
+- Howard Shore - The Council of Elrond (feat. "Aniron") [Theme for Aragorn and Arwen]
 - Hozier - Take Me to Church
 - Hudson Thames - How I Want Ya
 - ILLENIUM - In Your Wake (feat. Jeza) - Original Mix
@@ -166,17 +192,17 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Jessie J - Domino
 - Jessie J - Price Tag
 - Jigsaw - Sky High
-- Jinsang - slumpin
 - Johnny Cash - Hurt
-- Jose Padilla - Adiós ayer
 - Josie O'Connor - Introspective
+- José Padilla - Adiós ayer
 - Journey - Stone in Love
 - Junip - Line Of Fire
 - K-391 - Earth
-- KALEO - Way Down We Go
+- KALEO - Way down We Go
 - KC & The Sunshine Band - I'm Your Boogie Man
 - KYLE - Don't Wanna Fall In Love
 - Kasger - Out Here
+- Katrina & The Waves - Walking On Sunshine
 - Katy Perry - Hot N Cold
 - Kenichi Asai - Motor City
 - Kesha - Die Young
@@ -241,6 +267,7 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Milky Chance - Down By The River
 - Milky Chance - Stolen Dance
 - MitiS - Moments
+- MiyaGi & Endspiel - I Got Love
 - Moderat - Damage Done
 - Monodisc - Flock
 - Mounika. - Cut My Hair
@@ -248,6 +275,7 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - My Chemical Romance - Teenagers
 - Møme - Mirage
 - NONONO - Pumpin Blood
+- Nickelback - How You Remind Me
 - No Doubt - Don't Speak
 - Oasis - Champagne Supernova - Remastered
 - Oasis - Live Forever - Remastered
@@ -267,12 +295,14 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Pascal Michael Stiefel - Peace and Tranquility
 - Paul Flint - Savage
 - Pegboard Nerds - Emoji VIP
+- Pete Townshend - Let My Love Open The Door
 - Peter Sandberg - Truth
 - Philip George - Wish You Were Mine - Radio Edit
 - Phillip Phillips - Gone, Gone, Gone
 - Phoenix - Goodbye Soleil
 - Pixie Lott - All About Tonight
 - Pixie Lott - Kiss The Stars
+- Pixies - Where Is My Mind?
 - Placebo - Where Is My Mind? - XFM Live Version
 - Porter Robinson - Shelter
 - Portugal. The Man - Feel It Still
@@ -288,13 +318,17 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Rootkit - Against the Sun
 - Rosemary & Garlic - Old Now
 - Run–D.M.C. - It's Tricky
+- Rush - 2112: Overture / The Temples Of Syrinx / Discovery / Presentation / Oracle / Soliloquy / Grand Finale - Medley
+- Röyksopp - The Girl and the Robot
 - SCANDAL - Shunkan Sentimental
 - SKÁLD - Ódinn
 - SPYAIR - Last Moment
 - Said the Sky - Show & Tell
 - Saint Cava - Forget
+- Saint Motel - Van Horn
 - San Holo - We Rise
 - Santana - Into the Night (feat. Chad Kroeger)
+- Sapphire - Last Surprise
 - ScHoolboy Q - Man Of The Year
 - Sevdaliza - Human
 - Seven Lions - Cold Skin
@@ -304,7 +338,7 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Sia - Breathe Me
 - Sia - Elastic Heart
 - Sieber, Kammen, Fulton and Schatz - Lullaby Set (Kammen & Swan)
-- Sigala - Sweet Lovin' (feat. Bryn Christopher) - Original Mix
+- Sigala - Sweet Lovin' - Original Mix
 - Sigma - Nobody To Love - Extended Mix
 - Sigur Rós - Ekki múkk
 - Skepta - That's Not Me
@@ -319,17 +353,20 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Syn Cole - Feel Good
 - T.I. - That's All She Wrote (feat. Eminem)
 - TOTO - Africa
+- Tame Impala - Lost In Yesterday
 - Tears For Fears - Everybody Wants To Rule The World
 - Tehran Vocal Ensemble - Eternity Theme (From The Eternity and a Day)
 - Tep No - Pacing
 - Tesk - Hideout
 - The Beatles - Hello, Goodbye - Remastered 2009
 - The Chainsmokers - Something Just Like This
+- The Chats - Smoko
 - The Flaming Lips - The W.A.N.D.
 - The Fray - How to Save a Life
 - The Game - El Chapo
 - The Goo Goo Dolls - Iris
 - The Grateful 7 - Take Me for Granted
+- The Highwomen - Crowded Table
 - The Irish Rovers - The Jolly Roving Tar
 - The Jackson 5 - I Want You Back
 - The Jeff Healey Band - While My Guitar Gently Weeps
@@ -348,6 +385,7 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - The O'Reillys and the Paddyhats - Barrels of Whiskey
 - The O'Reillys and the Paddyhats - Chief of the Sea
 - The O'Reillys and the Paddyhats - Irish Way
+- The O'Reillys and the Paddyhats - Paddyhats
 - The O'Reillys and the Paddyhats - Paddyhats
 - The O'Reillys and the Paddyhats - Yesterday's Rebel
 - The Real McKenzies - Chip
@@ -377,6 +415,8 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Trevor Hall - Where's The Love
 - Tristam - Far Away
 - Tristam - Frame of Mind
+- Tsuko G. - Time to Make History (Persona 4)
+- Twisted Sister - I'll Never Grow Up, Now!
 - Two Feet - Go Fuck Yourself
 - Two Steps from Hell - Flight Of The Silverbird
 - Two Steps from Hell - No Honor In Blood
@@ -412,9 +452,12 @@ chunk of my Spotify playlists. Soundcloud and Pandora bits are yet to be added.
 - Youngr - '93
 - Yuki Sakura - Stillness Speaks
 - Yves V - Running Wild (feat. PollyAnna)
+- brillion. - Aurora
 - bvd kult - VIP
 - deadmau5 - The Veldt - Radio Edit
 - gnash - i hate u, i love u (feat. olivia o'brien)
 - grandson - Blood // Water
+- insaneintherainmusic - Last Surprise
 - mewithoutYou - Julia (or, 'Holy to the LORD' on the Bells of Horses)
+- t.A.T.u. - All The Things She Said
 - will.i.am - I Like To Move It
