@@ -20,7 +20,7 @@ Research interests:
 
 Other interests include art, music, [video games](https://www.davidoniani.com/gaming),
 anime and manga, linguistics, space exploration, climate, cancer research,
-information theory, and economic empowerment.
+information theory, and economics.
 
 All written content on this site is provided under the
 [Creative Commons ShareAlike license](https://creativecommons.org/licenses/by-sa/2.5/).
