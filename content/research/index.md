@@ -26,7 +26,7 @@ David Oniani,
 
 [PDF](co-occurence-network-embeddings.pdf)
 &nbsp; **|** &nbsp;
-[JAIMIA](https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocaa117/5847598)
+[JAMIA](https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocaa117/5847598)
 
 ---
 
