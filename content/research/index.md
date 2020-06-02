@@ -9,13 +9,6 @@ The page also includes unpublished manuscripts.
 
 ---
 
-Artificial Intelligence and Content Analysis at the End of Democracy  
-Richard Merritt, David Oniani
-
-_To be released by the end of 2020_
-
----
-
 Constructing Co-occurrence Network Embeddings to Assist Association Extraction
 for COVID-19 and Other Coronavirus Infectious Diseases
 
