@@ -15,7 +15,8 @@ for COVID-19 and Other Coronavirus Infectious Diseases
 David Oniani,
 [Guoqian Jiang, M.D.][guoqian_jiang],
 [Ph.D, Hongfang Liu, Ph.D][hongfang_liu],
-[Feichen Shen, Ph.D][feichen_shen]
+[Feichen Shen, Ph.D][feichen_shen],
+2020
 
 [PDF](co-occurence-network-embeddings.pdf)
 &nbsp; **|** &nbsp;
