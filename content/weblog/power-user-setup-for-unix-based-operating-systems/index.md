@@ -5,18 +5,18 @@ date = 2020-02-17
 
 A lot of people have asked me about my setup.
 
-Here it is (taken from my [Regulated Minimalism](https://github.com/oniani/regulated-minimalism)
-repo):
+Here it is (taken from my [dots](https://github.com/oniani/dots) repo):
 
 ## Setup
 
 - Addressbook: [Abook](http://abook.sourceforge.net/)
 - Colorscheme Generator: [pywal](https://github.com/dylanaraps/pywal)
+- Default Colorscheme: [Gruvbox Dark Hard](https://github.com/morhetz/gruvbox)
 - Document Viewer: [Preview](<https://en.wikipedia.org/wiki/Preview_(macOS)>) / [Zathura](https://github.com/zegervdv/homebrew-zathura)
 - Editor: [Neovim](https://neovim.io/)
 - Email: [neomutt](https://neomutt.org/) (with [isync](http://isync.sourceforge.net/) for mailbox synchronization and [msmtp](https://marlam.de/msmtp/) for sending emails)
 - File Format Handler: [pandoc](https://pandoc.org/)
-- File Manager: [nnn](https://github.com/jarun/nnn)
+- File Manager: [Vifm](https://vifm.info/)
 - Font: [Hack Regular Nerd Font Complete](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete.ttf)
 - Fuzzy Finder: [fzf](https://github.com/junegunn/fzf)
 - Image Viewer: [Preview](<https://en.wikipedia.org/wiki/Preview_(macOS)>) / [sxiv](https://github.com/muennich/sxiv)
@@ -28,7 +28,7 @@ repo):
 - Terminal Emulator: [kitty](https://sw.kovidgoyal.net/kitty/)
 - Version Control: [Git](https://git-scm.com/downloads)
 - Video Player: [mpv](https://mpv.io/)
-- Wallpaper: [wallpaper3.jpg](https://github.com/oniani/templates/blob/master/wallpapers/wallpaper003.jpg)
+- Wallpaper: [wallpaper47.jpg](https://github.com/oniani/wallpapers/blob/master/wallpapers/wallpaper47.jpg)
 - Web Browser: [Firefox](https://www.mozilla.org/en-US/firefox/)
 - Window Manager: [Amethyst](https://github.com/ianyh/Amethyst) / [bspwm](https://github.com/baskerville/bspwm)
 
@@ -65,6 +65,7 @@ No plugin manager is used. Plugins are sourced at the end of `.zshrc`.
 Plugins are installed and managed using a minimalist plugin manager
 [vim-plug](https://github.com/junegunn/vim-plug).
 
+- [Base16 Vim](https://github.com/chriskempson/base16-vim/)
 - [VimCompletesMe](https://github.com/ajh17/VimCompletesMe)
 - [ale](https://github.com/dense-analysis/ale)
 - [fzf.vim](https://github.com/junegunn/fzf.vim)
