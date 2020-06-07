@@ -15,72 +15,105 @@ for COVID-19 and Other Coronavirus Infectious Diseases
 David Oniani,
 [Guoqian Jiang, M.D.][guoqian_jiang],
 [Ph.D, Hongfang Liu, Ph.D][hongfang_liu],
-[Feichen Shen, Ph.D][feichen_shen],
+[Feichen Shen, Ph.D][feichen_shen]
+
 2020
 
-[PDF](co-occurence-network-embeddings.pdf)
-&nbsp; **|** &nbsp;
-[JAMIA](https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocaa117/5847598)
-&nbsp; **|** &nbsp;
-[Network Visualization](https://www.davidoniani.com/covid-19-network/)
-&nbsp; **|** &nbsp;
-[Network Search](https://www.davidoniani.com/covid-19-network-search/)
+<div style="text-align: right;">
+  <a href="co-occurence-network-embeddings.pdf">PDF</a>
+  &nbsp; - &nbsp;
+  <a href="https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocaa117/5847598">JAMIA</a>
+  &nbsp; - &nbsp;
+  <a href="https://www.davidoniani.com/covid-19-network/">Visualization</a>
+  &nbsp; - &nbsp;
+  <a href="https://www.davidoniani.com/covid-19-network-search/">Search</a>
+</div>
 
 ---
 
-Setting Up Python Development Environment for Use in a Small Classroom  
-[Roman Yasinovskyy][roman_yasinovskyy], Karina Hoff, David Oniani, 2020
+Setting Up Python Development Environment for Use in a Small Classroom
 
-[PDF](mics2020-paper.pdf)
-&nbsp; **|** &nbsp;
-[MICS](http://www.micsymposium.org/mics_2020_Proceedings/MICS_2020_Proceedings.htm)
+[Roman Yasinovskyy][roman_yasinovskyy], Karina Hoff, David Oniani
 
----
+2020
 
-Textual and Statistical Analysis of Russian IRA Facebook Advertisements  
-David Oniani, 2019
-
-[PDF](ira-analysis.pdf)
-&nbsp; **|** &nbsp;
-[TeX](https://github.com/oniani/ira-analysis/tree/master/paper)
-&nbsp; **|** &nbsp;
-[Code](https://github.com/oniani/ira-analysis)
-&nbsp; **|** &nbsp;
-[Datasets](https://www.davidoniani.com/datasets#russian-internet-research-agency-ira-facebook-advertisements-datasets)
+<div style="text-align: right;">
+  <a href="mics2020-paper.pdf">PDF</a>
+  &nbsp; - &nbsp;
+  <a href="http://www.micsymposium.org/mics_2020_Proceedings/MICS_2020_Proceedings.htm">MICS</a>
+</div>
 
 ---
 
-Type Inference Rules For Container Types in CCL  
-David Oniani, [Alan Zaring][alan_zaring], 2019
+Textual and Statistical Analysis of Russian IRA Facebook Advertisements
 
-[PDF](ccl-rules.pdf)
-&nbsp; **|** &nbsp;
-[TeX](https://github.com/oniani/ccl-container-types/tree/master/paper)
+David Oniani
 
----
+2019
 
-The Topology of Robotic Configuration and Motion Planning  
-David Oniani, 2019
-
-[PDF](agv-paper.pdf)
-&nbsp; **|** &nbsp;
-[TeX](https://github.com/oniani/ugmath/tree/master/Topology/agv-paper)
-
----
-
-Unit testing frameworks in the classroom (applied research report)  
-David Oniani, [Roman Yasinovskyy][roman_yasinovskyy], 2018
-
-[PDF](summer-2018-research-report.pdf)
-&nbsp; **|** &nbsp;
-[Article](https://www.luther.edu/headlines/?story_id=819818)
+<div style="text-align: right;">
+  <a href="ira-analysis.pdf">PDF</a>
+  &nbsp; - &nbsp;
+  <a href="https://github.com/oniani/ira-analysis/tree/master/paper">TeX</a>
+  &nbsp; - &nbsp;
+  <a href="https://github.com/oniani/ira-analysis">Code</a>
+  &nbsp; - &nbsp;
+  <a href="https://www.davidoniani.com/datasets#russian-internet-research-agency-ira-facebook-advertisements-datasets">Dataset</a>
+</div>
 
 ---
 
-Photography as a socially influential medium in Jennifer Baichwal’s _Manufactured Landscapes_  
-David Oniani, 2018
+Type Inference Rules For Container Types in CCL
 
-[PDF](baichwal-manufactured-landscapes.pdf)
+David Oniani, [Alan Zaring][alan_zaring]
+
+2019
+
+<div style="text-align: right;">
+  <a href="ccl-rules.pdf">PDF</a>
+  &nbsp; - &nbsp;
+  <a href="https://github.com/oniani/ccl-container-types/tree/master/paper">TeX</a>
+</div>
+
+---
+
+The Topology of Robotic Configuration and Motion Planning
+
+David Oniani
+
+2019
+
+<div style="text-align: right;">
+  <a href="agv-paper.pdf">PDF</a>
+  &nbsp; - &nbsp;
+  <a href="https://github.com/oniani/ugmath/tree/master/Topology/agv-paper">TeX</a>
+</div>
+
+---
+
+Unit testing frameworks in the classroom (applied research report)
+
+David Oniani, [Roman Yasinovskyy][roman_yasinovskyy]
+
+2018
+
+<div style="text-align: right;">
+  <a href="summer-2018-research-report.pdf">PDF</a>
+  &nbsp; - &nbsp;
+  <a href="https://www.luther.edu/headlines/?story_id=819818">Article</a>
+</div>
+
+---
+
+Photography as a socially influential medium in Jennifer Baichwal’s _Manufactured Landscapes_
+
+David Oniani
+
+2018
+
+<div style="text-align: right;">
+  <a href="baichwal-manufactured-landscapes.pdf">PDF</a>
+</div>
 
 [alan_zaring]: https://www.luther.edu/computer-science/faculty/
 [feichen_shen]: https://www.mayo.edu/research/faculty/shen-feichen-ph-d/bio-20238745
