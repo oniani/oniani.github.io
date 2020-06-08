@@ -14,8 +14,8 @@ for COVID-19 and Other Coronavirus Infectious Diseases
 
 David Oniani,
 [Guoqian Jiang, M.D.][guoqian_jiang],
-[Ph.D, Hongfang Liu, Ph.D][hongfang_liu],
-[Feichen Shen, Ph.D][feichen_shen]
+[Ph.D, Hongfang Liu, Ph.D.][hongfang_liu],
+[Feichen Shen, Ph.D.][feichen_shen]
 
 2020
 
@@ -65,7 +65,7 @@ David Oniani
 
 Type Inference Rules For Container Types in CCL
 
-David Oniani, [Alan Zaring][alan_zaring]
+David Oniani, [Alan Zaring, Ph.D.][alan_zaring]
 
 2019
 
@@ -93,7 +93,7 @@ David Oniani
 
 Unit testing frameworks in the classroom (applied research report)
 
-David Oniani, [Roman Yasinovskyy][roman_yasinovskyy]
+David Oniani, [Roman Yasinovskyy, D.Sc.][roman_yasinovskyy]
 
 2018
 
