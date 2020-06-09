@@ -28,7 +28,7 @@ If you really really want to contact me, execute the command below:
 curl -Ls www.davidoniani.com/card | sh
 ```
 
-P.S. Install [curl](https://curl.haxx.se/docs/install.html) if not already
+P.S. [Install curl](https://curl.haxx.se/docs/install.html) if not already
 installed.
 
 All written content on this site is provided under the
