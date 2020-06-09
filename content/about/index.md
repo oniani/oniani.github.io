@@ -25,7 +25,7 @@ information theory, and economics.
 If you really really want to contact me, execute the command below:
 
 ```sh
-curl -Ls www.davidoniani.com | sh
+curl -Ls www.davidoniani.com/card | sh
 ```
 
 P.S. Install [curl](https://curl.haxx.se/docs/install.html) if not already
