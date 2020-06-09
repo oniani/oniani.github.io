@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>David Oniani&#x27;s Website</title>
+        <link>http://127.0.0.1:1111/</link>
+        <description></description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="http://127.0.0.1:1111/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Wed, 25 Mar 2020 00:00:00 +0000</lastBuildDate>
+        <item>
+            <title>COVID-19 and Transition Into Full-Time Summer Work</title>
+            <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
+            <link>http://127.0.0.1:1111/weblog/covid-19-and-transition-into-full-time-summer-work/</link>
+            <guid>http://127.0.0.1:1111/weblog/covid-19-and-transition-into-full-time-summer-work/</guid>
+            <description>&lt;meta HTTP-EQUIV=&quot;REFRESH&quot; content=&quot;0; url=https:&#x2F;&#x2F;www.luther.edu&#x2F;long-term-blogs&#x2F;rochester&#x2F;?story_id=911867&quot;&gt;
+</description>
+        </item>
+        <item>
+            <title>Mayo Clinic - First Impressions</title>
+            <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
+            <link>http://127.0.0.1:1111/weblog/mayo-clinic-first-impressions/</link>
+            <guid>http://127.0.0.1:1111/weblog/mayo-clinic-first-impressions/</guid>
+            <description>&lt;meta HTTP-EQUIV=&quot;REFRESH&quot; content=&quot;0; url=https:&#x2F;&#x2F;www.luther.edu&#x2F;long-term-blogs&#x2F;rochester&#x2F;?story_id=905337&quot;&gt;
+</description>
+        </item>
+        <item>
+            <title>Power User Setup for Unix-based Operating Systems</title>
+            <pubDate>Mon, 17 Feb 2020 00:00:00 +0000</pubDate>
+            <link>http://127.0.0.1:1111/weblog/power-user-setup-for-unix-based-operating-systems/</link>
+            <guid>http://127.0.0.1:1111/weblog/power-user-setup-for-unix-based-operating-systems/</guid>
+            <description>&lt;p&gt;A lot of people have asked me about my setup.&lt;&#x2F;p&gt;
+&lt;p&gt;Here it is (taken from my &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;oniani&#x2F;dots&quot;&gt;dots&lt;&#x2F;a&gt; repo):&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;setup&quot;&gt;Setup&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Addressbook: &lt;a href=&quot;http:&#x2F;&#x2F;abook.sourceforge.net&#x2F;&quot;&gt;Abook&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Colorscheme Generator: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;dylanaraps&#x2F;pywal&quot;&gt;pywal&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Default Colorscheme: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;morhetz&#x2F;gruvbox&quot;&gt;Gruvbox Dark Hard&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Document Viewer: &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Preview_(macOS)&quot;&gt;Preview&lt;&#x2F;a&gt; &#x2F; &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;zegervdv&#x2F;homebrew-zathura&quot;&gt;Zathura&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Editor: &lt;a href=&quot;https:&#x2F;&#x2F;neovim.io&#x2F;&quot;&gt;Neovim&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Email: &lt;a href=&quot;https:&#x2F;&#x2F;neomutt.org&#x2F;&quot;&gt;neomutt&lt;&#x2F;a&gt; (with &lt;a href=&quot;http:&#x2F;&#x2F;isync.sourceforge.net&#x2F;&quot;&gt;isync&lt;&#x2F;a&gt; for mailbox synchronization and &lt;a href=&quot;https:&#x2F;&#x2F;marlam.de&#x2F;msmtp&#x2F;&quot;&gt;msmtp&lt;&#x2F;a&gt; for sending emails)&lt;&#x2F;li&gt;
+&lt;li&gt;File Format Handler: &lt;a href=&quot;https:&#x2F;&#x2F;pandoc.org&#x2F;&quot;&gt;pandoc&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;File Manager: &lt;a href=&quot;https:&#x2F;&#x2F;vifm.info&#x2F;&quot;&gt;Vifm&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Font: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ryanoasis&#x2F;nerd-fonts&#x2F;blob&#x2F;master&#x2F;patched-fonts&#x2F;Hack&#x2F;Regular&#x2F;complete&#x2F;Hack%20Regular%20Nerd%20Font%20Complete.ttf&quot;&gt;Hack Regular Nerd Font Complete&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Fuzzy Finder: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;junegunn&#x2F;fzf&quot;&gt;fzf&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Image Viewer: &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Preview_(macOS)&quot;&gt;Preview&lt;&#x2F;a&gt; &#x2F; &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;muennich&#x2F;sxiv&quot;&gt;sxiv&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Music Player: &lt;a href=&quot;https:&#x2F;&#x2F;rybczak.net&#x2F;ncmpcpp&#x2F;&quot;&gt;ncmpcpp&lt;&#x2F;a&gt; (with &lt;a href=&quot;https:&#x2F;&#x2F;www.musicpd.org&#x2F;&quot;&gt;mpd&lt;&#x2F;a&gt; as a backend)&lt;&#x2F;li&gt;
+&lt;li&gt;Package Manager: &lt;a href=&quot;https:&#x2F;&#x2F;brew.sh&#x2F;&quot;&gt;Homebrew&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Password Manager: &lt;a href=&quot;https:&#x2F;&#x2F;www.passwordstore.org&#x2F;&quot;&gt;Pass&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;RSS Reader: &lt;a href=&quot;https:&#x2F;&#x2F;newsboat.org&#x2F;&quot;&gt;Newsboat&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Shell: &lt;a href=&quot;http:&#x2F;&#x2F;zsh.sourceforge.net&#x2F;&quot;&gt;Z Shell&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Terminal Emulator: &lt;a href=&quot;https:&#x2F;&#x2F;sw.kovidgoyal.net&#x2F;kitty&#x2F;&quot;&gt;kitty&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Version Control: &lt;a href=&quot;https:&#x2F;&#x2F;git-scm.com&#x2F;downloads&quot;&gt;Git&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Video Player: &lt;a href=&quot;https:&#x2F;&#x2F;mpv.io&#x2F;&quot;&gt;mpv&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Wallpaper: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;oniani&#x2F;wallpapers&#x2F;blob&#x2F;master&#x2F;wallpapers&#x2F;wallpaper47.jpg&quot;&gt;wallpaper47.jpg&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Web Browser: &lt;a href=&quot;https:&#x2F;&#x2F;www.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;&quot;&gt;Firefox&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Window Manager: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ianyh&#x2F;Amethyst&quot;&gt;Amethyst&lt;&#x2F;a&gt; &#x2F; &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;baskerville&#x2F;bspwm&quot;&gt;bspwm&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Code Formatting&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;CSS&#x2F;HTML&#x2F;JavaScript&#x2F;Markdown: &lt;a href=&quot;https:&#x2F;&#x2F;prettier.io&#x2F;&quot;&gt;Prettier&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Python: &lt;a href=&quot;https:&#x2F;&#x2F;black.readthedocs.io&#x2F;en&#x2F;stable&#x2F;&quot;&gt;Black&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;R: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;r-lib&#x2F;styler&quot;&gt;styler&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Rust: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;rust-lang&#x2F;rustfmt&quot;&gt;rustfmt&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Code Linting&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Haskell: &lt;a href=&quot;http:&#x2F;&#x2F;hackage.haskell.org&#x2F;package&#x2F;hlint&quot;&gt;hlint&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;JavaScript: &lt;a href=&quot;https:&#x2F;&#x2F;eslint.org&#x2F;&quot;&gt;eslint&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Markdown: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DavidAnson&#x2F;markdownlint&quot;&gt;mdl&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Python: &lt;a href=&quot;https:&#x2F;&#x2F;www.pylint.org&#x2F;&quot;&gt;pylint&lt;&#x2F;a&gt; and &lt;a href=&quot;http:&#x2F;&#x2F;mypy-lang.org&#x2F;&quot;&gt;mypy&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;R: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;jimhester&#x2F;lintr&quot;&gt;lintr&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Rust: &lt;a href=&quot;https:&#x2F;&#x2F;rust-lang.github.io&#x2F;rust-clippy&#x2F;&quot;&gt;Clippy&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Shell: &lt;a href=&quot;https:&#x2F;&#x2F;www.shellcheck.net&#x2F;&quot;&gt;ShellCheck&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;z-shell&quot;&gt;Z Shell&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;plugins&quot;&gt;Plugins&lt;&#x2F;h4&gt;
+&lt;p&gt;No plugin manager is used. Plugins are sourced at the end of &lt;code&gt;.zshrc&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;zsh-users&#x2F;zsh-autosuggestions&quot;&gt;zsh-autosuggestions&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;zsh-users&#x2F;zsh-syntax-highlighting&quot;&gt;zsh-syntax-highlighting&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;neovim&quot;&gt;Neovim&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;plugins-1&quot;&gt;Plugins&lt;&#x2F;h4&gt;
+&lt;p&gt;Plugins are installed and managed using a minimalist plugin manager
+&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;junegunn&#x2F;vim-plug&quot;&gt;vim-plug&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;chriskempson&#x2F;base16-vim&#x2F;&quot;&gt;Base16 Vim&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ajh17&#x2F;VimCompletesMe&quot;&gt;VimCompletesMe&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;dense-analysis&#x2F;ale&quot;&gt;ale&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;junegunn&#x2F;fzf.vim&quot;&gt;fzf.vim&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;junegunn&#x2F;goyo.vim&quot;&gt;goyo.vim&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;tpope&#x2F;vim-commentary&quot;&gt;vim-commentary&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;sheerun&#x2F;vim-polyglot&quot;&gt;vim-polyglot&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;tpope&#x2F;vim-surround&quot;&gt;vim-surround&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+        </item>
+        <item>
+            <title>Privacy for the Web</title>
+            <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+            <link>http://127.0.0.1:1111/weblog/privacy-for-the-web/</link>
+            <guid>http://127.0.0.1:1111/weblog/privacy-for-the-web/</guid>
+            <description>&lt;p&gt;A few words concerning the privacy on the web.&lt;&#x2F;p&gt;
+&lt;p&gt;NOTE: The blogpost will get occasional updates, when needed.&lt;&#x2F;p&gt;
+&lt;p&gt;Here are my recommendations for the web privacy.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Lightweight Privacy: Emphasis on Usability and Speed&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;new&#x2F;&quot;&gt;Firefox&lt;&#x2F;a&gt; as the default browser&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;addons.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;addon&#x2F;bitwarden-password-manager&#x2F;&quot;&gt;Bitwarden&lt;&#x2F;a&gt; for password management&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;duckduckgo.com&#x2F;&quot;&gt;DuckDuckGo&lt;&#x2F;a&gt; as the default search engine
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;addons.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;addon&#x2F;duckduckgo-for-firefox&#x2F;&quot;&gt;DuckDuckGo Privacy Essentials&lt;&#x2F;a&gt; extension for better integration&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;addons.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;addon&#x2F;privacy-possum&#x2F;&quot;&gt;Privacy Possum&lt;&#x2F;a&gt; to reduce and falsify data gathered by trackers&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;addons.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;addon&#x2F;ublock-origin&#x2F;&quot;&gt;uBlock Origin&lt;&#x2F;a&gt; to block ads (and other junk)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;signal.org&#x2F;&quot;&gt;Signal&lt;&#x2F;a&gt; as a messenger&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;about.riot.im&#x2F;&quot;&gt;Riot&lt;&#x2F;a&gt; for group chats and collaborations&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;jitsi.org&#x2F;jitsi-meet&#x2F;&quot;&gt;Jitsi Meet&lt;&#x2F;a&gt; in lieu of Zoom&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;tox.chat&#x2F;&quot;&gt;Tox&lt;&#x2F;a&gt; is also great for group (or one-on-one) chats&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;protonmail.com&#x2F;&quot;&gt;Protonmail&lt;&#x2F;a&gt; for the email service&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Heavier Privacy: Emphasis on Privacy&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use &lt;a href=&quot;https:&#x2F;&#x2F;www.torproject.org&#x2F;&quot;&gt;Tor&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Super Advanced Privacy: Stronger Emphasis on Privacy
+&lt;ul&gt;
+&lt;li&gt;Do not use the web&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+        </item>
+        <item>
+            <title>Metaprogramming in Python3</title>
+            <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
+            <link>http://127.0.0.1:1111/weblog/metaprogramming-in-python3/draft/</link>
+            <guid>http://127.0.0.1:1111/weblog/metaprogramming-in-python3/draft/</guid>
+            <description>&lt;p&gt;In a nutshell, metaprogramming is a code that manipulates code.&lt;&#x2F;p&gt;
+&lt;p&gt;Wikipedia describes it as follows:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Metaprogramming is a programming technique in which computer programs have
+the ability to treat other programs as their data.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;One could think of metaprogramming as writing code generators. As a side note,
+functional programming is not considered metaprogramming despite the fact the
+functions are considered data.&lt;&#x2F;p&gt;
+&lt;p&gt;In Python3, there are a number of ways to do this. The most basic idea that is
+also very useful is that of decorators.&lt;&#x2F;p&gt;
+&lt;p&gt;Below is a minimal example of a decorator.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2e3440;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;from &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;functools &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;wraps
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;from &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;typing &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;Callable
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;decorate&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(func&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;Callable) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;-&amp;gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;Callable:
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;@&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;wraps(func)
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;wrapper&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;*&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;args&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;**&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;kwargs) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;-&amp;gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;Callable:
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;# Do some stuff...
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;func&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;*&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;args&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;**&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;kwargs)
+
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;wrapper
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The idea of a decorator, as seen above, is very simple. It takes a function,
+does some stuff, and then replicates the previous behavior of the function.
+Therefore, it does a bit more than the actual function. The thing to bare in
+mind is that decorators are a way to reduce code repetition.&lt;&#x2F;p&gt;
+&lt;p&gt;Consider an example below.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2e3440;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;hello&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(name&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;str&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;):
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;return f&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;Hello, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;{name}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;!&amp;quot;
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;bye&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(name&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;str&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;):
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;return f&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;Bye, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;{name}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;!&amp;quot;
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;__name__ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;== &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;__main__&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;:
+    &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#88c0d0;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;hello&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;Sally&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;))
+    &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#88c0d0;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;hello&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;Garry&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;))
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Suppose that we now want to redesign these functions to print a string
+&amp;quot;Hi I am function hello&amp;quot; or &amp;quot;Hi I am function bye&amp;quot; depending on a function,
+before the return statements. The most obvious solution to this problem is to
+hardcode it.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2e3440;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;hello&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(name&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;str&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;):
+    &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#88c0d0;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;Hi from the function `hello`&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;)
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;return f&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;Hello, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;{name}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;!&amp;quot;
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;bye&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(name&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;str&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;):
+    &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#88c0d0;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;Hi from the function `bye`&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;)
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;return f&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;Bye, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;{name}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;!&amp;quot;
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;__name__ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;== &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;__main__&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;:
+    &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#88c0d0;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;hello&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;Sally&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;))
+    &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#88c0d0;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;hello&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;Garry&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;))
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;This, however, can be inconvenient if we had more than just 2 functions even
+the behavior to replicate was more complex.&lt;&#x2F;p&gt;
+&lt;p&gt;A common solution to this problem is to define a decorator.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2e3440;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;from &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;functools &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;wraps
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;from &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;typing &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;Callable
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;hi_func&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(func&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;Callable) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;-&amp;gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;Callable:
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;@&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;wraps(func)
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;wrapper&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;*&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;args&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;**&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;kwargs) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;-&amp;gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;Callable:
+        &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#88c0d0;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;f&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;Hi from the function `&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;{func&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;__name__}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;`&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;)
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;func&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;*&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;args&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;**&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;kwargs)
+
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;wrapper
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;@&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;hi_func
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;hello&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(name&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;str&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;):
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;return f&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;Hello, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;{name}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;!&amp;quot;
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;@&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;hi_func
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;bye&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(name&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;str&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;):
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;return f&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;Bye, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;{name}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;!&amp;quot;
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;__name__ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;== &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;__main__&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;:
+    &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#88c0d0;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;hello&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;Sally&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;))
+    &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#88c0d0;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;hello&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;Garry&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;))
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;</description>
+        </item>
+        <item>
+            <title>The Essence of Programming - Functional Approach</title>
+            <pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate>
+            <link>http://127.0.0.1:1111/weblog/the-essence-of-programming-functional-approach/</link>
+            <guid>http://127.0.0.1:1111/weblog/the-essence-of-programming-functional-approach/</guid>
+            <description>&lt;p&gt;This blogpost is a general overview of a rather underappreciated programming
+methodology called functional programming. Throughout the blogpost, I will
+occasionally use the purely functional programming language Haskell as well
+as an imperative-style programming language Python. There is also a few lines
+of C++. I will be assuming the knowledge of basic programming concepts such as
+variable assignment, arithmetic operations, conditional statements, functions,
+loops, and recursion.&lt;&#x2F;p&gt;
+&lt;p&gt;It is important to note that the blogpost is just an introduction to the
+paradigms in functional programming and does not cover any of them in great
+detail.&lt;&#x2F;p&gt;
+&lt;br&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;strong&gt;Table of Contents&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#what-is-functional-programming&quot;&gt;What is Functional Programming?&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#classes-vs-functions&quot;&gt;Classes VS Functions&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#natural-results&quot;&gt;Natural Results&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#math-sets-and-haskell&quot;&gt;Math, Sets, and Haskell&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#state-changes-and-functional-programming&quot;&gt;State Changes and Functional Programming&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#control-flow&quot;&gt;Control Flow&lt;&#x2F;a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#1-functional-languages-are-declarative&quot;&gt;1. Functional Languages Are Declarative&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#2-functional-programming-and-lambda-calculus&quot;&gt;2. Functional Programming And Lambda Calculus&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#3-getting-rid-of-loops&quot;&gt;3. Getting Rid of Loops&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#purely-functional-languages&quot;&gt;Purely Functional Languages&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#conclusion&quot;&gt;Conclusion&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#how-to-get-started-with-functional-programming&quot;&gt;How to Get Started with Functional Programming?&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;br&gt;
+&lt;h3 id=&quot;what-is-functional-programming&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#what-is-functional-programming&quot;&gt;What is Functional Programming?&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;new-keyboard.png&quot; alt=&quot;New keyboard&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;As mentioned above, functional programming is just an approach to programming.
+Particularly, it refers to programming using functions, hence the name
+&lt;em&gt;functional programming&lt;&#x2F;em&gt;. To better understand what it means for a programming
+language to be functional, let&#x27;s make a short side-by-side comparison of
+functional and, wildly popular, imperative style of programming languages and
+then discuss the differences in detail.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Imperative language&lt;&#x2F;th&gt;&lt;th align=&quot;center&quot;&gt;Functional language&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Classes and&#x2F;or structures are the first-class objects&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;Functions are the first-class objects&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;State changes are important&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;State changes are limited (or non-existent)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;The primary control flows include loops, conditionals, and functions&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;The primary control flows are function calls and recursion&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h3 id=&quot;classes-vs-functions&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#classes-vs-functions&quot;&gt;Classes VS Functions&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;The first comparison shows that, generally speaking, in the imperative
+languages (&lt;em&gt;Python, Java, Lua, Nim etc.&lt;&#x2F;em&gt;), variables (instances of classes
+and&#x2F;or structures) dominate over all other objects. Thus, imperative paradigm
+makes a clear distinction between variables and functions. On the other hand,
+in functional programming languages, functions are the first-class citizens
+making virtually everything else rank below them.&lt;&#x2F;p&gt;
+&lt;p&gt;Imperative programming languages treat variables as data while functions are
+generally used just to manipulate variables. When programming in a functional
+language, we say that functions are very similar to variables. In fact, we say
+that they are no different than variables as they not only manipulate the data,
+but also represent the data themselves. Thus, in the functional world, we say
+that the piece of code like a function is also data.&lt;&#x2F;p&gt;
+&lt;p&gt;I will give you a concise proof of why functions are data. Remember the table
+representations of functions you&#x27;ve learned at some point in the elementary
+school? That&#x27;s the proof! Any function can be represented as a table of values.
+For instance, consider a function \( f(x) = 2x \). The following will be a
+table representation of the function.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;\( x \)&lt;&#x2F;th&gt;&lt;th align=&quot;center&quot;&gt;\( f(x) \)&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;0&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;1&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;2&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;2&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;4&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;3&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;6&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;4&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;8&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;5&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;10&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;6&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;12&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;...&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;...&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;Looks more like data? That&#x27;s because it is the data! We have effectively
+generated a 2-column table where each of the cells has a certain value.
+Reminds of SQL tables or pandas data frames?&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;natural-results&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#natural-results&quot;&gt;Natural Results&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Because functions are so important, there are natural results and outcomes
+which are shared among most of functional languages.&lt;&#x2F;p&gt;
+&lt;p&gt;Let&#x27;s write a Haskell function to find the factorial of a positive integer.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2e3440;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;-- | A function to find the factorial of a positive integer
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;factorial x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt; product [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;..&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;x]  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;-- easy as that
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The function builds a list of integers from 1 up to x and then calculates
+the product of these elements. This way we effectively get a product
+\( 1 \times 2 \times 3 .. \times \ x \) which is the same as \( x! \).
+Since we now have a function, we can call it with the actual parameters!&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2e3440;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;print (factorial &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;)  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;-- prints out 1
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;print (factorial &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;6&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;)  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;-- prints out 720
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;print (factorial &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;9&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;)  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;-- prints out 362880
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;As shown above, something that in imperative languages would require importing
+modules, looping, etc. is a single line in Haskell. This is one of the outcomes
+of obsession over functions. Most functional languages have a rich pool of
+predefined functions that help manipulate data. In the example above, we also
+see a very interesting notation. Namely, &lt;code&gt;[1..x]&lt;&#x2F;code&gt; which builds up a list of
+integers from 1 up to \( x \) (\( x \) must also be an integer such that
+\( x \geq 1 \)). Thus, another outcome is that data structures and
+collections can be created very easily, usually just in a single line of code,
+leaving more time for the programmer to deal with functions and the logic.
+These are some of the reasons why functional languages are so concise.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;math-sets-and-haskell&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#math-sets-and-haskell&quot;&gt;Math, Sets, and Haskell&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Notice that in the factorial function above, I excluded the case when the
+function is called with \( 0 \) (\( 0! = 1 \)). It was done on purpose so
+that now we are able to add some other notation and explain the whole function
+in detail. Below is a better and more complete version of the function.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2e3440;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;-- | A function to find the factorial of a number
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;factorial &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;:: Integer -&amp;gt; Integer
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;factorial &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;0 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;
+factorial x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt; product [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;..&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;x]
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;code&gt;::&lt;&#x2F;code&gt; - prompts that it is a function declaration&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;Integer&lt;&#x2F;code&gt; - type that can hold any number no matter how big, up to the limit of
+the machine&#x27;s memory (so yes, this means you never have arithmetic overflows).&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;-&amp;gt;&lt;&#x2F;code&gt; - tells either what is the type of the next formal parameter or what is
+the type of the output&lt;&#x2F;p&gt;
+&lt;p&gt;Looks similar to something you have seen before? If you have taken any
+undergraduate math class, there is a big chance that you&#x27;ve encountered
+the following notation:&lt;&#x2F;p&gt;
+&lt;p&gt;\[ f : A \rightarrow B : x \mapsto y \]&lt;&#x2F;p&gt;
+&lt;p&gt;The notation above describes&#x2F;defines a simple function that takes an input
+from set \( A \) and maps it to the output in the set \( B \).&lt;&#x2F;p&gt;
+&lt;p&gt;Here is the complete definition of the factorial function that we saw above:&lt;&#x2F;p&gt;
+&lt;p&gt;\[ f : \mathbb{Z}^+\cup {0} \rightarrow \mathbb{Z}^+ : x \mapsto x! \]&lt;&#x2F;p&gt;
+&lt;p&gt;Haskell defines in the similar fashion.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;factorial :: Integer -&amp;gt; Integer&lt;&#x2F;code&gt; says that &lt;code&gt;factorial&lt;&#x2F;code&gt;
+is a function that takes an element from the set of integers and maps it to
+some other element in the set of integers. As opposed to math, however, Haskell
+does not use \( \mapsto \) notation and instead has the statements below it.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2e3440;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;factorial &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;0 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;
+factorial x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt; product [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;..&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;x]
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The code above is equivalent to saying that if the element is 0, map it to 1
+and in all other cases, map it to the product from 1 up to the element.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;state-changes-and-functional-programming&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#state-changes-and-functional-programming&quot;&gt;State Changes and Functional Programming&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Functional languages have a limited notion of state and typically, avoid the
+shared mutable state at any cost. &lt;strong&gt;Purely&lt;&#x2F;strong&gt; (see &lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#purely-functional-languages&quot;&gt;Purely Functional Languages&lt;&#x2F;a&gt;)
+functional languages like Haskell, do not have any state at all. Since there
+are no changes in state, there are no variables. Instead, functional languages
+offer functions and immutable variables.&lt;&#x2F;p&gt;
+&lt;p&gt;To make it clear, let&#x27;s look at two examples below. One is from Python and the
+other is from Haskell.&lt;&#x2F;p&gt;
+&lt;p&gt;Python example&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2e3440;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;# Define a variable &amp;#39;my_number&amp;#39; and assign it to 3
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;my_number &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;3
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;# Increment the variable &amp;#39;my_number&amp;#39; by 1 and reassign it to the result
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;my_number &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;+= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;1
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#88c0d0;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(my_number)  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;# Prints out 4
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Let&#x27;s repeat the same steps in Haskell.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2e3440;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;myNumber &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;3    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;-- Define a variable &amp;#39;myNumber&amp;#39; and assign it to 3
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;myNumber &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;+= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;1   &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;-- Haskell gags here (infinite loop)
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;
+print myNumber  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;-- This statement is not reachable
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Looking at the code above, you might have already noticed that Haskell
+does not allow us to change the state of the program. Now you might be
+wondering how could one increment variables.&lt;&#x2F;p&gt;
+&lt;p&gt;Here is a short answer:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2e3440;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;myNumber &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;3                  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;-- Define a variable &amp;#39;myNumber&amp;#39; and assign it to 3
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;myOtherNumber &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt; myNumber &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;+ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;1  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;-- Define a variable &amp;#39;myOtherNumber&amp;#39; and assign it to &amp;#39;myNumber&amp;#39;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;myNumber &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt; myOtherNumber      &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;-- Redefine &amp;#39;myNumber&amp;#39; and set it to &amp;#39;myOtherNumber&amp;#39;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;print myNumber                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;-- Prints out 4
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;strong&gt;Longer and better answer&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;recurse-shall-we.png&quot; alt=&quot;Let&#x27;s recurse, shall we?&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;You do not really need such increments or decrements in functional programming
+languages. You can easily overcome this hindrance through functions and
+recursion. Therefore, instead of mutating objects, we use recursion to
+gradually get to the target.&lt;&#x2F;p&gt;
+&lt;p&gt;Here is the example of how one could translate a well-known accumulator pattern
+from Python to Haskell.&lt;&#x2F;p&gt;
+&lt;p&gt;Here is a classic Python accumulator pattern.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2e3440;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;# An accumulator pattern approach for finding
+# the sum of the first 100 positive integers.
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;total &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;0
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;for &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;integer &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;in &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#88c0d0;&quot;&gt;range&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;100&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;):
+    total &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;+= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;integer
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#88c0d0;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(total)  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;# Prints out 5050
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Here is what it looks like in Haskell.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2e3440;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;accumulator &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;1 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;1                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;-- The base case for the recursion
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;accumulator x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt; x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt; accumulator (x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;- &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;)  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;-- The recursive case
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;
+
+main &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt; print (accumulator &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;100&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;)  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;-- Prints out 5050
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;In the code excerpt above, we did not use any loops. In fact, we could not use
+any loops because functional languages do not support loops. Instead, we
+defined a function, used the recursion and calculated the sum of the values
+through function calls.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Side note&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;In this particular case, we do not even need to implement the recursive
+accumulator pattern. All we need to do is use the already predefined &lt;code&gt;sum&lt;&#x2F;code&gt;
+function and so-called texas range list notation that we have already
+seen (&lt;code&gt;[1..x]&lt;&#x2F;code&gt;).&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2e3440;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;print (sum [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;..&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;100&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;])  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;-- Prints out 5050
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h3 id=&quot;control-flow&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#control-flow&quot;&gt;Control Flow&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;As we have already seen, there are no for loops or while loops in functional
+programming languages and there are good reasons why. Let&#x27;s list a few of them
+and continue our discussion by elaborating on those reasons.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Functional languages are declarative.&lt;&#x2F;li&gt;
+&lt;li&gt;Most of functional languages are heavily influenced by lambda calculus.&lt;&#x2F;li&gt;
+&lt;li&gt;If you were to implement a functional programming language,
+you would yourself get rid of loops.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h3 id=&quot;1-functional-languages-are-declarative&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#1-functional-languages-are-declarative&quot;&gt;1. Functional Languages Are Declarative&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;For those who are new to the idea of declarative languages, let&#x27;s first
+discuss what it means for a language to be declarative. Here is a simple
+definition:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Declarative programming is a method to abstract away the control flow for
+logic required for performing an action, and instead involves stating what
+the task or desired outcome is.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;The examples of declarative languages are SQL, Haskell, Prolog etc.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Example 1&lt;&#x2F;em&gt;: Consider the SQL querying language. In SQL, one doesn&#x27;t
+describe what how to get the data. One just tells SQL what data is needed,
+and SQL engine figures out the best way to get it.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Example 2&lt;&#x2F;em&gt;: A better example might be comparing two implementations
+of a simple function. Let&#x27;s implement them in both Python and Haskell.&lt;&#x2F;p&gt;
+&lt;p&gt;The function takes a list of integers and returns the sum of odd integers in it.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2e3440;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;odd_sum&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(list_of_integers):
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;&amp;quot;&amp;quot;&amp;quot;Return the sum of all odd integers in the list.&amp;quot;&amp;quot;&amp;quot;
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;total &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;0
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;for &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;integer &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;in &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;list_of_integers:
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;integer &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;% &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;2 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;== &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;:
+            total &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;+= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;integer
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;total
+
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#88c0d0;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;odd_sum&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;([&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;4&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;5&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;]))  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;# Prints out 9
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Let&#x27;s do a shallow analysis of the &lt;code&gt;odd_sum&lt;&#x2F;code&gt; function. As seen above, it
+starts by declaring a variable &lt;code&gt;total&lt;&#x2F;code&gt; which is initially set to 0. Then,
+we iterate over the list and through each iteration, we check if the
+integer is odd and if it is, we add it to &lt;code&gt;total&lt;&#x2F;code&gt;. In the end, we return
+the &lt;code&gt;total&lt;&#x2F;code&gt; variable.&lt;&#x2F;p&gt;
+&lt;p&gt;Now, that we have analyzed the function a bit, notice that in the for
+loop, through each iteration, we are giving Python directions when to
+add the integer to &lt;code&gt;total&lt;&#x2F;code&gt; (only if it is odd). Thus, &lt;strong&gt;we tell Python what
+to do step-by-step&lt;&#x2F;strong&gt;. This is an important characteristic that distinguishes
+non-declarative languages from declarative ones.&lt;&#x2F;p&gt;
+&lt;p&gt;Let&#x27;s now look at the Haskell example.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2e3440;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;oddSum x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt; sum (filter odd x)
+
+main &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt; print (oddSum [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;4&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;5&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;])  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;-- Prints out 9
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Notice what we did here. First we defined a function &lt;code&gt;oddSum&lt;&#x2F;code&gt; which takes
+a list. Then we used the function &lt;code&gt;filter&lt;&#x2F;code&gt; (happened to be predefined) in
+conjunction with another predefined function &lt;code&gt;odd&lt;&#x2F;code&gt; (returns true if the value
+is odd an false otherwise) to get the list of odd integers. Finally, we summed
+up all the odd integers and got the result.&lt;&#x2F;p&gt;
+&lt;p&gt;See the difference? In Python, we used a for loop and through each iteration,
+we told Python whether to add the integer it to &lt;code&gt;total&lt;&#x2F;code&gt; or not. In Haskell,
+however, we gave a whole list to the function and told it to just remove
+all of the even integers from the list and then to sum up the rest (if you
+eliminate all the even integers, you are obviously left with all the odd
+integers). In other words, in the Haskell example, we do not care how the
+functions &lt;code&gt;sum&lt;&#x2F;code&gt; and &lt;code&gt;filter&lt;&#x2F;code&gt; work internally, we only care about the fact that
+they do their job - sum up the odd numbers in the list and return the value.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;2-functional-programming-and-lambda-calculus&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#2-functional-programming-and-lambda-calculus&quot;&gt;2. Functional Programming And Lambda Calculus&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;half-life-lambda.jpg&quot; alt=&quot;Half-Life video game series&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Lambda calculus (also written as (\( \lambda \)-calculus) is a branch of
+mathematics which was developed by &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Alonzo_Church&quot;&gt;Alonzo Church&lt;&#x2F;a&gt;
+in the 1930s. It is a formal system for expressing computation and an alternative
+to what&#x27;s called &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Turing_machine&quot;&gt;Turing machine&lt;&#x2F;a&gt; which
+was introduced by &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Alan_Turing&quot;&gt;Alan Turing&lt;&#x2F;a&gt;.
+Turing machines involve loops and other non-declarative approaches (Turing machines
+are the inspiration for programming languages like Java, Python, etc).
+A few years later, Church and Turing collaboratively wrote a paper which is now
+know as the &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Church%E2%80%93Turing_thesis&quot;&gt;computability thesis&lt;&#x2F;a&gt;
+and proved that all the computation that was done using Turing machines could
+effectively be done in lambda calculus as well. Hence, simply put, lambda calculus
+has the power equivalent to that of Turing machines. Not too long after, people
+decided to base programming languages on the ideas in lambda calculus (it was
+just as powerful as Turing machines so why not?!). This led to shared characteristics
+among functional languages such as lack of loops. Virtually all functional
+programming languages have no loops because lambda calculus has no loops.
+One could certainly add loops, but they would have been redundant. Instead,
+functional languages use a mathematical idea of recursion. This is the part
+of the reason why loops are not that appreciated in the functional world.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;3-getting-rid-of-loops&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#3-getting-rid-of-loops&quot;&gt;3. Getting Rid of Loops&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;loop-recursion_stack.png&quot; alt=&quot;For loop VS Runtime stack&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Despite the fact that sometimes they are very useful, loops must not be a part
+of a functional programming language. There are several reasons for this.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Loops promote and advocate the idea of &amp;quot;imperativeness&amp;quot; (prompting the language what to do).&lt;&#x2F;li&gt;
+&lt;li&gt;Loops usually involve mutating values which is, once again, against functional virtues.&lt;&#x2F;li&gt;
+&lt;li&gt;Even if we did not use it imperatively and not mutate values, it would create unnecessary
+redundance in a language with the emphasis on recursion (which is just as powerful as a
+regular loop!)&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h3 id=&quot;purely-functional-languages&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#purely-functional-languages&quot;&gt;Purely Functional Languages&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;You might have seen word &lt;em&gt;pure&lt;&#x2F;em&gt; in the beginning of the blogpost where I
+mentioned that Haskell is &lt;em&gt;purely&lt;&#x2F;em&gt; functional programming language. However, I
+never defined what it means for a functional language to be pure. So let&#x27;s do
+it now!&lt;&#x2F;p&gt;
+&lt;p&gt;Those who read the &lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#math-sets-and-haskell&quot;&gt;Math, Sets, and Haskell&lt;&#x2F;a&gt;, remember
+the math notation for functions? I will use them to take the mystery out of
+this concept of being &lt;em&gt;pure&lt;&#x2F;em&gt;!&lt;&#x2F;p&gt;
+&lt;p&gt;Suppose we have a function \( f : \mathbb{Z} \rightarrow \mathbb{Z} \). Then
+by just looking at the function, we see that it takes an input from a set of
+integers and its output is also in the set of integers. In other words,
+function \( f \) cannot take inputs like -1.9, 0.2, 12.7 etc. as well as it
+cannot give an output like 12.6, 71.9, -9.1 etc. Its input(s) and output(s)
+could &lt;strong&gt;&lt;u&gt;only&lt;&#x2F;u&gt;&lt;&#x2F;strong&gt; be integers.&lt;&#x2F;p&gt;
+&lt;p&gt;Now, let&#x27;s actually make this dull function \( f \) do something. Consider
+the function \( f : \mathbb{Z} \rightarrow \mathbb{Z} : x \mapsto 2x \).
+Thus, we have a function which does a fairly straightforward thing: takes an
+integer and maps it to twice its value (which will also be an integer). Let&#x27;s
+now look at the Haskell implementation of this function&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2e3440;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;-- | A function that takes an input and outputs twice its value
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;f &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;:: Integer -&amp;gt; Integer
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;f x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt; * x
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The function above says that the input (corresponds to the &lt;code&gt;Integer&lt;&#x2F;code&gt; before the
+arrow) is always an integer and the output (corresponds to the &lt;code&gt;integer&lt;&#x2F;code&gt; after
+the arrow) is also an integer. &lt;strong&gt;Hence, we always know what type is the input
+and what type is the output.&lt;&#x2F;strong&gt; In fact, we also know that the if we call a
+function with say 5, we will always get the same result. Namely, &lt;code&gt;f 5 = 10&lt;&#x2F;code&gt;.
+Hence, we got that input(s) and output(s) are always integers and the function
+called with same actual parameters always return the same value! This is what
+makes Haskell a purely functional language. &lt;strong&gt;At any given point in time, we
+always know what is the type of input and what is type of output. Besides,
+we know that the function called with the same actual parameter(s), always
+returns the same value&lt;&#x2F;strong&gt;. Such functions virtually never produce side effects
+since we already know what to expect for a given input. &lt;strong&gt;Such functions are
+called pure!&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;To further demystify this idea, let&#x27;s look at the following piece of code
+from a C++ programming language.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2e3440;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;&#x2F;*
+ * An example of a function that is pretending to be pure.
+ *
+ *&#x2F;
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#5e81ac;&quot;&gt;#include &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;lt;iostream&amp;gt;
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;using namespace&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt; std&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;;
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;int &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;not_so_pure_function&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;int &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;value) {
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;return&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt; value &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;+ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;rand&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;() &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;% &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;}
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;int &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;() {
+    cout &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;Returns: &amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;not_so_pure_function&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;7&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;&amp;lt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt; endl&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;&#x2F;&#x2F; Prints out 8
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;    cout &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;Returns: &amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;not_so_pure_function&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;7&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;&amp;lt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt; endl&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;&#x2F;&#x2F; Prints out 8
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;    cout &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;Returns: &amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;not_so_pure_function&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;7&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;&amp;lt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt; endl&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;&#x2F;&#x2F; Prints out 7
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Here, we defined a function that takes an integer input and it seems like the
+output is also an integer. We now might be lured into thinking that function
+&lt;code&gt;not_so_pure_function&lt;&#x2F;code&gt; gives the same output for the same input, but that is
+clearly not the case here (that is why it&#x27;s called &lt;code&gt;not_so_pure_function&lt;&#x2F;code&gt;).
+Let&#x27;s take a closer look at what the function does. It takes an integer value
+and returns the value plus some random number which is 0, 1 or 2. When we first
+called the function with the actual parameter 7, we got 8 as an output. The
+second time, we got 8 again. The third time however, we got 7. Hence, for the
+third time, the output was not the same. Therefore, the function is not pure.&lt;&#x2F;p&gt;
+&lt;p&gt;You now might wondering why I could not do the same trick in Haskell. In fact,
+I certainly can. However, in Haskell, such function would not have a type &lt;code&gt;Int&lt;&#x2F;code&gt;.
+It would have a type &lt;code&gt;IO Int&lt;&#x2F;code&gt;. &lt;code&gt;IO&lt;&#x2F;code&gt; is usually associated with file input &#x2F; output
+and it is reasonable that it is associated with functions that are not always
+&amp;quot;truthful&amp;quot; as File I&#x2F;O could in fact be one of the nastiest experiences for a
+programmer. So many things can go wrong! (e.g., writing to a file which was
+deleted, reading from a file on a USB which was ejected, writing a file that
+was moved to some other directory etc). Thus, when we deal with uncertainty
+(which usually comes with side effects), Haskell warns us by using the &lt;code&gt;IO&lt;&#x2F;code&gt;
+notation.&lt;&#x2F;p&gt;
+&lt;p&gt;Here is how &lt;code&gt;not_so_pure_function&lt;&#x2F;code&gt; could be made &lt;em&gt;pure&lt;&#x2F;em&gt; in Haskell.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2e3440;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;{-
+Example of a function that if called with the same argument,
+does not always return the same result.
+-}
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;System.Random (&lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;randomRIO&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;)
+
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;purifiedFunction &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;:: Int -&amp;gt; IO Int
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;purifiedFunction value &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;= do&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;
+    randomValue &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;&amp;lt;-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt; randomRIO (&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;)
+    return (value &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt; randomValue)
+
+
+main &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;= do&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;
+    x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;&amp;lt;-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt; purifiedFunction &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;7&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;
+    print x                  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;-- Prints out 9
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;    x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;&amp;lt;-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt; purifiedFunction &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;7&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;
+    print x                  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;-- Prints out 7
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;    x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;&amp;lt;-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt; purifiedFunction &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;7&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d8dee9;&quot;&gt;
+    print x                  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#616e88;&quot;&gt;-- Prints out 9
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Look at the Haskell code above. You can disregard all the notational fluff.
+Just look at the return type of the function &lt;code&gt;purifiedFunction&lt;&#x2F;code&gt;. It is &lt;code&gt;IO Int&lt;&#x2F;code&gt;!
+In other words, Haskell informs us that the function might have side effects.
+This is exactly why Haskell is pure.&lt;&#x2F;p&gt;
+&lt;p&gt;Finally, we can have sort of a definition of a pure functional language.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:RED&quot;&gt;NOTE:&lt;&#x2F;span&gt;&lt;&#x2F;strong&gt; Pure might mean a completely different
+thing in non-functional languages.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A functional language is pure if and only if the user is informed of all
+the side effects in a language or there are no side effects at all.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Actually, Haskell did not allow random values back in 1990s when its development
+was first launched. Because of this, Haskell was considered useless for all
+practical purposes. Eventually, developers and the Haskell committee decided
+to change the direction of Haskell. In lieu of getting rid of all the side
+effects, they decided to control the side effects and created a more &amp;quot;regulated&amp;quot;
+programming environment.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;conclusion&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#conclusion&quot;&gt;Conclusion&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Functional programming languages are different from imperative ones. Most of
+them are based on ideas in lambda calculus. Functional languages are the proper
+subset of declarative languages. There are no loops and recursion is used instead.
+Changes in state are non-existent and therefore, all the variables are immutable.
+Functional languages have a bunch of predefined functions to make it easy for a
+programmer to solve problems. Most of functional languages are also very concise
+minimizing the time spent on coding and leaving more time for the logic.
+Pure functional languages are the proper subset of functional languages.
+Purely functional languages inform the user about the side effects in advance.&lt;&#x2F;p&gt;
+&lt;br&gt;
+&lt;hr &#x2F;&gt;
+&lt;br&gt;
+&lt;h3 id=&quot;how-to-get-started-with-functional-programming&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#how-to-get-started-with-functional-programming&quot;&gt;How to Get Started with Functional Programming?&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;haskell-logo.png&quot; alt=&quot;Haskell logo&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;There are a lot of functional languages. You will obviously have to decide
+which one to learn first. My recommendation would be learning Haskell.
+It is a purely functional programming language which has most of (if not all)
+the functional ideas in it. Besides, SPJ (&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Simon_Peyton_Jones&quot;&gt;Simon Payton Jones&lt;&#x2F;a&gt;)
+dedicates most of his time on extending the language and adding new features
+to it. So if there is something new and interesting in the world of functional
+programming, Haskell will probably get it (and probably sooner than other
+functional or imperative languages).&lt;&#x2F;p&gt;
+&lt;p&gt;After learning one functional language, it is fairly easy (&amp;quot;easy&amp;quot; is relative,
+but being familiar with one functional language automatically makes you
+somewhat familiar with others) to transition to the other. Hence, once you have
+a good grasp of functional ideas in Haskell, you can then move to languages
+like Clojure, Scheme, F# etc.&lt;&#x2F;p&gt;
+&lt;p&gt;To get started, visit the &lt;a href=&quot;https:&#x2F;&#x2F;www.haskell.org&#x2F;documentation&quot;&gt;Haskell documentation&lt;&#x2F;a&gt;
+page which is full of various educational resources.&lt;&#x2F;p&gt;
+</description>
+        </item>
+    </channel>
+</rss>
