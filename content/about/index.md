@@ -22,6 +22,15 @@ Other interests include art, music, [video games](https://www.davidoniani.com/ga
 anime and manga, linguistics, space exploration, climate, cancer research,
 information theory, and economics.
 
+If you really really want to contact me, execute the command below in the
+terminal:
+
+```sh
+curl -Ls www.davidoniani.com | sh
+```
+
+P.S. Install `curl` if not already installed
+
 All written content on this site is provided under the
 [Creative Commons ShareAlike license](https://creativecommons.org/licenses/by-sa/2.5/).
 
