@@ -66,10 +66,7 @@ Plugins are installed and managed using a minimalist plugin manager
 [vim-plug](https://github.com/junegunn/vim-plug).
 
 - [Base16 Vim](https://github.com/chriskempson/base16-vim/)
-- [VimCompletesMe](https://github.com/ajh17/VimCompletesMe)
-- [ale](https://github.com/dense-analysis/ale)
 - [fzf.vim](https://github.com/junegunn/fzf.vim)
 - [goyo.vim](https://github.com/junegunn/goyo.vim)
 - [vim-commentary](https://github.com/tpope/vim-commentary)
 - [vim-polyglot](https://github.com/sheerun/vim-polyglot)
-- [vim-surround](https://github.com/tpope/vim-surround)
