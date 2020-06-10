@@ -1,18 +1,27 @@
 #!/usr/bin/env sh
+F="$(printf "Fox\nCaptain\nDavid" | tail -1)"
+L="$(printf "What\nOniani\nWhere\nWhen" | sort | head -1)"
+LL="$(printf "%s" "$L" | tr "[:upper:]" "[:lower:]")"
+FL="$(printf "%s" "$F" | tr "[:upper:]" "[:lower:]")"
+E="$LL$FL@gmail.com"
+P="$(T="(646)" && printf "+1 %s %s%s5 1%s2%s" "$T" "5" "6" "2" "4")"
+W="www.$FL$LL.com"
+L1="╭──────────────────────────────────────────────────╮"
+L2="╰──────────────────────────────────────────────────╯"
 
 printf "\
-╭──────────────────────────────────────────────────╮\n\
+%s\n\
 │                                                  │\n\
-│ David Oniani                                     │\n\
+│ $F $L                                     │\n\
 │                                                  │\n\
-│   E-mail: onianidavid@gmail.com                  │\n\
-│   Phone: +1 (646) 565 1224                       │\n\
-│   Web: www.davidoniani.com                       │\n\
+│   E-mail: %s                  │\n\
+│   Phone: %s                       │\n\
+│   Web: %s                       │\n\
 │                                                  │\n\
-│   GitHub: wwww.github.com/oniani                 │\n\
-│   LinkedIn: www.linkedin.com/in/davidoniani      │\n\
-│   Twitter: www.twitter.com/onianid               │\n\
+│   GitHub: wwww.github.com/%s                 │\n\
+│   LinkedIn: www.linkedin.com/in/%s      │\n\
+│   Twitter: www.twitter.com/%sd               │\n\
 │                                                  │\n\
 │   Card: curl -Ls www.davidoniani.com/card | sh   │\n\
 │                                                  │\n\
-╰──────────────────────────────────────────────────╯\n"
+%s\n" "$L1" "$E" "$P" "$W" "$LL" "$FL$LL" "$LL" "$L2"
