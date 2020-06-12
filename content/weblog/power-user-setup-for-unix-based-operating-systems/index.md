@@ -7,6 +7,7 @@ A lot of people have asked me about my setup.
 
 Here it is (taken from my [dots](https://github.com/oniani/dots) repo):
 
+
 ## Setup
 
 - Addressbook: [Abook](http://abook.sourceforge.net/)
@@ -67,6 +68,9 @@ Plugins are installed and managed using a minimalist plugin manager
 
 - [Base16 Vim](https://github.com/chriskempson/base16-vim/)
 - [fzf.vim](https://github.com/junegunn/fzf.vim)
-- [goyo.vim](https://github.com/junegunn/goyo.vim)
+- [fzf](https://github.com/junegunn/fzf)
 - [vim-commentary](https://github.com/tpope/vim-commentary)
-- [vim-polyglot](https://github.com/sheerun/vim-polyglot)
+- [completion-nvim](https://github.com/haorenW1025/completion-nvim)
+- [diagnostic-nvim](https://github.com/haorenW1025/diagnostic-nvim)
+- [nvim-lsp](https://github.com/neovim/nvim-lsp)
+- [goyo.vim](https://github.com/junegunn/goyo.vim)
