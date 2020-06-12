@@ -33,7 +33,7 @@ David Oniani,
 
 Setting Up Python Development Environment for Use in a Small Classroom
 
-[Roman Yasinovskyy][roman_yasinovskyy], Karina Hoff, David Oniani
+[Roman Yasinovskyy, D.Sc.][roman_yasinovskyy], Karina Hoff, David Oniani
 
 2020
 
