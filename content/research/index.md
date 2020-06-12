@@ -45,6 +45,22 @@ Setting Up Python Development Environment for Use in a Small Classroom
 
 ---
 
+Cosine Similarity and Its Applications in the Domains of Artificial Intelligence
+
+David Oniani
+
+2020
+
+<div style="text-align: right;">
+  <a href="cosine-similarity-and-ai.pdf">PDF</a>
+  &nbsp; - &nbsp;
+  <a href="https://github.com/oniani/cosine-similarity-and-ai/tree/master/paper">TeX</a>
+  &nbsp; - &nbsp;
+  <a href="cosine-similarity-and-ai-presentation.pdf">Presentation</a>
+</div>
+
+---
+
 Textual and Statistical Analysis of Russian IRA Facebook Advertisements
 
 David Oniani
