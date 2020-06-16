@@ -18,9 +18,9 @@ Research interests:
 - Programming Languages
 - Virtual Reality
 
-Other interests include art, music, [video games](https://www.davidoniani.com/gaming),
-anime and manga, linguistics, space exploration, climate, cancer research,
-information theory, and economics.
+Other interests include art, economics, music, information theory,
+[video games](https://www.davidoniani.com/gaming), anime and manga,
+linguistics, space exploration, climate, cancer research.
 
 If you really really want to contact me, execute the command below:
 
