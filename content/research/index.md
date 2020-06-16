@@ -24,9 +24,15 @@ David Oniani,
   &nbsp; - &nbsp;
   <a href="https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocaa117/5847598">JAMIA</a>
   &nbsp; - &nbsp;
+  <a href="https://pubmed.ncbi.nlm.nih.gov/32458963/?dopt=Abstract">PubMed</a>
+  &nbsp; - &nbsp;
   <a href="https://www.davidoniani.com/covid-19-network/">Visualization</a>
   &nbsp; - &nbsp;
   <a href="https://www.davidoniani.com/covid-19-network-search/">Search</a>
+  &nbsp; - &nbsp;
+  <a href="https://github.com/shenfc/COVID-19-network-embeddings">Code</a>
+  &nbsp; - &nbsp;
+  <a href="co-occurence-network-embeddings-presentation.pdf">Presentation</a>
 </div>
 
 ---
