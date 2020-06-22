@@ -9,6 +9,23 @@ The page also includes unpublished manuscripts.
 
 ---
 
+A Qualitative Evaluation of Language Models on Automatic Question-Answering for
+COVID-19
+
+David Oniani, [Yanshan Wang, Ph.D.][yanshan_wang]
+
+2020
+
+<div style="text-align: right;">
+  <a href="qualitative-evaluation-language-models-covid-19.pdf">PDF</a>
+  &nbsp; - &nbsp;
+  <a href="https://arxiv.org/abs/2006.10964">arXiv</a>
+  &nbsp; - &nbsp;
+  <a href="https://github.com/oniani/covid-19-chatbot">Code</a>
+</div>
+
+---
+
 Constructing Co-occurrence Network Embeddings to Assist Association Extraction
 for COVID-19 and Other Coronavirus Infectious Diseases
 
@@ -142,3 +159,4 @@ David Oniani
 [guoqian_jiang]: https://www.mayo.edu/research/faculty/jiang-guoqian-m-d-ph-d/bio-00093912
 [hongfang_liu]: https://www.mayo.edu/research/faculty/liu-hongfang-ph-d/bio-00055092
 [roman_yasinovskyy]: https://www.luther.edu/computer-science/faculty/
+[yanshan_wang]: https://www.mayo.edu/research/faculty/wang-yanshan-ph-d/bio-20199713
