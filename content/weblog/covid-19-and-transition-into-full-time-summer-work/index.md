@@ -1,6 +1,6 @@
 +++
 title = "COVID-19 and Transition Into Full-Time Summer Work"
-date = 2020-03-25
+date = 2020-05-22
 
 [extra]
 no_header = true
