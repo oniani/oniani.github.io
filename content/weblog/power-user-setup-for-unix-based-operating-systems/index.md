@@ -7,7 +7,6 @@ A lot of people have asked me about my setup.
 
 Here it is (taken from my [dots](https://github.com/oniani/dots) repo):
 
-
 ## Setup
 
 - Addressbook: [Abook](http://abook.sourceforge.net/)
@@ -17,7 +16,7 @@ Here it is (taken from my [dots](https://github.com/oniani/dots) repo):
 - Editor: [Neovim](https://neovim.io/)
 - Email: [neomutt](https://neomutt.org/) (with [isync](http://isync.sourceforge.net/) for mailbox synchronization and [msmtp](https://marlam.de/msmtp/) for sending emails)
 - File Format Handler: [pandoc](https://pandoc.org/)
-- File Manager: [Vifm](https://vifm.info/)
+- File Manager: [nnn](https://github.com/jarun/nnn)
 - Font: [Hack Regular Nerd Font Complete](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete.ttf)
 - Fuzzy Finder: [fzf](https://github.com/junegunn/fzf)
 - Image Viewer: [Preview](<https://en.wikipedia.org/wiki/Preview_(macOS)>) / [sxiv](https://github.com/muennich/sxiv)
