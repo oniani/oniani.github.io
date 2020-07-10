@@ -4,7 +4,6 @@ L="$(printf "What\nOniani\nWhere\nWhen" | sort | head -1)"
 LL="$(printf "%s" "$L" | tr "[:upper:]" "[:lower:]")"
 FL="$(printf "%s" "$F" | tr "[:upper:]" "[:lower:]")"
 E="$LL$FL@gmail.com"
-P="$(T="(646)" && printf "+1 %s %s%s5 1%s2%s" "$T" "5" "6" "2" "4")"
 W="www.$FL$LL.com"
 L1="╭──────────────────────────────────────────────────╮"
 L2="╰──────────────────────────────────────────────────╯"
@@ -15,7 +14,6 @@ printf "\
 │ $F $L                                     │\n\
 │                                                  │\n\
 │   E-mail: %s                  │\n\
-│   Phone: %s                       │\n\
 │   Web: %s                       │\n\
 │                                                  │\n\
 │   GitHub: wwww.github.com/%s                 │\n\
@@ -24,4 +22,4 @@ printf "\
 │                                                  │\n\
 │   Card: curl -Ls www.davidoniani.com/card | sh   │\n\
 │                                                  │\n\
-%s\n" "$L1" "$E" "$P" "$W" "$LL" "$FL$LL" "$LL" "$L2"
+%s\n" "$L1" "$E" "$W" "$LL" "$FL$LL" "$LL" "$L2"
