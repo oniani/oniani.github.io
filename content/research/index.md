@@ -14,6 +14,8 @@ COVID-19
 
 David Oniani, [Yanshan Wang, Ph.D.][yanshan_wang]
 
+Accepted at [ACM-BCB][acm_bcb]
+
 2020
 
 <div style="text-align: right;">
@@ -33,6 +35,8 @@ David Oniani,
 [Guoqian Jiang, M.D.][guoqian_jiang],
 [Ph.D, Hongfang Liu, Ph.D.][hongfang_liu],
 [Feichen Shen, Ph.D.][feichen_shen]
+
+Accepted at [JAMIA][jamia]
 
 2020
 
@@ -57,6 +61,8 @@ David Oniani,
 Setting Up Python Development Environment for Use in a Small Classroom
 
 [Roman Yasinovskyy, D.Sc.][roman_yasinovskyy], Karina Hoff, David Oniani
+
+Accepted at [MICS][mics]
 
 2020
 
@@ -160,3 +166,7 @@ David Oniani
 [hongfang_liu]: https://www.mayo.edu/research/faculty/liu-hongfang-ph-d/bio-00055092
 [roman_yasinovskyy]: https://www.luther.edu/computer-science/faculty/
 [yanshan_wang]: https://www.mayo.edu/research/faculty/wang-yanshan-ph-d/bio-20199713
+
+[acm_bcb]: https://acm-bcb.org/
+[jamia]: https://academic.oup.com/jamia
+[mics]: http://www.micsymposium.org/mics2020/
