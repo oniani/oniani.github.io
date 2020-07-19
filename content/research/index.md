@@ -14,9 +14,9 @@ COVID-19
 
 David Oniani, [Yanshan Wang, Ph.D.][yanshan_wang]
 
-Accepted at [ACM-BCB][acm_bcb]
-
 2020
+
+Accepted at [ACM-BCB][acm_bcb]
 
 <div style="text-align: right;">
   <a href="qualitative-evaluation-language-models-covid-19.pdf">PDF</a>
@@ -36,9 +36,9 @@ David Oniani,
 [Ph.D, Hongfang Liu, Ph.D.][hongfang_liu],
 [Feichen Shen, Ph.D.][feichen_shen]
 
-Accepted at [JAMIA][jamia]
-
 2020
+
+Accepted at [JAMIA][jamia]
 
 <div style="text-align: right;">
   <a href="co-occurence-network-embeddings.pdf">PDF</a>
@@ -62,9 +62,9 @@ Setting Up Python Development Environment for Use in a Small Classroom
 
 [Roman Yasinovskyy, D.Sc.][roman_yasinovskyy], Karina Hoff, David Oniani
 
-Accepted at [MICS][mics]
-
 2020
+
+Accepted at [MICS][mics]
 
 <div style="text-align: right;">
   <a href="mics2020-paper.pdf">PDF</a>
