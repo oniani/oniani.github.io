@@ -51,7 +51,7 @@ Accepted at [JAMIA][jamia]
   &nbsp; - &nbsp;
   <a href="https://www.davidoniani.com/covid-19-network-search/">Search</a>
   &nbsp; - &nbsp;
-  <a href="https://github.com/shenfc/COVID-19-network-embeddings">Code</a>
+  <a href="https://github.com/oniani/covid-19-network">Code</a>
   &nbsp; - &nbsp;
   <a href="co-occurence-network-embeddings-presentation.pdf">Presentation</a>
 </div>
