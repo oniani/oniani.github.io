@@ -65,28 +65,14 @@ No plugin manager is used. Plugins are sourced at the end of `.zshrc`.
 Plugins are installed and managed using a minimalist plugin manager
 [vim-plug](https://github.com/junegunn/vim-plug).
 
-- [Base16 Vim](https://github.com/chriskempson/base16-vim/)
-- [fzf.vim](https://github.com/junegunn/fzf.vim)
-- [fzf](https://github.com/junegunn/fzf)
-- [vim-commentary](https://github.com/tpope/vim-commentary)
-- [vim-surround](https://github.com/tpope/vim-surround)
+- [base16-vim](https://github.com/chriskempson/base16-vim/)
+- [colorizer.lua](https://github.com/norcalli/nvim-colorizer.lua)
 - [completion-nvim](https://github.com/haorenW1025/completion-nvim)
 - [diagnostic-nvim](https://github.com/haorenW1025/diagnostic-nvim)
-- [nvim-lsp](https://github.com/neovim/nvim-lsp)
 - [goyo.vim](https://github.com/junegunn/goyo.vim)
-
-#### Current Stats
-
-Plugins arranged according to their startup time.
-
-| TOP | Time (ms) | Plugin          |
-| --- | --------- | --------------- |
-| 1   | 1.931     | vim-gruvbox8    |
-| 2   | 1.015     | fzf.vim         |
-| 3   | 0.895     | fzf             |
-| 4   | 0.569     | vim-surround    |
-| 5   | 0.214     | completion-nvim |
-| 6   | 0.197     | vim-commentary  |
-| 7   | 0.111     | diagnostic-nvim |
-| 8   | 0.066     | nvim-lsp        |
-| 9   | 0.028     | goyo.vim        |
+- [fzf.vim](https://github.com/junegunn/fzf.vim)
+- [fzf](https://github.com/junegunn/fzf)
+- [nvim-lsp](https://github.com/neovim/nvim-lsp)
+- [vim-commentary](https://github.com/tpope/vim-commentary)
+- [vim-fugitive](https://github.com/tpope/vim-fugitive)
+- [vim-surround](https://github.com/tpope/vim-surround)
