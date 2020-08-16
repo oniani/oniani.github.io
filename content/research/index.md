@@ -53,6 +53,8 @@ Accepted at [JAMIA][jamia]
   &nbsp; - &nbsp;
   <a href="https://github.com/oniani/covid-19-network">Code</a>
   &nbsp; - &nbsp;
+  <a href="https://knowledge.amia.org/webinars/journal-club/webinars-journal-club-1.1656098/2020-webinars-1.4584428/2020-jamia-journal-club-webinars-1.4584429/constructing-co-occurrence-network-embeddings-to-assist-association-extraction-for-covid-19-and-othe-1.4593734/constructing-co-occurrence-network-embeddings-to-assist-association-extraction-for-covid-19-and-othe-1.4593735">Webinar</a>
+  &nbsp; - &nbsp;
   <a href="co-occurence-network-embeddings-presentation.pdf">Presentation</a>
 </div>
 
