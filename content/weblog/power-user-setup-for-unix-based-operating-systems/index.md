@@ -7,6 +7,11 @@ A lot of people have asked me about my setup.
 
 Here it is (taken from my [dots](https://github.com/oniani/dots) repo):
 
+## Organization
+
+The setup is compliant with the [XDG Base Directory
+Specification](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html).
+
 ## Setup
 
 - Addressbook: [Abook](http://abook.sourceforge.net/)
@@ -44,9 +49,9 @@ Code Linting
 - Haskell: [hlint](http://hackage.haskell.org/package/hlint)
 - JavaScript: [eslint](https://eslint.org/)
 - Markdown: [mdl](https://github.com/DavidAnson/markdownlint)
-- Python: [pylint](https://www.pylint.org/) and [mypy](http://mypy-lang.org/)
+- Python: [pyright](https://github.com/Microsoft/pyright)
 - R: [lintr](https://github.com/jimhester/lintr)
-- Rust: [Clippy](https://rust-lang.github.io/rust-clippy/)
+- Rust: [rust-analyzer](https://github.com/rust-analyzer/rust-analyzer)
 - Shell: [ShellCheck](https://www.shellcheck.net/)
 
 ### Z Shell
@@ -66,13 +71,70 @@ Plugins are installed and managed using a minimalist plugin manager
 [vim-plug](https://github.com/junegunn/vim-plug).
 
 - [base16-vim](https://github.com/chriskempson/base16-vim/)
-- [colorizer.lua](https://github.com/norcalli/nvim-colorizer.lua)
-- [completion-nvim](https://github.com/haorenW1025/completion-nvim)
-- [diagnostic-nvim](https://github.com/haorenW1025/diagnostic-nvim)
-- [goyo.vim](https://github.com/junegunn/goyo.vim)
-- [fzf.vim](https://github.com/junegunn/fzf.vim)
+- [coc.nvim](https://github.com/neoclide/coc.nvim)
 - [fzf](https://github.com/junegunn/fzf)
-- [nvim-lsp](https://github.com/neovim/nvim-lsp)
+- [fzf.vim](https://github.com/junegunn/fzf.vim)
+- [goyo.vim](https://github.com/junegunn/goyo.vim)
+- [lightline.vim](https://github.com/itchyny/lightline.vim)
 - [vim-commentary](https://github.com/tpope/vim-commentary)
 - [vim-fugitive](https://github.com/tpope/vim-fugitive)
+- [vim-polyglot](https://github.com/sheerun/vim-polyglot)
 - [vim-surround](https://github.com/tpope/vim-surround)
+
+#### Current Stats
+
+Plugins arranged according to their startup time.
+
+| TOP | Time (ms) | Plugin         |
+| --- | --------- | -------------- |
+| 1   | 18.500    | vim-polyglot   |
+| 2   | 15.803    | base16-vim     |
+| 3   | 11.543    | coc.nvim       |
+| 4   | 7.473     | lightline.vim  |
+| 5   | 2.392     | vim-fugitive   |
+| 6   | 1.834     | fzf            |
+| 7   | 1.665     | fzf.vim        |
+| 8   | 0.703     | vim-surround   |
+| 9   | 0.295     | vim-commentary |
+| 10  | 0.037     | goyo.vim       |
+
+This results in the total average of 60.245 ms delay for the startup time.
+
+The chart was generated using
+[vim-plugins-profile](https://github.com/hyiltiz/vim-plugins-profile).
+
+#### Key Mappings
+
+| Key Mapping      | Functionality                              | Mnemonic |
+| ---------------- | ------------------------------------------ | -------- |
+| `<Space>`        | Space is the Leader key                    |          |
+| `<Space><Space>` | Toggle between buffers                     |          |
+| `<Leader>c`      | Generic compiler and runner                | Compile  |
+| `<Leader>f`      | Use fzf for file searching                 | Find     |
+| `<Leader>l`      | Search for a line with a pattern in a file | Line     |
+| `<Leader>o`      | Open the generated PDF file                | Open     |
+| `<Leader>r`      | Use fzf and rg for the string search       | Rg       |
+| `<Leader>s`      | Toggle spell checking                      | Spell    |
+| `<Leader>w`      | Toggle line-wrapping                       | Wrap     |
+| `<Leader>z`      | Toggle Goyo                                | Zen      |
+| `C-h`            | Switch to the left window                  |          |
+| `C-j`            | Switch to the bottom window                |          |
+| `C-k`            | Switch to the top window                   |          |
+| `C-l`            | Switch to the right window                 |          |
+
+### Automated Installation
+
+In order to start the installation wizard, execute the commands below:
+
+```sh
+git clone https://github.com/oniani/dots
+cd dots
+./setup all
+```
+
+Also, please make sure that the system runs the latest macOS operating system.
+Note that the setup script is idempotent: it can safely be run multiple times.
+
+## License
+
+[GNU General Public License v3.0](LICENSE)
