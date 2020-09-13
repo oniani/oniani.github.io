@@ -5,23 +5,34 @@ title = "projects"
 no_header = true
 +++
 
+### C/C++
+
 - [Arduino Stuff][arduino_stuff] - Tinkering with Arduino
-- [Bizzare Structures][bizarre_structures] - Implementations of various "bizarre" data structures
-- [Blogplate][blogplate] - Simple, fully responsive web template for a blog
-- [Document Preparation][document_preparation] - Various templates for document preparation purposes
-- [dots][dots] - Configurations files and the setup wizard for \*nix (UNIX-like) meta distribution
-- [Galton][galton] - Galton board simulations using multithreading to achieve parallelism
+- [QuickSpell][quickspell] - A simple and minimal spellchecker
+
+### Haskell
+
 - [MiniFrame][miniframe] - Minimal data frames with relational algebra
+- [Purity][purity] - A collection of various purely functional algorithms and data structures
+
+### Python
+
+- [Bizzare Structures][bizarre_structures] - Implementations of various "bizarre" data structures
+- [Galton][galton] - Galton board simulations using multithreading to achieve parallelism
 - [Nero][nero] - A tiny app that runs in terminal and helps manage daily tasks
-- [OS Scheduling][os_scheduling] - Process scheduling, memory scheduling, and disk scheduling simulations
 - [Pixelation][pixelation] - Retro style game using Pyxel game engine
 - [Profile Generation][profile_generation] - A simple, on-the-fly user profile generation (with API)
-- [Purity][purity] - A collection of various purely functional algorithms and data structures
-- [QuickSpell][quickspell] - A simple and minimal spellchecker
 - [SAT Sudoku Solver][sat_sudoku_solver] - Python implementation of the paper "Sudoku as a SAT Problem"
+- [Tic-tac-toe][tic_tac_toe] - A simple Tic-tac-toe game with the GUI and 3 levels of difficulty
+
+### Other
+
+- [Blogplate][blogplate] - Simple, fully responsive web template for a blog
+- [Document Preparation][document_preparation] - Various templates for document preparation purposes
+- [OS Scheduling][os_scheduling] - Process scheduling, memory scheduling, and disk scheduling simulations
 - [Smart Jokes][smart_joke_generator] - "Smart Joke" generator
 - [SpaceworldVR][spaceworldvr] - Galactic VR experience (requires both Unity and Oculus)
-- [Tic-tac-toe][tic_tac_toe] - A simple Tic-tac-toe game with the GUI and 3 levels of difficulty
+- [dots][dots] - Configurations files and the setup wizard for \*nix (UNIX-like) meta distribution
 - [wallpapers][wallpapers] - My wallpaper collection
 
 [arduino_stuff]: https://github.com/oniani/arduino-stuff
