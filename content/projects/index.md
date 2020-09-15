@@ -5,7 +5,7 @@ title = "projects"
 no_header = true
 +++
 
-### C/C++
+### C++
 
 - [Arduino Stuff][arduino_stuff] - Tinkering with Arduino
 - [QuickSpell][quickspell] - A simple and minimal spellchecker
