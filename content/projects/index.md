@@ -33,6 +33,7 @@ no_header = true
 - [Smart Jokes][smart_joke_generator] - "Smart Joke" generator
 - [SpaceworldVR][spaceworldvr] - Galactic VR experience (requires both Unity and Oculus)
 - [dots][dots] - Configurations files and the setup wizard for \*nix (UNIX-like) meta distribution
+- [oniani.github.io][oniani_github_io] - Personal website
 - [wallpapers][wallpapers] - My wallpaper collection
 
 [arduino_stuff]: https://github.com/oniani/arduino-stuff
@@ -43,6 +44,7 @@ no_header = true
 [galton]: https://github.com/oniani/galton
 [miniframe]: https://github.com/oniani/miniframe
 [nero]: https://github.com/oniani/nero
+[oniani_github_io]: https://github.com/oniani/oniani_github_io
 [os_scheduling]: https://github.com/oniani/os-scheduling
 [pixelation]: https://github.com/oniani/pixelation
 [profile_generation]: https://github.com/oniani/profile-generation
