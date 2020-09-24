@@ -29,7 +29,7 @@ no_header = true
 
 - [Blogplate][blogplate] - Simple, fully responsive web template for a blog
 - [Document Preparation][document_preparation] - Various templates for document preparation purposes
-- [OS Scheduling][os_scheduling] - Process scheduling, memory scheduling, and disk scheduling simulations
+- [OS Scheduling][os_scheduling] - Process, memory, and disk scheduling simulations
 - [Smart Jokes][smart_joke_generator] - "Smart Joke" generator
 - [SpaceworldVR][spaceworldvr] - Galactic VR experience (requires both Unity and Oculus)
 - [dots][dots] - Configurations files and the setup wizard for \*nix (UNIX-like) meta distribution
