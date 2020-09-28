@@ -70,7 +70,6 @@ No plugin manager is used. Plugins are sourced at the end of `.zshrc`.
 Plugins are installed and managed using a minimalist plugin manager
 [vim-plug](https://github.com/junegunn/vim-plug).
 
-- [base16-vim](https://github.com/chriskempson/base16-vim/)
 - [coc.nvim](https://github.com/neoclide/coc.nvim)
 - [fzf](https://github.com/junegunn/fzf)
 - [fzf.vim](https://github.com/junegunn/fzf.vim)
