@@ -20,7 +20,7 @@ Here are my recommendations for the web privacy.
     - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) to block ads (and other junk)
 
   - [Signal](https://signal.org/) as a messenger
-  - [Riot](https://about.riot.im/) for group chats and collaborations
+  - [Element](https://element.io/about) for group chats and collaborations
   - [Jitsi Meet](https://jitsi.org/jitsi-meet/) in lieu of Zoom
   - [Tox](https://tox.chat/) is also great for group (or one-on-one) chats
   - [Protonmail](https://protonmail.com/) for the email service
