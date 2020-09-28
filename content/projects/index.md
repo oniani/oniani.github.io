@@ -8,6 +8,7 @@ no_header = true
 ### C++
 
 - [Arduino Stuff][arduino_stuff] - Tinkering with Arduino
+- [b][b] - A build system
 - [QuickSpell][quickspell] - A simple and minimal spellchecker
 
 ### Haskell
@@ -34,9 +35,10 @@ no_header = true
 - [SpaceworldVR][spaceworldvr] - Galactic VR experience (requires both Unity and Oculus)
 - [dots][dots] - Configurations files and the setup wizard for \*nix (UNIX-like) meta distribution
 - [oniani.github.io][oniani_github_io] - Personal website
-- [wallpapers][wallpapers] - My wallpaper collection
+- [walls][walls] - My wallpaper collection
 
 [arduino_stuff]: https://github.com/oniani/arduino-stuff
+[b]: https://github.com/oniani/b
 [bizarre_structures]: https://github.com/oniani/bizarre-structures
 [blogplate]: https://github.com/oniani/blogplate
 [document_preparation]: https://github.com/oniani/document-preparation
@@ -54,4 +56,4 @@ no_header = true
 [sat_sudoku_solver]: https://github.com/oniani/sat-sudoku
 [smart_joke_generator]: https://github.com/oniani/smart-jokes
 [spaceworldvr]: https://drive.google.com/file/d/1Cd-EbvudiuenIP1wRMS1TkcMoIBTk5FS
-[wallpapers]: https://github.com/oniani/wallpapers
+[walls]: https://github.com/oniani/walls
