@@ -47,9 +47,7 @@ Accepted at [JAMIA][jamia]
   &nbsp; - &nbsp;
   <a href="https://pubmed.ncbi.nlm.nih.gov/32458963/?dopt=Abstract">PubMed</a>
   &nbsp; - &nbsp;
-  <a href="https://www.davidoniani.com/covid-19-network/">Visualization</a>
-  &nbsp; - &nbsp;
-  <a href="https://www.davidoniani.com/covid-19-network-search/">Search</a>
+  <a href="https://www.davidoniani.com/covid-19-network/">Web</a>
   &nbsp; - &nbsp;
   <a href="https://github.com/oniani/covid-19-network">Code</a>
   &nbsp; - &nbsp;
