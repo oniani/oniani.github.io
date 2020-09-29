@@ -20,7 +20,7 @@ Research interests:
 
 Other interests include art, economics, music, information theory,
 [video games](https://www.davidoniani.com/gaming), anime and manga,
-linguistics, space exploration, climate, cancer research.
+linguistics, space exploration, and cancer research.
 
 If you really really want to contact me, execute the command below:
 
