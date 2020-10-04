@@ -19,7 +19,7 @@ David Oniani, [Yanshan Wang, Ph.D.][yanshan_wang]
 Accepted at [ACM-BCB][acm_bcb]
 
 <div style="text-align: right;">
-  <a href="qualitative-evaluation-language-models-covid-19.pdf">PDF</a>
+  <a href="qualitative_evaluation_language_models_covid_19.pdf">PDF</a>
   &nbsp; - &nbsp;
   <a href="https://arxiv.org/abs/2006.10964">arXiv</a>
   &nbsp; - &nbsp;
@@ -41,7 +41,7 @@ David Oniani,
 Accepted at [JAMIA][jamia]
 
 <div style="text-align: right;">
-  <a href="co-occurence-network-embeddings.pdf">PDF</a>
+  <a href="co_occurence_network_embeddings.pdf">PDF</a>
   &nbsp; - &nbsp;
   <a href="https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocaa117/5847598">JAMIA</a>
   &nbsp; - &nbsp;
@@ -67,7 +67,7 @@ Setting Up Python Development Environment for Use in a Small Classroom
 Accepted at [MICS][mics]
 
 <div style="text-align: right;">
-  <a href="mics2020-paper.pdf">PDF</a>
+  <a href="mics2020_paper.pdf">PDF</a>
   &nbsp; - &nbsp;
   <a href="http://www.micsymposium.org/mics_2020_Proceedings/MICS_2020_Proceedings.htm">MICS</a>
 </div>
@@ -81,11 +81,11 @@ David Oniani
 2020
 
 <div style="text-align: right;">
-  <a href="cosine-similarity-and-ai.pdf">PDF</a>
+  <a href="cosine_similarity_and_ai.pdf">PDF</a>
   &nbsp; - &nbsp;
   <a href="https://github.com/oniani/cosine-similarity-and-ai/tree/master/paper">TeX</a>
   &nbsp; - &nbsp;
-  <a href="cosine-similarity-and-ai-presentation.pdf">Presentation</a>
+  <a href="cosine_similarity_and_ai_presentation.pdf">Presentation</a>
 </div>
 
 ---
@@ -97,7 +97,7 @@ David Oniani
 2019
 
 <div style="text-align: right;">
-  <a href="ira-analysis.pdf">PDF</a>
+  <a href="ira_analysis.pdf">PDF</a>
   &nbsp; - &nbsp;
   <a href="https://github.com/oniani/ira-analysis/tree/master/paper">TeX</a>
   &nbsp; - &nbsp;
@@ -115,7 +115,7 @@ David Oniani, [Alan Zaring, Ph.D.][alan_zaring]
 2019
 
 <div style="text-align: right;">
-  <a href="ccl-rules.pdf">PDF</a>
+  <a href="ccl_rules.pdf">PDF</a>
   &nbsp; - &nbsp;
   <a href="https://github.com/oniani/ccl-container-types/tree/master/paper">TeX</a>
 </div>
@@ -129,7 +129,7 @@ David Oniani
 2019
 
 <div style="text-align: right;">
-  <a href="agv-paper.pdf">PDF</a>
+  <a href="agv_paper.pdf">PDF</a>
   &nbsp; - &nbsp;
   <a href="https://github.com/oniani/ugmath/tree/master/Topology/agv-paper">TeX</a>
 </div>
@@ -143,7 +143,7 @@ David Oniani, [Roman Yasinovskyy, D.Sc.][roman_yasinovskyy]
 2018
 
 <div style="text-align: right;">
-  <a href="summer-2018-research-report.pdf">PDF</a>
+  <a href="summer_2018_research_report.pdf">PDF</a>
   &nbsp; - &nbsp;
   <a href="https://www.luther.edu/headlines/?story_id=819818">Article</a>
 </div>
@@ -157,7 +157,7 @@ David Oniani
 2018
 
 <div style="text-align: right;">
-  <a href="baichwal-manufactured-landscapes.pdf">PDF</a>
+  <a href="baichwal_manufactured_landscapes.pdf">PDF</a>
 </div>
 
 [alan_zaring]: https://www.luther.edu/computer-science/faculty/
