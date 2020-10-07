@@ -18,9 +18,9 @@ Research interests:
 - Programming Languages
 - Emerging Technologies (usually, [real-time](https://en.wikipedia.org/wiki/Real-time_computing) Physics-based tech)
 
-Other interests include art, economics, music, information theory,
-[video games](https://www.davidoniani.com/gaming), anime and manga,
-linguistics, space exploration, and cancer research.
+Other interests include art, economics, recreational programming, music,
+information theory, [video games](https://www.davidoniani.com/gaming), anime
+and manga, space exploration, and cancer research.
 
 If you really really want to contact me, execute the command below:
 
