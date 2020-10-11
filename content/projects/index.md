@@ -9,7 +9,6 @@ no_header = true
 
 - [Arduino Stuff][arduino_stuff] - Tinkering with Arduino
 - [b][b] - A build system
-- [Chudnovsky][chudnovsky_cpp] - The Chudnovsky algorithm for calculating the digits of Pi
 - [QuickSpell][quickspell] - A simple and minimal spellchecker
 
 ### Haskell
@@ -45,7 +44,6 @@ no_header = true
 [arduino_stuff]: https://github.com/oniani/arduino-stuff
 [b]: https://github.com/oniani/b
 [chudnovsky]: https://github.com/oniani/chudnovsky
-[chudnovsky_cpp]: https://github.com/oniani/chudnovsky_cpp
 [bizarre_structures]: https://github.com/oniani/bizarre-structures
 [blogplate]: https://github.com/oniani/blogplate
 [document_preparation]: https://github.com/oniani/document-preparation
