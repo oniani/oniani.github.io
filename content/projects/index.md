@@ -9,7 +9,7 @@ no_header = true
 
 - [Arduino Stuff][arduino_stuff] - Tinkering with Arduino
 - [b][b] - A build system
-- [Chudnovsky][chudnovsky] - The Chudnovsky algorithm for calculating the digits of Pi
+- [Chudnovsky][chudnovsky_cpp] - The Chudnovsky algorithm for calculating the digits of Pi
 - [QuickSpell][quickspell] - A simple and minimal spellchecker
 
 ### Haskell
@@ -27,6 +27,10 @@ no_header = true
 - [SAT Sudoku Solver][sat_sudoku_solver] - Python implementation of the paper "Sudoku as a SAT Problem"
 - [Tic-tac-toe][tic_tac_toe] - A simple Tic-tac-toe game with the GUI and 3 levels of difficulty
 
+### Rust
+
+- [Chudnovsky][chudnovsky] - The Chudnovsky algorithm for calculating the digits of Pi
+
 ### Other
 
 - [Blogplate][blogplate] - Simple, fully responsive web template for a blog
@@ -41,6 +45,7 @@ no_header = true
 [arduino_stuff]: https://github.com/oniani/arduino-stuff
 [b]: https://github.com/oniani/b
 [chudnovsky]: https://github.com/oniani/chudnovsky
+[chudnovsky_cpp]: https://github.com/oniani/chudnovsky_cpp
 [bizarre_structures]: https://github.com/oniani/bizarre-structures
 [blogplate]: https://github.com/oniani/blogplate
 [document_preparation]: https://github.com/oniani/document-preparation
