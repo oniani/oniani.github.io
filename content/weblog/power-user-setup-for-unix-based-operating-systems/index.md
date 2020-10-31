@@ -16,8 +16,8 @@ Specification](https://specifications.freedesktop.org/basedir-spec/basedir-spec-
 
 - Addressbook: [Abook](http://abook.sourceforge.net/)
 - Colorscheme Generator: [pywal](https://github.com/dylanaraps/pywal)
-- Default Colorscheme: [Gruvbox Dark Hard](https://github.com/morhetz/gruvbox)
-- Document Viewer: [Preview](<https://en.wikipedia.org/wiki/Preview_(macOS)>) / [Zathura](https://github.com/zegervdv/homebrew-zathura)
+- Default Colorscheme: [moonfly](https://github.com/bluz71/vim-moonfly-colors)
+- Document Viewer: [Preview](https://support.apple.com/guide/preview/welcome/mac) / [Zathura](https://github.com/zegervdv/homebrew-zathura)
 - Editor: [Neovim](https://neovim.io/)
 - Email: [neomutt](https://neomutt.org/) (with [isync](http://isync.sourceforge.net/) for mailbox synchronization and [msmtp](https://marlam.de/msmtp/) for sending emails)
 - File Format Handler: [pandoc](https://pandoc.org/)
@@ -33,7 +33,6 @@ Specification](https://specifications.freedesktop.org/basedir-spec/basedir-spec-
 - Terminal Emulator: [kitty](https://sw.kovidgoyal.net/kitty/)
 - Version Control: [Git](https://git-scm.com/downloads)
 - Video Player: [mpv](https://mpv.io/)
-- Wallpaper: [wallpaper47.jpg](https://github.com/oniani/wallpapers/blob/master/wallpapers/wallpaper47.jpg)
 - Web Browser: [Firefox](https://www.mozilla.org/en-US/firefox/)
 - Window Manager: [Amethyst](https://github.com/ianyh/Amethyst) / [bspwm](https://github.com/baskerville/bspwm)
 
@@ -41,8 +40,6 @@ Code Formatting
 
 - CSS/HTML/JavaScript/Markdown: [Prettier](https://prettier.io/)
 - Python: [Black](https://black.readthedocs.io/en/stable/)
-- R: [styler](https://github.com/r-lib/styler)
-- Rust: [rustfmt](https://github.com/rust-lang/rustfmt)
 
 Code Linting
 
@@ -50,8 +47,6 @@ Code Linting
 - JavaScript: [eslint](https://eslint.org/)
 - Markdown: [mdl](https://github.com/DavidAnson/markdownlint)
 - Python: [pyright](https://github.com/Microsoft/pyright)
-- R: [lintr](https://github.com/jimhester/lintr)
-- Rust: [rust-analyzer](https://github.com/rust-analyzer/rust-analyzer)
 - Shell: [ShellCheck](https://www.shellcheck.net/)
 
 ### Z Shell
@@ -77,6 +72,7 @@ Plugins are installed and managed using a minimalist plugin manager
 - [lightline.vim](https://github.com/itchyny/lightline.vim)
 - [vim-commentary](https://github.com/tpope/vim-commentary)
 - [vim-fugitive](https://github.com/tpope/vim-fugitive)
+- [vim-moonfly-colors](https://github.com/bluz71/vim-moonfly-colors)
 - [vim-polyglot](https://github.com/sheerun/vim-polyglot)
 - [vim-surround](https://github.com/tpope/vim-surround)
 
@@ -84,56 +80,39 @@ Plugins are installed and managed using a minimalist plugin manager
 
 Plugins arranged according to their startup time.
 
-| TOP | Time (ms) | Plugin         |
-| --- | --------- | -------------- |
-| 1   | 18.500    | vim-polyglot   |
-| 2   | 15.803    | base16-vim     |
-| 3   | 11.543    | coc.nvim       |
-| 4   | 7.473     | lightline.vim  |
-| 5   | 2.392     | vim-fugitive   |
-| 6   | 1.834     | fzf            |
-| 7   | 1.665     | fzf.vim        |
-| 8   | 0.703     | vim-surround   |
-| 9   | 0.295     | vim-commentary |
-| 10  | 0.037     | goyo.vim       |
+| TOP | Time (ms) | Plugin             |
+| --- | --------- | ------------------ |
+| 1   | 27.572    | vim-polyglot       |
+| 2   | 12.027    | vim-fugitive       |
+| 3   | 11.635    | coc.nvim           |
+| 4   | 7.789     | vim-moonfly-colors |
+| 5   | 1.588     | lightline.vim      |
+| 6   | 1.268     | fzf.vim            |
+| 7   | 1.011     | fzf                |
+| 8   | 0.640     | vim-surround       |
+| 9   | 0.265     | vim-commentary     |
+| 10  | 0.087     | goyo.vim           |
 
-This results in the total average of 60.245 ms delay for the startup time.
+This results in the total average of approximately 63.882 ms delay for the
+startup time.
 
 The chart was generated using
 [vim-plugins-profile](https://github.com/hyiltiz/vim-plugins-profile).
 
 #### Key Mappings
 
-| Key Mapping      | Functionality                              | Mnemonic |
-| ---------------- | ------------------------------------------ | -------- |
-| `<Space>`        | Space is the Leader key                    |          |
-| `<Space><Space>` | Toggle between buffers                     |          |
-| `<Leader>c`      | Generic compiler and runner                | Compile  |
-| `<Leader>f`      | Use fzf for file searching                 | Find     |
-| `<Leader>l`      | Search for a line with a pattern in a file | Line     |
-| `<Leader>o`      | Open the generated PDF file                | Open     |
-| `<Leader>r`      | Use fzf and rg for the string search       | Rg       |
-| `<Leader>s`      | Toggle spell checking                      | Spell    |
-| `<Leader>w`      | Toggle line-wrapping                       | Wrap     |
-| `<Leader>z`      | Toggle Goyo                                | Zen      |
-| `C-h`            | Switch to the left window                  |          |
-| `C-j`            | Switch to the bottom window                |          |
-| `C-k`            | Switch to the top window                   |          |
-| `C-l`            | Switch to the right window                 |          |
-
-### Automated Installation
-
-In order to start the installation wizard, execute the commands below:
-
-```sh
-git clone https://github.com/oniani/dots
-cd dots
-./setup all
-```
-
-Also, please make sure that the system runs the latest macOS operating system.
-Note that the setup script is idempotent: it can safely be run multiple times.
-
-## License
-
-[GNU General Public License v3.0](LICENSE)
+| Key Mapping        | Functionality                              | Mnemonic |
+| ------------------ | ------------------------------------------ | -------- |
+| `<Space>`          | Space is the Leader key                    |          |
+| `<Leader><Leader>` | Toggle between buffers                     |          |
+| `<Leader>c`        | Generic compiler and runner                | Compile  |
+| `<Leader>f`        | Use fzf for file searching                 | Find     |
+| `<Leader>l`        | Search for a line with a pattern in a file | Line     |
+| `<Leader>r`        | Use fzf and rg for the string search       | Rg       |
+| `<Leader>s`        | Toggle spell checking                      | Spell    |
+| `<Leader>w`        | Toggle line-wrapping                       | Wrap     |
+| `<Leader>z`        | Toggle Goyo                                | Zen      |
+| `C-h`              | Switch to the left window                  |          |
+| `C-j`              | Switch to the bottom window                |          |
+| `C-k`              | Switch to the top window                   |          |
+| `C-l`              | Switch to the right window                 |          |
