@@ -5,6 +5,17 @@ title = "projects"
 no_header = true
 +++
 
+## Ongoing Projects
+
+- A project that seeks to provide students a way to share their experiences
+  abroad.
+- A simple machine learning library using a reverse mode automatic
+  differentiation.
+- A build system (cross-platform rewrite of [b][b], with better parsing and
+  more options).
+- A tiny interpreted language written in Haskell (a significant portion of it
+  is already written, so might consider porting it to Rust for speed).
+
 ### C++
 
 - [Arduino Stuff][arduino_stuff] - Tinkering with Arduino
