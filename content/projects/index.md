@@ -5,7 +5,7 @@ title = "projects"
 no_header = true
 +++
 
-## Ongoing Projects
+### Ongoing Projects
 
 - A project that seeks to provide students a way to share their experiences
   abroad.
@@ -15,6 +15,8 @@ no_header = true
   more options).
 - A tiny interpreted language written in Haskell (a significant portion of it
   is already written, so might consider porting it to Rust for speed).
+
+---
 
 ### C++
 
