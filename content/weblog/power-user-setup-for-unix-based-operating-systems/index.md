@@ -33,7 +33,7 @@ Specification](https://specifications.freedesktop.org/basedir-spec/basedir-spec-
 - Terminal Emulator: [kitty](https://sw.kovidgoyal.net/kitty/)
 - Version Control: [Git](https://git-scm.com/downloads)
 - Video Player: [mpv](https://mpv.io/)
-- Web Browser: [Firefox](https://www.mozilla.org/en-US/firefox/)
+- Web Browser: [Brave](https://brave.com/)
 - Window Manager: [Amethyst](https://github.com/ianyh/Amethyst) / [bspwm](https://github.com/baskerville/bspwm)
 
 Code Formatting
@@ -116,3 +116,19 @@ The chart was generated using
 | `C-j`              | Switch to the bottom window                |          |
 | `C-k`              | Switch to the top window                   |          |
 | `C-l`              | Switch to the right window                 |          |
+
+### Automated Installation
+
+In order to start the installation wizard, execute the commands below:
+
+```console
+$ git clone https://github.com/oniani/dots
+$ ./setup.py --help
+```
+
+Also, please make sure that the system runs the latest macOS operating system.
+Note that the setup script is idempotent: it can safely be run multiple times.
+
+## License
+
+[GNU General Public License v3.0](LICENSE)

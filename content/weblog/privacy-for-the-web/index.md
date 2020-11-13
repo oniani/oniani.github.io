@@ -11,11 +11,9 @@ Here are my recommendations for the web privacy.
 
 - Lightweight Privacy: Emphasis on Usability and Speed
 
-  - [Firefox](https://www.mozilla.org/en-US/firefox/new/) as the default browser
+  - [Brave](https://brave.com/) as the default browser
 
     - [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/) for password management
-    - [NoScript Security Suite](https://addons.mozilla.org/en-US/firefox/addon/noscript/)
-    - [Privacy Possum](https://addons.mozilla.org/en-US/firefox/addon/privacy-possum/) to reduce and falsify data gathered by trackers
     - [Searx](https://searx.me/) as the default search engine
     - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) to block ads (and other junk)
 
