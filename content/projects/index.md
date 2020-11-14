@@ -9,7 +9,8 @@ no_header = true
 
 - A project that seeks to provide students a way to share their experiences
   abroad.
-- A machine learning library using a reverse mode automatic differentiation.
+- A tiny machine learning library using a reverse mode automatic
+  differentiation.
 - A build system (cross-platform rewrite of [b][b], with better parsing and
   more options).
 - A tiny interpreted language written in Haskell (a significant portion of it
