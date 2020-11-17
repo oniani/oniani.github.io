@@ -21,7 +21,7 @@ Accepted at [ACM-BCB][acm_bcb]
 <div style="text-align: right;">
   <a href="qualitative_evaluation_language_models_covid_19.pdf">PDF</a>
   &nbsp; - &nbsp;
-  <a href="https://dl.acm.org/doi/pdf/10.1145/3388440.3412413">arXiv</a>
+  <a href="https://dl.acm.org/doi/pdf/10.1145/3388440.3412413">ACM Digital Library</a>
   &nbsp; - &nbsp;
   <a href="https://github.com/oniani/covid-19-chatbot">Code</a>
 </div>
