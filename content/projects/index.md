@@ -7,10 +7,10 @@ no_header = true
 
 ### Ongoing Projects
 
-- A project that seeks to provide students a way to share their experiences
-  abroad.
-- A tiny machine learning library using the reverse mode automatic
-  differentiation.
+- [A project that seeks to provide students a way to share their experiences
+  abroad.][luther_navigator]
+- [A minimal machine learning library using the reverse mode automatic
+  differentiation.][miniml]
 - A build system (cross-platform rewrite of [b][b], with better parsing and
   more options).
 - A tiny interpreted language written in Haskell (a significant portion of it
@@ -62,7 +62,9 @@ no_header = true
 [document_preparation]: https://github.com/oniani/document-preparation
 [dots]: https://github.com/oniani/dots
 [galton]: https://github.com/oniani/galton
+[luther_navigator]: https://github.com/wkhallen/LutherNavigator
 [miniframe]: https://github.com/oniani/miniframe
+[miniml]: https://github.com/oniani/miniml
 [nero]: https://github.com/oniani/nero
 [oniani_github_io]: https://github.com/oniani/oniani_github_io
 [os_scheduling]: https://github.com/oniani/os-scheduling
