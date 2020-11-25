@@ -9,8 +9,7 @@ no_header = true
 
 - [A project that seeks to provide students a way to share their experiences
   abroad.][luther_navigator]
-- [A minimal machine learning library using the reverse mode automatic
-  differentiation.][miniml]
+- [A minimal machine learning library, implemented from scratch with OpenCL GPU support][miniml]
 - A build system (cross-platform rewrite of [b][b], with better parsing and
   more options).
 - A tiny interpreted language written in Haskell (a significant portion of it
