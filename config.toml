@@ -6,7 +6,7 @@ compile_sass = false
 
 # Enable syntax highlighting
 highlight_code = true
-highlight_theme = "nord"
+highlight_theme = "ayu-mirage"
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
@@ -39,9 +39,11 @@ sam_menu = [
     { text = "weblog",   link = "/weblog"   }
 ]
 
-# show_word_count = true
-# show_reading_time = true
+# Show the word count and the approximate reading time
+show_word_count = true
+show_reading_time = true
 
+# Show the bottom menu
 sam_bottom_menu = true
 
 # Enable KaTeX
