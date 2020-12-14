@@ -16,7 +16,7 @@ Research interests:
 
 - Artificial Intelligence
 - Programming Languages
-- Emerging Technologies (usually, [real-time](https://en.wikipedia.org/wiki/Real-time_computing) Physics-based tech)
+- Emerging Technologies
 
 Other interests include art, economics, recreational programming, music,
 information theory, [video games](https://www.davidoniani.com/gaming), anime
