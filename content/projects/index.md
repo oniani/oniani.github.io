@@ -45,7 +45,7 @@ no_header = true
 ### Other
 
 - [Blogplate][blogplate] - Simple, fully responsive web template for a blog
-- [Document Preparation][document_preparation] - Various templates for document preparation purposes
+- [Document Preparation][docprep] - Various templates for document preparation purposes
 - [OS Scheduling][os_scheduling] - Process, memory, and disk scheduling simulations
 - [Smart Jokes][smart_joke_generator] - "Smart Joke" generator
 - [SpaceworldVR][spaceworldvr] - Galactic VR experience (requires both Unity and Oculus)
@@ -58,7 +58,7 @@ no_header = true
 [chudnovsky]: https://github.com/oniani/chudnovsky
 [bizarre_structures]: https://github.com/oniani/bizarre-structures
 [blogplate]: https://github.com/oniani/blogplate
-[document_preparation]: https://github.com/oniani/document-preparation
+[docprep]: https://github.com/oniani/docprep
 [dots]: https://github.com/oniani/dots
 [galton]: https://github.com/oniani/galton
 [luther_navigator]: https://github.com/wkhallen/LutherNavigator
