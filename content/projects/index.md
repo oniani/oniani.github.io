@@ -8,12 +8,12 @@ no_header = true
 ### Ongoing Projects
 
 - [A project that seeks to provide students a way to share their experiences
-  abroad.][luther_navigator]
+  abroad][luther_navigator]
 - [A minimal machine learning library, implemented from scratch with OpenCL GPU support][miniml]
 - A build system (cross-platform rewrite of [b][b], with better parsing and
-  more options).
+  more options)
 - A tiny interpreted language written in Haskell (a significant portion of it
-  is already written, so might consider porting it to Rust for speed).
+  is already written, so might consider porting it to Rust for speed)
 
 ---
 
@@ -65,7 +65,7 @@ no_header = true
 [miniframe]: https://github.com/oniani/miniframe
 [miniml]: https://github.com/oniani/miniml
 [nero]: https://github.com/oniani/nero
-[oniani_github_io]: https://github.com/oniani/oniani_github_io
+[oniani_github_io]: https://github.com/oniani/oniani.github.io
 [os_scheduling]: https://github.com/oniani/os-scheduling
 [pixelation]: https://github.com/oniani/pixelation
 [profile_generation]: https://github.com/oniani/profile-generation
