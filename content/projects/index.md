@@ -41,6 +41,7 @@ no_header = true
 ### Rust
 
 - [Chudnovsky][chudnovsky] - The Chudnovsky algorithm for calculating the digits of Pi
+- [Huffman][huffman] - The pure Rust implementation of Huffman's algorithm for the lossless data compression
 
 ### Other
 
@@ -61,6 +62,7 @@ no_header = true
 [docprep]: https://github.com/oniani/docprep
 [dots]: https://github.com/oniani/dots
 [galton]: https://github.com/oniani/galton
+[huffman]: https://github.com/oniani/huffman
 [luther_navigator]: https://github.com/wkhallen/LutherNavigator
 [miniframe]: https://github.com/oniani/miniframe
 [miniml]: https://github.com/oniani/miniml
