@@ -34,6 +34,5 @@ installed.
 All written content on this site is provided under the
 [Creative Commons ShareAlike license](https://creativecommons.org/licenses/by-sa/2.5/).
 
-All code is provided under the
-[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
-unless otherwise stated.
+All code is provided under the [MIT License](https://mit-license.org/) unless
+otherwise stated.
