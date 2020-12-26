@@ -41,7 +41,7 @@ no_header = true
 ### Rust
 
 - [Chudnovsky][chudnovsky] - The Chudnovsky algorithm for calculating the digits of Pi
-- [Huffman][huffman] - The pure Rust implementation of Huffman's algorithm for the lossless data compression
+- [Huffman][huffman] - A pure Rust implementation of Huffman's algorithm for the lossless data compression
 
 ### Other
 
