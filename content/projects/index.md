@@ -30,7 +30,6 @@ no_header = true
 
 ### Python
 
-- [Bizzare Structures][bizarre_structures] - Implementations of various "bizarre" data structures
 - [Galton][galton] - Galton board simulations using multithreading to achieve parallelism
 - [Nero][nero] - A tiny app that runs in terminal and helps manage daily tasks
 - [Pixelation][pixelation] - Retro style game using Pyxel game engine
@@ -57,7 +56,6 @@ no_header = true
 [arduino_stuff]: https://github.com/oniani/arduino-stuff
 [b]: https://github.com/oniani/b
 [chudnovsky]: https://github.com/oniani/chudnovsky
-[bizarre_structures]: https://github.com/oniani/bizarre-structures
 [blogplate]: https://github.com/oniani/blogplate
 [docprep]: https://github.com/oniani/docprep
 [dots]: https://github.com/oniani/dots
