@@ -30,6 +30,8 @@ no_header = true
 
 ### Python
 
+- [COVID-19 Chatbot](https://github.com/oniani/covid-19-chatbot) - GPT-2-based chatbot enhanced by BERT, BioBERT, USE, and tf-idf.
+- [COVID-19 Network](https://github.com/oniani/covid-19-network) - Co-occurrence network embeddings for COVID-19.
 - [Galton][galton] - Galton board simulations using multithreading to achieve parallelism
 - [Nero][nero] - A tiny app that runs in terminal and helps manage daily tasks
 - [Pixelation][pixelation] - Retro style game using Pyxel game engine
