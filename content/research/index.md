@@ -5,7 +5,24 @@ title = "research"
 no_header = true
 +++
 
-The page also includes unpublished manuscripts.
+The page also includes unpublished and soon-to-be-published manuscripts.
+
+---
+
+Social determinants of health in the era of artificial intelligence with
+electronic health records: A systematic review
+
+Anusha Bompelli, [Yanshan Wang][yanshan_wang], Ruyuan Wan, Esha Singh, Yuqi
+Zhou, Lin Xu, David Oniani, Bhavani Singh Agnikula Kshatriya, E Balls-Berry,
+Rui Zhang
+
+2021
+
+*Submitted to [Health Data Science](https://spj.sciencemag.org/journals/hds/)*
+
+<div style="text-align: right;">
+  <a href="social_determinants_of_health.pdf">PDF</a>
+</div>
 
 ---
 
@@ -16,7 +33,7 @@ David Oniani, [Yanshan Wang, Ph.D.][yanshan_wang]
 
 2020
 
-Accepted at [ACM-BCB][acm_bcb]
+*Accepted at [ACM-BCB][acm_bcb]*
 
 <div style="text-align: right;">
   <a href="qualitative_evaluation_language_models_covid_19.pdf">PDF</a>
@@ -38,7 +55,7 @@ David Oniani,
 
 2020
 
-Accepted at [JAMIA][jamia]
+*Accepted at [JAMIA][jamia]*
 
 <div style="text-align: right;">
   <a href="co_occurence_network_embeddings.pdf">PDF</a>
@@ -64,12 +81,26 @@ Setting Up Python Development Environment for Use in a Small Classroom
 
 2020
 
-Accepted at [MICS][mics]
+*Accepted at [MICS][mics]*
 
 <div style="text-align: right;">
   <a href="mics2020_paper.pdf">PDF</a>
   &nbsp; - &nbsp;
   <a href="http://www.micsymposium.org/mics_2020_Proceedings/MICS_2020_Proceedings.htm">MICS</a>
+</div>
+
+---
+
+Comparisons of Graph Neural Networks on Cancer Classification Leveraging a
+Joint of Phenotypic and Genetic Features
+
+David Oniani, Chen Wang, Yiqing Zhao, Andrew Wen, Hongfang Liu, [Feichen
+Shen][feichen_shen]
+
+2021
+
+<div style="text-align: right;">
+  <a href="comparisons_of_gnns_cancer.pdf">PDF</a>
 </div>
 
 ---
