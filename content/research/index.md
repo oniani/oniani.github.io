@@ -9,8 +9,8 @@ The page also includes unpublished and soon-to-be-published manuscripts.
 
 ---
 
-Social determinants of health in the era of artificial intelligence with
-electronic health records: A systematic review
+Social Determinants of Health in the Era of Artificial Intelligence With
+Electronic Health Records: A Systematic Review
 
 Anusha Bompelli, [Yanshan Wang][yanshan_wang], Ruyuan Wan, Esha Singh, Yuqi
 Zhou, Lin Xu, David Oniani, Bhavani Singh Agnikula Kshatriya, E Balls-Berry,
