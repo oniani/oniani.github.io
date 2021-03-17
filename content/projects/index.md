@@ -38,6 +38,7 @@ no_header = true
 - [Profile Generation][profile_generation] - A simple, on-the-fly user profile generation (with API)
 - [SAT Sudoku Solver][sat_sudoku_solver] - Python implementation of the paper "Sudoku as a SAT Problem"
 - [Tic-tac-toe][tic_tac_toe] - A simple Tic-tac-toe game with the GUI and 3 levels of difficulty
+- [sim-to-real][sim_to_real] - VGG19 and Other Networks for Scene Classification
 
 ### Rust
 
@@ -75,6 +76,7 @@ no_header = true
 [quickspell]: https://github.com/oniani/quickspell
 [tic_tac_toe]: https://github.com/oniani/tictactoe
 [sat_sudoku_solver]: https://github.com/oniani/sat-sudoku
+[sim_to_real]: https://github.com/oniani/sim-to-real
 [smart_joke_generator]: https://github.com/oniani/smart-jokes
 [spaceworldvr]: https://drive.google.com/file/d/1Cd-EbvudiuenIP1wRMS1TkcMoIBTk5FS
 [walls]: https://github.com/oniani/walls
