@@ -6,9 +6,11 @@ no_header = true
 +++
 
 Hello, I am David. Currently, an undergraduate student double majoring in
-computer science and mathematics. I am also doing an R&D work for Mayo Clinic, at the
-[Kern Center for the Science of Health Care Delivery](https://www.mayo.edu/research/centers-programs/robert-d-patricia-e-kern-center-science-health-care-delivery/about),
-and collaborating with scientists from the divison of Digital Health Sciences.
+computer science and mathematics. I am also doing an R&D work for Mayo Clinic,
+at the [Kern Center for the Science of Health Care
+Delivery](https://www.mayo.edu/research/centers-programs/robert-d-patricia-e-kern-center-science-health-care-delivery/about),
+and collaborating with scientists from the divison of [Digital Health
+Sciences](https://www.mayo.edu/research/departments-divisions/department-health-sciences-research/digital-health-sciences/about).
 
 My CV is available [here](cv.pdf).
 
