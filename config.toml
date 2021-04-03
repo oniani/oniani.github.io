@@ -32,7 +32,6 @@ title = "David Oniani's Website"
 [extra]
 # Put all your custom variables here
 sam_menu = [
-    { text = "CV",       link = "/cv"    },
     { text = "about",    link = "/about"    },
     { text = "datasets", link = "/datasets" },
     { text = "projects", link = "/projects" },
