@@ -30,6 +30,7 @@ no_header = true
 
 ### Python
 
+- [bresenham][bresenham] - Derivation and implementation of Bresenham's Circle Drawing Algorithm
 - [COVID-19 Chatbot](https://github.com/oniani/covid-19-chatbot) - GPT-2-based chatbot enhanced by BERT, BioBERT, USE, and tf-idf.
 - [COVID-19 Network](https://github.com/oniani/covid-19-network) - Co-occurrence network embeddings for COVID-19.
 - [Galton][galton] - Galton board simulations using multithreading to achieve parallelism
@@ -58,6 +59,7 @@ no_header = true
 
 [arduino_stuff]: https://github.com/oniani/arduino-stuff
 [b]: https://github.com/oniani/b
+[bresenham]: https://github.com/oniani/bresenham
 [chudnovsky]: https://github.com/oniani/chudnovsky
 [blogplate]: https://github.com/oniani/blogplate
 [docprep]: https://github.com/oniani/docprep
