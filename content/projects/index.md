@@ -45,6 +45,7 @@ no_header = true
 
 - [Chudnovsky][chudnovsky] - The Chudnovsky algorithm for calculating the digits of Pi
 - [Huffman][huffman] - A pure Rust implementation of Huffman's algorithm for lossless data compression
+- [lr][lr] - Linear Regression in Rust
 
 ### Other
 
@@ -59,14 +60,15 @@ no_header = true
 
 [arduino_stuff]: https://github.com/oniani/arduino-stuff
 [b]: https://github.com/oniani/b
+[blogplate]: https://github.com/oniani/blogplate
 [bresenham]: https://github.com/oniani/bresenham
 [chudnovsky]: https://github.com/oniani/chudnovsky
-[blogplate]: https://github.com/oniani/blogplate
 [docprep]: https://github.com/oniani/docprep
 [dots]: https://github.com/oniani/dots
 [galton]: https://github.com/oniani/galton
 [huffman]: https://github.com/oniani/huffman
-[luther_navigator]: https://github.com/wkhallen/LutherNavigator
+[lr]: https://github.com/oniani/lr
+[luther_navigator]: https://github.com/LutherNavigator/LutherNavigator
 [miniframe]: https://github.com/oniani/miniframe
 [miniml]: https://github.com/oniani/miniml
 [nero]: https://github.com/oniani/nero
@@ -76,9 +78,9 @@ no_header = true
 [profile_generation]: https://github.com/oniani/profile-generation
 [purity]: https://github.com/oniani/purity
 [quickspell]: https://github.com/oniani/quickspell
-[tic_tac_toe]: https://github.com/oniani/tictactoe
 [sat_sudoku_solver]: https://github.com/oniani/sat-sudoku
 [sim_to_real]: https://github.com/oniani/sim-to-real
 [smart_joke_generator]: https://github.com/oniani/smart-jokes
 [spaceworldvr]: https://drive.google.com/file/d/1Cd-EbvudiuenIP1wRMS1TkcMoIBTk5FS
+[tic_tac_toe]: https://github.com/oniani/tictactoe
 [walls]: https://github.com/oniani/walls
