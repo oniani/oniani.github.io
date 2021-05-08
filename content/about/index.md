@@ -48,8 +48,8 @@ startup][unleash] project, and did some Graphic Design freelancing work.
 While in high school, I have competed in national mathematical Olympiad of
 Georgia and was a five-time finalist (TOP 30/3000 back-to-back five times). I
 was also an IMO and IPhO nominee for the national team of Georgia. Though, I
-concentrated more on general education and never really dedicated a lot of time
-to math and physics. That ultimately earned me a gold medal for academic
+focused more on general education and never really dedicated a lot of time to
+math and physics. This has ultimately earned me a gold medal for academic
 excellence (granted to a handful of graduates in the country), but likely cost
 me international competition medals in math and physics.
 
