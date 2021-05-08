@@ -5,15 +5,23 @@ title = "about"
 no_header = true
 +++
 
-Hello, I am David. Currently, a Research Engineer at [DawnLight][dawnlight], a
+<!-- Hello, I am David. Currently, a Research Engineer at [DawnLight][dawnlight], a -->
+<!-- very cool startup founded by Drs. [Fei-Fei Li][feifei], [Jia Li][jia], and -->
+<!-- [Arnold Milstein][arnold]. I was a Machine Learning Intern first, working under -->
+<!-- Drs. [Nathan Liu][nathan], [Erheng Zhong][erheng], and [S. R. -->
+<!-- Prakash][prakash], and then transitioned into a full-time work. We research, -->
+<!-- design, and build state-of-the-art human-centric Artificial Intelligence (AI) -->
+<!-- solutions with the goal of reducing costs of care and most importantly, -->
+<!-- improving health outcomes to increase independence and quality of life for -->
+<!-- everyone! -->
+
+Hello, I am David. Currently, doing an R&D work at [DawnLight][dawnlight], a
 very cool startup founded by Drs. [Fei-Fei Li][feifei], [Jia Li][jia], and
-[Arnold Milstein][arnold]. I was a Machine Learning Intern first, working under
-Drs.  [Nathan Liu][nathan], [Erheng Zhong][erheng], and [S. R.
-Prakash][prakash], and then transitioned into a full-time work. We research,
-design, and build state-of-the-art human-centric Artificial Intelligence (AI)
-solutions with the goal of reducing costs of care and most importantly,
-improving health outcomes to increase independence and quality of life for
-everyone!
+[Arnold Milstein][arnold]. I work under Drs. [Nathan Liu][nathan], [Erheng
+Zhong][erheng], and [S. R. Prakash][prakash]. We research, design, and build
+state-of-the-art human-centric Artificial Intelligence (AI) solutions with the
+goal of reducing costs of care and most importantly, improving health outcomes
+to increase independence and quality of life for everyone!
 
 Previously, I did an R&D work for Mayo Clinic, where I first-authored several
 papers that got accepted at the world's leading AI and Biomedical Informatics
