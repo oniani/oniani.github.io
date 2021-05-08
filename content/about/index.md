@@ -33,8 +33,8 @@ abroad.
 Prior to college, I was a college dropout (I dropped out from a Georgian
 college and eventually obtained my bachelor's from the US college) and worked
 as a Salesman and Marketing Coordinator at [Insta][insta], a reputable
-Electrical Engineering, Smart Home, and Automation company headquartered in the
-country of Georgia. I have also founded a [startup][warbler], had [another
+Electrical Engineering, Smart Home, and Automation company headquartered in
+Tbilisi, Georgia. I have also founded a [startup][warbler], had [another
 startup][unleash] project, and did some Graphic Design freelancing work.
 
 While in high school, I have competed in national mathematical Olympiad of
