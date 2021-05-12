@@ -31,8 +31,8 @@ jobs:
         run: |
             mv public ..
             git checkout main
-            cp -R ../public/static/card .
-            rm -rf ../public/static/card
+            cp -R ../public/card .
+            rm -rf ../public/card
             cp -R ../public/* .
             rm -rf ../public
             rm -rf themes
