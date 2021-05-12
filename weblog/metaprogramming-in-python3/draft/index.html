@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="#ffffff" name="theme-color" />
+  <meta content="#da532c" name="msapplication-TileColor" />
+
+  
+  
+  
+  <link href='favicon-16x16.png' rel="icon" sizes="16x16" type="image/png" />
+  
+  
+  <link href='favicon-32x32.png' rel="icon" sizes="32x32" type="image/png" />
+  
+  
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/folio/galleria.folio.min.css"
+    rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/mapbox-gl@2.1.1/dist/mapbox-gl.min.css" rel="stylesheet" />
+  <link href="https:&#x2F;&#x2F;www.davidoniani.com&#x2F;deep-thought.css" rel="stylesheet" />
+
+  
+  
+
+  <title>
+    
+David Oniani&#x27;s Website | Metaprogramming in Python3
+
+  </title>
+
+  <script crossorigin="anonymous" src="https://kit.fontawesome.com/201b8d5e05.js"></script>
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116458005-1"></script>
+  <script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "UA-116458005-1");
+  </script>
+  
+
+  
+</head>
+
+<body class="has-background-white">
+  
+  <nav aria-label="section navigation" class="navbar is-light" role="navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-weight-bold" href="https:&#x2F;&#x2F;www.davidoniani.com&#x2F;">David Oniani&#x27;s Website</a>
+        <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navMenu" role="button">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end has-text-centered">
+          
+          
+          
+          <a class="navbar-item" href='https:&#x2F;&#x2F;www.davidoniani.com&#x2F;&#x2F;'>
+            Home
+          </a>
+          
+          <a class="navbar-item" href='https:&#x2F;&#x2F;www.davidoniani.com&#x2F;&#x2F;research'>
+            Research
+          </a>
+          
+          <a class="navbar-item" href='https:&#x2F;&#x2F;www.davidoniani.com&#x2F;&#x2F;projects'>
+            Projects
+          </a>
+          
+          <a class="navbar-item" href='https:&#x2F;&#x2F;www.davidoniani.com&#x2F;&#x2F;weblog'>
+            Weblog
+          </a>
+          
+          
+          
+          <a class="navbar-item" id="nav-search" title="Search" data-target="#search-modal">
+            <span class="icon">
+              <i class="fas fa-search"></i>
+            </span>
+          </a>
+          <a class="navbar-item" id="dark-mode" title="Switch to dark theme">
+            <span class="icon">
+              <i class="fas fa-adjust"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+
+  
+  
+
+  
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <article class="box">
+          <h1 class="title">
+            Metaprogramming in Python3
+          </h1>
+          <p class="subtitle"></p>
+          <div class="columns is-multiline is-gapless">
+            <div class="column is-8">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="fas fa-user"></i>
+  </span>
+  <span>David Oniani published on</span>
+  <span class="icon">
+    <i class="far fa-calendar-alt"></i>
+  </span>
+  <span><time datetime="2019-06-12">June 12, 2019</time></span>
+</span>
+
+            </div>
+            <div class="column is-4 has-text-right-desktop">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="far fa-clock"></i>
+  </span>
+  <span>2 min,</span>
+  <span class="icon">
+    <i class="fas fa-pencil-alt"></i>
+  </span>
+  <span>381 words</span>
+</span>
+
+            </div>
+            <div class="column">
+              
+            </div>
+            <div class="column has-text-right-desktop">
+              
+            </div>
+          </div>
+          <div class="content mt-2">
+            <p>In a nutshell, metaprogramming is a code that manipulates code.</p>
+<p>Wikipedia describes it as follows:</p>
+<blockquote>
+<p>Metaprogramming is a programming technique in which computer programs have
+the ability to treat other programs as their data.</p>
+</blockquote>
+<p>One could think of metaprogramming as writing code generators. As a side note,
+functional programming is not considered metaprogramming despite the fact the
+functions are considered data.</p>
+<p>In Python3, there are a number of ways to do this. The most basic idea that is
+also very useful is that of decorators.</p>
+<p>Below is a minimal example of a decorator.</p>
+<pre style="background-color:#212733;">
+<code class="language-python" data-lang="python"><span style="color:#ffa759;">from </span><span style="color:#ccc9c2;">functools </span><span style="color:#ffa759;">import </span><span style="color:#ccc9c2;">wraps
+</span><span style="color:#ffa759;">from </span><span style="color:#ccc9c2;">typing </span><span style="color:#ffa759;">import </span><span style="color:#ccc9c2;">Callable
+
+</span><span style="color:#ffa759;">def </span><span style="color:#ffd580;">decorate</span><span style="color:#ccc9c2;">(</span><span style="color:#ffcc66;">func</span><span style="color:#ccc9c2cc;">: </span><span style="color:#ccc9c2;">Callable) </span><span style="color:#ccc9c2cc;">-&gt; </span><span style="color:#ccc9c2;">Callable:
+    </span><span style="color:#ccc9c2cc;">@</span><span style="color:#ffd580;">wraps</span><span style="color:#ccc9c2;">(func)
+    </span><span style="color:#ffa759;">def </span><span style="color:#ffd580;">wrapper</span><span style="color:#ccc9c2;">(</span><span style="color:#f29e74;">*</span><span style="color:#ffcc66;">args</span><span style="color:#ccc9c2cc;">, </span><span style="color:#f29e74;">**</span><span style="color:#ffcc66;">kwargs</span><span style="color:#ccc9c2;">) </span><span style="color:#ccc9c2cc;">-&gt; </span><span style="color:#ccc9c2;">Callable:
+        </span><span style="font-style:italic;color:#5c6773;"># Do some stuff...
+        </span><span style="color:#ffa759;">return </span><span style="color:#ffd580;">func</span><span style="color:#ccc9c2;">(</span><span style="color:#f29e74;">*</span><span style="color:#ccc9c2;">args</span><span style="color:#ccc9c2cc;">, </span><span style="color:#f29e74;">**</span><span style="color:#ccc9c2;">kwargs)
+
+    </span><span style="color:#ffa759;">return </span><span style="color:#ccc9c2;">wrapper
+</span></code></pre>
+<p>The idea of a decorator, as seen above, is very simple. It takes a function,
+does some stuff, and then replicates the previous behavior of the function.
+Therefore, it does a bit more than the actual function. The thing to bare in
+mind is that decorators are a way to reduce code repetition.</p>
+<p>Consider an example below.</p>
+<pre style="background-color:#212733;">
+<code class="language-python" data-lang="python"><span style="color:#ffa759;">def </span><span style="color:#ffd580;">hello</span><span style="color:#ccc9c2;">(</span><span style="color:#ffcc66;">name</span><span style="color:#ccc9c2cc;">: </span><span style="font-style:italic;color:#5ccfe6;">str</span><span style="color:#ccc9c2;">):
+    </span><span style="color:#ffa759;">return f</span><span style="color:#bae67e;">&quot;Hello, </span><span style="color:#ccc9c2;">{name}</span><span style="color:#bae67e;">!&quot;
+
+</span><span style="color:#ffa759;">def </span><span style="color:#ffd580;">bye</span><span style="color:#ccc9c2;">(</span><span style="color:#ffcc66;">name</span><span style="color:#ccc9c2cc;">: </span><span style="font-style:italic;color:#5ccfe6;">str</span><span style="color:#ccc9c2;">):
+    </span><span style="color:#ffa759;">return f</span><span style="color:#bae67e;">&quot;Bye, </span><span style="color:#ccc9c2;">{name}</span><span style="color:#bae67e;">!&quot;
+
+</span><span style="color:#ffa759;">if </span><span style="color:#ccc9c2;">__name__ </span><span style="color:#f29e74;">== </span><span style="color:#bae67e;">&quot;__main__&quot;</span><span style="color:#ccc9c2;">:
+    </span><span style="color:#f28779;">print</span><span style="color:#ccc9c2;">(</span><span style="color:#ffd580;">hello</span><span style="color:#ccc9c2;">(</span><span style="color:#bae67e;">&quot;Sally&quot;</span><span style="color:#ccc9c2;">))
+    </span><span style="color:#f28779;">print</span><span style="color:#ccc9c2;">(</span><span style="color:#ffd580;">hello</span><span style="color:#ccc9c2;">(</span><span style="color:#bae67e;">&quot;Garry&quot;</span><span style="color:#ccc9c2;">))
+</span></code></pre>
+<p>Suppose that we now want to redesign these functions to print a string
+&quot;Hi I am function hello&quot; or &quot;Hi I am function bye&quot; depending on a function,
+before the return statements. The most obvious solution to this problem is to
+hardcode it.</p>
+<pre style="background-color:#212733;">
+<code class="language-python" data-lang="python"><span style="color:#ffa759;">def </span><span style="color:#ffd580;">hello</span><span style="color:#ccc9c2;">(</span><span style="color:#ffcc66;">name</span><span style="color:#ccc9c2cc;">: </span><span style="font-style:italic;color:#5ccfe6;">str</span><span style="color:#ccc9c2;">):
+    </span><span style="color:#f28779;">print</span><span style="color:#ccc9c2;">(</span><span style="color:#bae67e;">&quot;Hi from the function `hello`&quot;</span><span style="color:#ccc9c2;">)
+    </span><span style="color:#ffa759;">return f</span><span style="color:#bae67e;">&quot;Hello, </span><span style="color:#ccc9c2;">{name}</span><span style="color:#bae67e;">!&quot;
+
+</span><span style="color:#ffa759;">def </span><span style="color:#ffd580;">bye</span><span style="color:#ccc9c2;">(</span><span style="color:#ffcc66;">name</span><span style="color:#ccc9c2cc;">: </span><span style="font-style:italic;color:#5ccfe6;">str</span><span style="color:#ccc9c2;">):
+    </span><span style="color:#f28779;">print</span><span style="color:#ccc9c2;">(</span><span style="color:#bae67e;">&quot;Hi from the function `bye`&quot;</span><span style="color:#ccc9c2;">)
+    </span><span style="color:#ffa759;">return f</span><span style="color:#bae67e;">&quot;Bye, </span><span style="color:#ccc9c2;">{name}</span><span style="color:#bae67e;">!&quot;
+
+</span><span style="color:#ffa759;">if </span><span style="color:#ccc9c2;">__name__ </span><span style="color:#f29e74;">== </span><span style="color:#bae67e;">&quot;__main__&quot;</span><span style="color:#ccc9c2;">:
+    </span><span style="color:#f28779;">print</span><span style="color:#ccc9c2;">(</span><span style="color:#ffd580;">hello</span><span style="color:#ccc9c2;">(</span><span style="color:#bae67e;">&quot;Sally&quot;</span><span style="color:#ccc9c2;">))
+    </span><span style="color:#f28779;">print</span><span style="color:#ccc9c2;">(</span><span style="color:#ffd580;">hello</span><span style="color:#ccc9c2;">(</span><span style="color:#bae67e;">&quot;Garry&quot;</span><span style="color:#ccc9c2;">))
+</span></code></pre>
+<p>This, however, can be inconvenient if we had more than just 2 functions even
+the behavior to replicate was more complex.</p>
+<p>A common solution to this problem is to define a decorator.</p>
+<pre style="background-color:#212733;">
+<code class="language-python" data-lang="python"><span style="color:#ffa759;">from </span><span style="color:#ccc9c2;">functools </span><span style="color:#ffa759;">import </span><span style="color:#ccc9c2;">wraps
+</span><span style="color:#ffa759;">from </span><span style="color:#ccc9c2;">typing </span><span style="color:#ffa759;">import </span><span style="color:#ccc9c2;">Callable
+
+</span><span style="color:#ffa759;">def </span><span style="color:#ffd580;">hi_func</span><span style="color:#ccc9c2;">(</span><span style="color:#ffcc66;">func</span><span style="color:#ccc9c2cc;">: </span><span style="color:#ccc9c2;">Callable) </span><span style="color:#ccc9c2cc;">-&gt; </span><span style="color:#ccc9c2;">Callable:
+    </span><span style="color:#ccc9c2cc;">@</span><span style="color:#ffd580;">wraps</span><span style="color:#ccc9c2;">(func)
+    </span><span style="color:#ffa759;">def </span><span style="color:#ffd580;">wrapper</span><span style="color:#ccc9c2;">(</span><span style="color:#f29e74;">*</span><span style="color:#ffcc66;">args</span><span style="color:#ccc9c2cc;">, </span><span style="color:#f29e74;">**</span><span style="color:#ffcc66;">kwargs</span><span style="color:#ccc9c2;">) </span><span style="color:#ccc9c2cc;">-&gt; </span><span style="color:#ccc9c2;">Callable:
+        </span><span style="color:#f28779;">print</span><span style="color:#ccc9c2;">(</span><span style="color:#ffa759;">f</span><span style="color:#bae67e;">&quot;Hi from the function `</span><span style="color:#ccc9c2;">{func</span><span style="color:#f29e74;">.</span><span style="color:#ccc9c2;">__name__}</span><span style="color:#bae67e;">`&quot;</span><span style="color:#ccc9c2;">)
+        </span><span style="color:#ffa759;">return </span><span style="color:#ffd580;">func</span><span style="color:#ccc9c2;">(</span><span style="color:#f29e74;">*</span><span style="color:#ccc9c2;">args</span><span style="color:#ccc9c2cc;">, </span><span style="color:#f29e74;">**</span><span style="color:#ccc9c2;">kwargs)
+
+    </span><span style="color:#ffa759;">return </span><span style="color:#ccc9c2;">wrapper
+
+</span><span style="color:#ccc9c2cc;">@</span><span style="color:#ffd580;">hi_func
+</span><span style="color:#ffa759;">def </span><span style="color:#ffd580;">hello</span><span style="color:#ccc9c2;">(</span><span style="color:#ffcc66;">name</span><span style="color:#ccc9c2cc;">: </span><span style="font-style:italic;color:#5ccfe6;">str</span><span style="color:#ccc9c2;">):
+    </span><span style="color:#ffa759;">return f</span><span style="color:#bae67e;">&quot;Hello, </span><span style="color:#ccc9c2;">{name}</span><span style="color:#bae67e;">!&quot;
+
+</span><span style="color:#ccc9c2cc;">@</span><span style="color:#ffd580;">hi_func
+</span><span style="color:#ffa759;">def </span><span style="color:#ffd580;">bye</span><span style="color:#ccc9c2;">(</span><span style="color:#ffcc66;">name</span><span style="color:#ccc9c2cc;">: </span><span style="font-style:italic;color:#5ccfe6;">str</span><span style="color:#ccc9c2;">):
+    </span><span style="color:#ffa759;">return f</span><span style="color:#bae67e;">&quot;Bye, </span><span style="color:#ccc9c2;">{name}</span><span style="color:#bae67e;">!&quot;
+
+</span><span style="color:#ffa759;">if </span><span style="color:#ccc9c2;">__name__ </span><span style="color:#f29e74;">== </span><span style="color:#bae67e;">&quot;__main__&quot;</span><span style="color:#ccc9c2;">:
+    </span><span style="color:#f28779;">print</span><span style="color:#ccc9c2;">(</span><span style="color:#ffd580;">hello</span><span style="color:#ccc9c2;">(</span><span style="color:#bae67e;">&quot;Sally&quot;</span><span style="color:#ccc9c2;">))
+    </span><span style="color:#f28779;">print</span><span style="color:#ccc9c2;">(</span><span style="color:#ffd580;">hello</span><span style="color:#ccc9c2;">(</span><span style="color:#bae67e;">&quot;Garry&quot;</span><span style="color:#ccc9c2;">))
+</span></code></pre>
+          </div>
+        </article>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+  
+  <section class="modal" id="search-modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Search</p>
+      </header>
+      <section class="modal-card-body">
+        <div class="field mb-2">
+          <div class="control">
+            <input class="input" id="search" placeholder="Search this website." type="search" />
+          </div>
+        </div>
+        <div class="search-results">
+          <div class="search-results__items"></div>
+        </div>
+      </section>
+    </div>
+    <button aria-label="close" class="modal-close is-large"></button>
+  </section>
+  
+
+
+  
+
+
+
+  
+
+
+
+  
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        Built with
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-code"></i>
+          </span>
+          <span>code</span>
+        </span>
+        and
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-heart"></i>
+          </span>
+          <span>love</span>
+        </span>
+      </p>
+      <p>
+        Powered by
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-power-off"></i>
+          </span>
+          <span>zola</span>
+        </span>
+      </p>
+    </div>
+  </footer>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/galleria.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.xkcd@1.1.13/dist/chart.xkcd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mapbox-gl@2.1.1/dist/mapbox-gl.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/folio/galleria.folio.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
+  <script src="https:&#x2F;&#x2F;www.davidoniani.com&#x2F;search_index.en.js"></script>
+  <script src="https:&#x2F;&#x2F;www.davidoniani.com&#x2F;js&#x2F;site.js"></script>
+
+  
+
+
+
+
+</body>
+
+</html>

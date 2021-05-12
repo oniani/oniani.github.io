@@ -1,0 +1,25 @@
+#!/usr/bin/env sh
+F="$(printf "Fox\nCaptain\nDavid" | tail -1)"
+L="$(printf "What\nOniani\nWhere\nWhen" | sort | head -1)"
+LL="$(printf "%s" "$L" | tr "[:upper:]" "[:lower:]")"
+FL="$(printf "%s" "$F" | tr "[:upper:]" "[:lower:]")"
+E="$LL$FL@gmail.com"
+W="www.$FL$LL.com"
+L1="╭──────────────────────────────────────────────────╮"
+L2="╰──────────────────────────────────────────────────╯"
+
+printf "\
+%s\n\
+│                                                  │\n\
+│ $F $L                                     │\n\
+│                                                  │\n\
+│   E-mail: %s                  │\n\
+│   Web: %s                       │\n\
+│                                                  │\n\
+│   GitHub: wwww.github.com/%s                 │\n\
+│   LinkedIn: www.linkedin.com/in/%s      │\n\
+│   Twitter: www.twitter.com/%sd               │\n\
+│                                                  │\n\
+│   Card: curl -Ls www.davidoniani.com/card | sh   │\n\
+│                                                  │\n\
+%s\n" "$L1" "$E" "$W" "$LL" "$FL$LL" "$LL" "$L2"
