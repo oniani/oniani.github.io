@@ -1,0 +1,41 @@
+name: Redeployment
+on: [push]
+
+jobs:
+  redeploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone the repo and checkout `dev` branch
+        uses: actions/checkout@v1
+
+      - name: Install Latest Zola
+        run: |
+          RELEASE=$(curl -L -s -H 'Accept: application/json' https://github.com/getzola/zola/releases/latest | sed -e 's/.*"tag_name":"\([^"]*\)".*/\1/' | cut -c 1-)
+          curl -L https://github.com/getzola/zola/releases/download/"${RELEASE}"/zola-"${RELEASE}"-x86_64-unknown-linux-gnu.tar.gz | gunzip | tar x
+          sudo mv zola /usr/bin/zola
+
+      - name: Authenticate
+        run: |
+            git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+
+      - name: Build Website on Branch `code`
+        run: |
+            git submodule update --init --recursive
+            git checkout code
+            zola build
+
+      - name: Push Changes to Branch `main`
+        env:
+            TOKEN: ${{ secrets.TOKEN }}
+        run: |
+            mv public ..
+            git checkout main
+            cp -R ../public/static/card .
+            rm -rf ../public/static/card
+            cp -R ../public/* .
+            rm -rf ../public
+            rm -rf themes
+            git add .
+            git commit -m "Redeployment" || exit 0
+            git push https://${TOKEN}@github.com/oniani/oniani.github.io.git

@@ -2,11 +2,7 @@
 base_url = "https://www.davidoniani.com/"
 
 # Whether to automatically compile all Sass files in the sass directory
-compile_sass = false
-
-# Enable syntax highlighting
-highlight_code = true
-highlight_theme = "ayu-mirage"
+compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
@@ -15,49 +11,46 @@ build_search_index = true
 generate_feed = true
 feed_filename = "rss.xml"
 
-# Check for external links
-check_external_links = true
+# Set the theme
+theme = "DeepThought"
 
-# Taxonomies
-taxonomies = [
-    {name = "tags", rss = true}
-]
-
-# Specify a theme
-theme="sam"
-
-# Specify a title
+# Set the title
 title = "David Oniani's Website"
 
+# Set the default langauge
+default_language = "en"
+
+# Code highlighting
+[markdown]
+highlight_code = true
+highlight_theme = "ayu-mirage"
+
+# Extra items
 [extra]
-# Put all your custom variables here
-sam_menu = [
-    { text = "about",    link = "/about"    },
-    { text = "datasets", link = "/datasets" },
-    { text = "projects", link = "/projects" },
-    { text = "research", link = "/research" },
-    { text = "weblog",   link = "/weblog"   }
+# Navigation bar items
+navbar_items = [
+    { code = "en", nav_items = [
+        { url = "$BASE_URL/",         name = "Home"     },
+        { url = "$BASE_URL/research", name = "Research" },
+        { url = "$BASE_URL/projects", name = "Projects" },
+        { url = "$BASE_URL/weblog",   name = "Weblog"   },
+    ] },
 ]
 
-# Show the word count and the approximate reading time
-show_word_count = true
-show_reading_time = true
+# Google analytics
+[extra.analytics]
+google = "UA-116458005-1"
 
-# Show the bottom menu
-sam_bottom_menu = true
+# Author name
+[extra.author]
+name = "David Oniani"
 
-# Enable KaTeX
-katex_enable = true
-katex_auto_render = true
+# Favicons
+[extra.favicon]
+favicon_16x16 = "favicon-16x16.png"
+favicon_32x32 = "favicon-32x32.png"
 
-# Specify a description
-site_description = "David Oniani's Website"
-
-# Specify keywords (for SEO)
-keywords = "Artificial Intelligence, Development, Engineering, Research"
-
-# Google analytics id
-google_analytics_id = "UA-116458005-1"
-
-[extra.sam_footer]
-text = "&#9400; 2020 David Oniani "
+# Socials
+[extra.social]
+github = "oniani"
+linkedin = "davidoniani"

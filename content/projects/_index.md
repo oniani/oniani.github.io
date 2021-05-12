@@ -1,14 +1,9 @@
 +++
-title = "projects"
-
-[extra]
-no_header = true
+title = "Projects"
 +++
 
 ### Ongoing Projects
 
-- [A project that seeks to provide students a way to share their experiences
-  abroad][luther_navigator]
 - [A minimal machine learning library, implemented from scratch with OpenCL GPU support][miniml]
 - A build system (cross-platform rewrite of [b][b], with better parsing and
   more options)

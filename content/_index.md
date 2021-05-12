@@ -1,8 +1,5 @@
 +++
-title = "about"
-
-[extra]
-no_header = true
+title = "Bio"
 +++
 
 <!-- Hello, I am David. Currently, a Research Engineer at [DawnLight][dawnlight], a -->
@@ -23,11 +20,11 @@ state-of-the-art human-centric Artificial Intelligence (AI) solutions with the
 goal of reducing costs of care and most importantly, improving health outcomes
 to increase independence and quality of life for everyone!
 
-Previously, I did an R&D work for Mayo Clinic, where I first-authored several
-papers that got accepted at the world's leading AI and Biomedical Informatics
-conferences and journals, such as [ACM-BCB][acmbcb], [JAMIA][jamia], etc. I
-worked directly under Drs. [Feichen Shen][feichen] and [Yanshan Wang][yanshan]
-in the division of Dr. [Hongfang Liu][hongfang].
+Previously, I did an R&D work for [Mayo Clinic][mayo], where I first-authored
+several papers that got accepted at the world's leading AI and Biomedical
+Informatics conferences and journals, such as [ACM-BCB][acmbcb],
+[JAMIA][jamia], etc. I worked directly under Drs. [Feichen Shen][feichen] and
+[Yanshan Wang][yanshan] in the division of Dr. [Hongfang Liu][hongfang].
 
 I hold a bachelor's degree in both Computer Science and Mathematics from
 [Luther College][luther], a small liberal arts college located in picturesque
@@ -65,8 +62,8 @@ Research interests:
 - Emerging Technologies
 
 Other interests include art, economics, recreational programming, music,
-information theory, [video games](https://www.davidoniani.com/gaming), anime
-and manga, space exploration, and cancer research.
+information theory, [video games](gaming), anime and manga, space exploration,
+and cancer research.
 
 If you really really want to contact me, execute the command below:
 
@@ -77,8 +74,8 @@ curl -Ls www.davidoniani.com/card | sh
 P.S. [Install curl](https://curl.haxx.se/docs/install.html) if not already
 installed.
 
-All written content on this site is provided under the
-[Creative Commons ShareAlike license](https://creativecommons.org/licenses/by-sa/2.5/).
+All written content on this site is provided under the [Creative Commons
+ShareAlike license](https://creativecommons.org/licenses/by-sa/2.5/).
 
 All code is provided under the [MIT License](https://mit-license.org/) unless
 otherwise stated.
