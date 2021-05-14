@@ -31,9 +31,9 @@ jobs:
         run: |
             mv public ..
             git checkout main
-            cp -R ../public/card .
-            rm -rf ../public/card
-            cp -R ../public/* .
+            git rm -rf .
+            git clean -fxd
+            mv ../public/* .
             rm -rf ../public
             rm -rf themes
             git add .
