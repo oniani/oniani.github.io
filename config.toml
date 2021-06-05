@@ -44,6 +44,7 @@ google = "UA-116458005-1"
 # Author name
 [extra.author]
 name = "David Oniani"
+avatar = "profile.jpg"
 
 # Favicons
 [extra.favicon]

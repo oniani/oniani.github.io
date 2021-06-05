@@ -2,23 +2,19 @@
 title = "Bio"
 +++
 
-<!-- Hello, I am David. Currently, a Research Engineer at [DawnLight][dawnlight], a -->
-<!-- very cool startup founded by Drs. [Fei-Fei Li][feifei], [Jia Li][jia], and -->
-<!-- [Arnold Milstein][arnold]. I was a Machine Learning Intern first, working under -->
-<!-- Drs. [Nathan Liu][nathan], [Erheng Zhong][erheng], and [S. R. -->
-<!-- Prakash][prakash], and then transitioned into a full-time work. We research, -->
-<!-- design, and build state-of-the-art human-centric Artificial Intelligence (AI) -->
-<!-- solutions with the goal of reducing costs of care and most importantly, -->
-<!-- improving health outcomes to increase independence and quality of life for -->
-<!-- everyone! -->
-
-Hello, I am David. Currently, doing an R&D work at [DawnLight][dawnlight], a
+Hello, I am David. Currently, a Research Engineer at [DawnLight][dawnlight], a
 very cool startup founded by Drs. [Fei-Fei Li][feifei], [Jia Li][jia], and
-[Arnold Milstein][arnold]. I work under Drs. [Nathan Liu][nathan], [Erheng
-Zhong][erheng], and [S. R. Prakash][prakash]. We research, design, and build
-state-of-the-art human-centric Artificial Intelligence (AI) solutions with the
-goal of reducing costs of care and most importantly, improving health outcomes
-to increase independence and quality of life for everyone!
+[Arnold Milstein][arnold]. I was a Machine Learning Intern first, working under
+Drs. [Nathan Liu][nathan], [Erheng Zhong][erheng], and [S. R.
+Prakash][prakash], and then transitioned into a full-time work. We research,
+design, and build state-of-the-art human-centric Artificial Intelligence (AI)
+technologies with the goal of reducing costs of care and most importantly,
+improving health outcomes to increase independence and quality of life for
+everyone!
+
+<details>
+<summary align="center"><u>Click Here for Extended Bio</u></summary>
+<p>
 
 Previously, I did an R&D work for [Mayo Clinic][mayo], where I first-authored
 several papers that got accepted at the world's leading AI and Biomedical
@@ -43,15 +39,19 @@ Tbilisi, Georgia. I have also founded a [startup][warbler], had [another
 startup][unleash] project, and did some Graphic Design freelancing work.
 
 While in high school, I have competed in national mathematical Olympiad of
-Georgia and was a five-time finalist (TOP 30/3000 back-to-back five times). I
-was also an IMO and IPhO nominee for the national team of Georgia. Though, I
-focused more on general education and never really dedicated a lot of time to
-math and physics. This has ultimately earned me a gold medal for academic
-excellence (granted to a handful of graduates in the country), but likely cost
-me international competition medals in math and physics.
+Georgia and was a five-time finalist (back-to-back five times). I was also an
+IMO and IPhO nominee for the national team of Georgia. Though, I focused more
+on general education and never really dedicated a lot of time to math and
+physics. This has ultimately earned me a gold medal for academic excellence
+(granted to a handful of graduates in the country), but likely cost me
+international competition medals in math and physics.
 
 Before all that, I was a die hard football (actual football) amateur player and
 fan.
+</p>
+</details>
+
+<br>
 
 My CV is available [here](cv.pdf).
 
@@ -65,7 +65,7 @@ Other interests include art, economics, recreational programming, music,
 information theory, [video games](gaming), anime and manga, space exploration,
 and cancer research.
 
-If you really really want to contact me, execute the command below:
+If you really really want to reach me, execute the command below:
 
 ```sh
 curl -Ls www.davidoniani.com/card | sh
@@ -73,12 +73,6 @@ curl -Ls www.davidoniani.com/card | sh
 
 P.S. [Install curl](https://curl.haxx.se/docs/install.html) if not already
 installed.
-
-All written content on this site is provided under the [Creative Commons
-ShareAlike license](https://creativecommons.org/licenses/by-sa/2.5/).
-
-All code is provided under the [MIT License](https://mit-license.org/) unless
-otherwise stated.
 
 [dawnlight]: https://www.dawnlight.com/home
 [feifei]: https://profiles.stanford.edu/fei-fei-li
