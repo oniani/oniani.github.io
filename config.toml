@@ -36,6 +36,9 @@ navbar_items = [
         { url = "$BASE_URL/weblog",   name = "Weblog"   },
     ] },
 ]
+# Enable KaTeX support
+katex.enabled = true
+katex.auto_render = true
 
 # Google analytics
 [extra.analytics]
