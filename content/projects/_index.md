@@ -34,6 +34,7 @@ title = "Projects"
 
 - [Chudnovsky][chudnovsky] - The Chudnovsky algorithm for calculating the digits of Pi
 - [Huffman][huffman] - A pure Rust implementation of Huffman's algorithm for lossless data compression
+- [bf][bf] - A zero-dependency pure Rust bloom filter
 - [lr][lr] - Linear Regression from scratch in Rust
 - [pt][pt] - A zero-dependency pure Rust prefix tree optimized for an English alphabet
 
@@ -53,6 +54,7 @@ title = "Projects"
 
 [arduino_stuff]: https://github.com/oniani/arduino-stuff
 [b]: https://github.com/oniani/b
+[bf]: https://github.com/oniani/bf
 [blogplate]: https://github.com/oniani/blogplate
 [bresenham]: https://github.com/oniani/bresenham
 [chudnovsky]: https://github.com/oniani/chudnovsky
