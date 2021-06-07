@@ -182,77 +182,77 @@ functions are considered data.</p>
 <p>In Python3, there are a number of ways to do this. The most basic idea that is
 also very useful is that of decorators.</p>
 <p>Below is a minimal example of a decorator.</p>
-<pre style="background-color:#212733;">
-<code class="language-python" data-lang="python"><span style="color:#ffa759;">from </span><span style="color:#ccc9c2;">functools </span><span style="color:#ffa759;">import </span><span style="color:#ccc9c2;">wraps
-</span><span style="color:#ffa759;">from </span><span style="color:#ccc9c2;">typing </span><span style="color:#ffa759;">import </span><span style="color:#ccc9c2;">Callable
+<pre style="background-color:#0f1419;">
+<code class="language-python" data-lang="python"><span style="color:#ff7733;">from </span><span style="color:#bfbab0;">functools </span><span style="color:#ff7733;">import </span><span style="color:#bfbab0;">wraps
+</span><span style="color:#ff7733;">from </span><span style="color:#bfbab0;">typing </span><span style="color:#ff7733;">import </span><span style="color:#bfbab0;">Callable
 
-</span><span style="color:#ffa759;">def </span><span style="color:#ffd580;">decorate</span><span style="color:#ccc9c2;">(</span><span style="color:#ffcc66;">func</span><span style="color:#ccc9c2cc;">: </span><span style="color:#ccc9c2;">Callable) </span><span style="color:#ccc9c2cc;">-&gt; </span><span style="color:#ccc9c2;">Callable:
-    </span><span style="color:#ccc9c2cc;">@</span><span style="color:#ffd580;">wraps</span><span style="color:#ccc9c2;">(func)
-    </span><span style="color:#ffa759;">def </span><span style="color:#ffd580;">wrapper</span><span style="color:#ccc9c2;">(</span><span style="color:#f29e74;">*</span><span style="color:#ffcc66;">args</span><span style="color:#ccc9c2cc;">, </span><span style="color:#f29e74;">**</span><span style="color:#ffcc66;">kwargs</span><span style="color:#ccc9c2;">) </span><span style="color:#ccc9c2cc;">-&gt; </span><span style="color:#ccc9c2;">Callable:
+</span><span style="color:#ff7733;">def </span><span style="color:#ffb454;">decorate</span><span style="color:#bfbab0;">(</span><span style="color:#f29718;">func</span><span style="color:#bfbab0cc;">: </span><span style="color:#bfbab0;">Callable) </span><span style="color:#bfbab0cc;">-&gt; </span><span style="color:#bfbab0;">Callable:
+    </span><span style="color:#bfbab0cc;">@</span><span style="color:#ffb454;">wraps</span><span style="color:#bfbab0;">(func)
+    </span><span style="color:#ff7733;">def </span><span style="color:#ffb454;">wrapper</span><span style="color:#bfbab0;">(</span><span style="color:#f29668;">*</span><span style="color:#f29718;">args</span><span style="color:#bfbab0cc;">, </span><span style="color:#f29668;">**</span><span style="color:#f29718;">kwargs</span><span style="color:#bfbab0;">) </span><span style="color:#bfbab0cc;">-&gt; </span><span style="color:#bfbab0;">Callable:
         </span><span style="font-style:italic;color:#5c6773;"># Do some stuff...
-        </span><span style="color:#ffa759;">return </span><span style="color:#ffd580;">func</span><span style="color:#ccc9c2;">(</span><span style="color:#f29e74;">*</span><span style="color:#ccc9c2;">args</span><span style="color:#ccc9c2cc;">, </span><span style="color:#f29e74;">**</span><span style="color:#ccc9c2;">kwargs)
+        </span><span style="color:#ff7733;">return </span><span style="color:#ffb454;">func</span><span style="color:#bfbab0;">(</span><span style="color:#f29668;">*</span><span style="color:#bfbab0;">args</span><span style="color:#bfbab0cc;">, </span><span style="color:#f29668;">**</span><span style="color:#bfbab0;">kwargs)
 
-    </span><span style="color:#ffa759;">return </span><span style="color:#ccc9c2;">wrapper
+    </span><span style="color:#ff7733;">return </span><span style="color:#bfbab0;">wrapper
 </span></code></pre>
 <p>The idea of a decorator, as seen above, is very simple. It takes a function,
 does some stuff, and then replicates the previous behavior of the function.
 Therefore, it does a bit more than the actual function. The thing to bare in
 mind is that decorators are a way to reduce code repetition.</p>
 <p>Consider an example below.</p>
-<pre style="background-color:#212733;">
-<code class="language-python" data-lang="python"><span style="color:#ffa759;">def </span><span style="color:#ffd580;">hello</span><span style="color:#ccc9c2;">(</span><span style="color:#ffcc66;">name</span><span style="color:#ccc9c2cc;">: </span><span style="font-style:italic;color:#5ccfe6;">str</span><span style="color:#ccc9c2;">):
-    </span><span style="color:#ffa759;">return f</span><span style="color:#bae67e;">&quot;Hello, </span><span style="color:#ccc9c2;">{name}</span><span style="color:#bae67e;">!&quot;
+<pre style="background-color:#0f1419;">
+<code class="language-python" data-lang="python"><span style="color:#ff7733;">def </span><span style="color:#ffb454;">hello</span><span style="color:#bfbab0;">(</span><span style="color:#f29718;">name</span><span style="color:#bfbab0cc;">: </span><span style="font-style:italic;color:#39bae6;">str</span><span style="color:#bfbab0;">):
+    </span><span style="color:#ff7733;">return f</span><span style="color:#c2d94c;">&quot;Hello, </span><span style="color:#bfbab0;">{name}</span><span style="color:#c2d94c;">!&quot;
 
-</span><span style="color:#ffa759;">def </span><span style="color:#ffd580;">bye</span><span style="color:#ccc9c2;">(</span><span style="color:#ffcc66;">name</span><span style="color:#ccc9c2cc;">: </span><span style="font-style:italic;color:#5ccfe6;">str</span><span style="color:#ccc9c2;">):
-    </span><span style="color:#ffa759;">return f</span><span style="color:#bae67e;">&quot;Bye, </span><span style="color:#ccc9c2;">{name}</span><span style="color:#bae67e;">!&quot;
+</span><span style="color:#ff7733;">def </span><span style="color:#ffb454;">bye</span><span style="color:#bfbab0;">(</span><span style="color:#f29718;">name</span><span style="color:#bfbab0cc;">: </span><span style="font-style:italic;color:#39bae6;">str</span><span style="color:#bfbab0;">):
+    </span><span style="color:#ff7733;">return f</span><span style="color:#c2d94c;">&quot;Bye, </span><span style="color:#bfbab0;">{name}</span><span style="color:#c2d94c;">!&quot;
 
-</span><span style="color:#ffa759;">if </span><span style="color:#ccc9c2;">__name__ </span><span style="color:#f29e74;">== </span><span style="color:#bae67e;">&quot;__main__&quot;</span><span style="color:#ccc9c2;">:
-    </span><span style="color:#f28779;">print</span><span style="color:#ccc9c2;">(</span><span style="color:#ffd580;">hello</span><span style="color:#ccc9c2;">(</span><span style="color:#bae67e;">&quot;Sally&quot;</span><span style="color:#ccc9c2;">))
-    </span><span style="color:#f28779;">print</span><span style="color:#ccc9c2;">(</span><span style="color:#ffd580;">hello</span><span style="color:#ccc9c2;">(</span><span style="color:#bae67e;">&quot;Garry&quot;</span><span style="color:#ccc9c2;">))
+</span><span style="color:#ff7733;">if </span><span style="color:#bfbab0;">__name__ </span><span style="color:#f29668;">== </span><span style="color:#c2d94c;">&quot;__main__&quot;</span><span style="color:#bfbab0;">:
+    </span><span style="color:#f07178;">print</span><span style="color:#bfbab0;">(</span><span style="color:#ffb454;">hello</span><span style="color:#bfbab0;">(</span><span style="color:#c2d94c;">&quot;Sally&quot;</span><span style="color:#bfbab0;">))
+    </span><span style="color:#f07178;">print</span><span style="color:#bfbab0;">(</span><span style="color:#ffb454;">hello</span><span style="color:#bfbab0;">(</span><span style="color:#c2d94c;">&quot;Garry&quot;</span><span style="color:#bfbab0;">))
 </span></code></pre>
 <p>Suppose that we now want to redesign these functions to print a string
 &quot;Hi I am function hello&quot; or &quot;Hi I am function bye&quot; depending on a function,
 before the return statements. The most obvious solution to this problem is to
 hardcode it.</p>
-<pre style="background-color:#212733;">
-<code class="language-python" data-lang="python"><span style="color:#ffa759;">def </span><span style="color:#ffd580;">hello</span><span style="color:#ccc9c2;">(</span><span style="color:#ffcc66;">name</span><span style="color:#ccc9c2cc;">: </span><span style="font-style:italic;color:#5ccfe6;">str</span><span style="color:#ccc9c2;">):
-    </span><span style="color:#f28779;">print</span><span style="color:#ccc9c2;">(</span><span style="color:#bae67e;">&quot;Hi from the function `hello`&quot;</span><span style="color:#ccc9c2;">)
-    </span><span style="color:#ffa759;">return f</span><span style="color:#bae67e;">&quot;Hello, </span><span style="color:#ccc9c2;">{name}</span><span style="color:#bae67e;">!&quot;
+<pre style="background-color:#0f1419;">
+<code class="language-python" data-lang="python"><span style="color:#ff7733;">def </span><span style="color:#ffb454;">hello</span><span style="color:#bfbab0;">(</span><span style="color:#f29718;">name</span><span style="color:#bfbab0cc;">: </span><span style="font-style:italic;color:#39bae6;">str</span><span style="color:#bfbab0;">):
+    </span><span style="color:#f07178;">print</span><span style="color:#bfbab0;">(</span><span style="color:#c2d94c;">&quot;Hi from the function `hello`&quot;</span><span style="color:#bfbab0;">)
+    </span><span style="color:#ff7733;">return f</span><span style="color:#c2d94c;">&quot;Hello, </span><span style="color:#bfbab0;">{name}</span><span style="color:#c2d94c;">!&quot;
 
-</span><span style="color:#ffa759;">def </span><span style="color:#ffd580;">bye</span><span style="color:#ccc9c2;">(</span><span style="color:#ffcc66;">name</span><span style="color:#ccc9c2cc;">: </span><span style="font-style:italic;color:#5ccfe6;">str</span><span style="color:#ccc9c2;">):
-    </span><span style="color:#f28779;">print</span><span style="color:#ccc9c2;">(</span><span style="color:#bae67e;">&quot;Hi from the function `bye`&quot;</span><span style="color:#ccc9c2;">)
-    </span><span style="color:#ffa759;">return f</span><span style="color:#bae67e;">&quot;Bye, </span><span style="color:#ccc9c2;">{name}</span><span style="color:#bae67e;">!&quot;
+</span><span style="color:#ff7733;">def </span><span style="color:#ffb454;">bye</span><span style="color:#bfbab0;">(</span><span style="color:#f29718;">name</span><span style="color:#bfbab0cc;">: </span><span style="font-style:italic;color:#39bae6;">str</span><span style="color:#bfbab0;">):
+    </span><span style="color:#f07178;">print</span><span style="color:#bfbab0;">(</span><span style="color:#c2d94c;">&quot;Hi from the function `bye`&quot;</span><span style="color:#bfbab0;">)
+    </span><span style="color:#ff7733;">return f</span><span style="color:#c2d94c;">&quot;Bye, </span><span style="color:#bfbab0;">{name}</span><span style="color:#c2d94c;">!&quot;
 
-</span><span style="color:#ffa759;">if </span><span style="color:#ccc9c2;">__name__ </span><span style="color:#f29e74;">== </span><span style="color:#bae67e;">&quot;__main__&quot;</span><span style="color:#ccc9c2;">:
-    </span><span style="color:#f28779;">print</span><span style="color:#ccc9c2;">(</span><span style="color:#ffd580;">hello</span><span style="color:#ccc9c2;">(</span><span style="color:#bae67e;">&quot;Sally&quot;</span><span style="color:#ccc9c2;">))
-    </span><span style="color:#f28779;">print</span><span style="color:#ccc9c2;">(</span><span style="color:#ffd580;">hello</span><span style="color:#ccc9c2;">(</span><span style="color:#bae67e;">&quot;Garry&quot;</span><span style="color:#ccc9c2;">))
+</span><span style="color:#ff7733;">if </span><span style="color:#bfbab0;">__name__ </span><span style="color:#f29668;">== </span><span style="color:#c2d94c;">&quot;__main__&quot;</span><span style="color:#bfbab0;">:
+    </span><span style="color:#f07178;">print</span><span style="color:#bfbab0;">(</span><span style="color:#ffb454;">hello</span><span style="color:#bfbab0;">(</span><span style="color:#c2d94c;">&quot;Sally&quot;</span><span style="color:#bfbab0;">))
+    </span><span style="color:#f07178;">print</span><span style="color:#bfbab0;">(</span><span style="color:#ffb454;">hello</span><span style="color:#bfbab0;">(</span><span style="color:#c2d94c;">&quot;Garry&quot;</span><span style="color:#bfbab0;">))
 </span></code></pre>
 <p>This, however, can be inconvenient if we had more than just 2 functions even
 the behavior to replicate was more complex.</p>
 <p>A common solution to this problem is to define a decorator.</p>
-<pre style="background-color:#212733;">
-<code class="language-python" data-lang="python"><span style="color:#ffa759;">from </span><span style="color:#ccc9c2;">functools </span><span style="color:#ffa759;">import </span><span style="color:#ccc9c2;">wraps
-</span><span style="color:#ffa759;">from </span><span style="color:#ccc9c2;">typing </span><span style="color:#ffa759;">import </span><span style="color:#ccc9c2;">Callable
+<pre style="background-color:#0f1419;">
+<code class="language-python" data-lang="python"><span style="color:#ff7733;">from </span><span style="color:#bfbab0;">functools </span><span style="color:#ff7733;">import </span><span style="color:#bfbab0;">wraps
+</span><span style="color:#ff7733;">from </span><span style="color:#bfbab0;">typing </span><span style="color:#ff7733;">import </span><span style="color:#bfbab0;">Callable
 
-</span><span style="color:#ffa759;">def </span><span style="color:#ffd580;">hi_func</span><span style="color:#ccc9c2;">(</span><span style="color:#ffcc66;">func</span><span style="color:#ccc9c2cc;">: </span><span style="color:#ccc9c2;">Callable) </span><span style="color:#ccc9c2cc;">-&gt; </span><span style="color:#ccc9c2;">Callable:
-    </span><span style="color:#ccc9c2cc;">@</span><span style="color:#ffd580;">wraps</span><span style="color:#ccc9c2;">(func)
-    </span><span style="color:#ffa759;">def </span><span style="color:#ffd580;">wrapper</span><span style="color:#ccc9c2;">(</span><span style="color:#f29e74;">*</span><span style="color:#ffcc66;">args</span><span style="color:#ccc9c2cc;">, </span><span style="color:#f29e74;">**</span><span style="color:#ffcc66;">kwargs</span><span style="color:#ccc9c2;">) </span><span style="color:#ccc9c2cc;">-&gt; </span><span style="color:#ccc9c2;">Callable:
-        </span><span style="color:#f28779;">print</span><span style="color:#ccc9c2;">(</span><span style="color:#ffa759;">f</span><span style="color:#bae67e;">&quot;Hi from the function `</span><span style="color:#ccc9c2;">{func</span><span style="color:#f29e74;">.</span><span style="color:#ccc9c2;">__name__}</span><span style="color:#bae67e;">`&quot;</span><span style="color:#ccc9c2;">)
-        </span><span style="color:#ffa759;">return </span><span style="color:#ffd580;">func</span><span style="color:#ccc9c2;">(</span><span style="color:#f29e74;">*</span><span style="color:#ccc9c2;">args</span><span style="color:#ccc9c2cc;">, </span><span style="color:#f29e74;">**</span><span style="color:#ccc9c2;">kwargs)
+</span><span style="color:#ff7733;">def </span><span style="color:#ffb454;">hi_func</span><span style="color:#bfbab0;">(</span><span style="color:#f29718;">func</span><span style="color:#bfbab0cc;">: </span><span style="color:#bfbab0;">Callable) </span><span style="color:#bfbab0cc;">-&gt; </span><span style="color:#bfbab0;">Callable:
+    </span><span style="color:#bfbab0cc;">@</span><span style="color:#ffb454;">wraps</span><span style="color:#bfbab0;">(func)
+    </span><span style="color:#ff7733;">def </span><span style="color:#ffb454;">wrapper</span><span style="color:#bfbab0;">(</span><span style="color:#f29668;">*</span><span style="color:#f29718;">args</span><span style="color:#bfbab0cc;">, </span><span style="color:#f29668;">**</span><span style="color:#f29718;">kwargs</span><span style="color:#bfbab0;">) </span><span style="color:#bfbab0cc;">-&gt; </span><span style="color:#bfbab0;">Callable:
+        </span><span style="color:#f07178;">print</span><span style="color:#bfbab0;">(</span><span style="color:#ff7733;">f</span><span style="color:#c2d94c;">&quot;Hi from the function `</span><span style="color:#bfbab0;">{func</span><span style="color:#f29668;">.</span><span style="color:#bfbab0;">__name__}</span><span style="color:#c2d94c;">`&quot;</span><span style="color:#bfbab0;">)
+        </span><span style="color:#ff7733;">return </span><span style="color:#ffb454;">func</span><span style="color:#bfbab0;">(</span><span style="color:#f29668;">*</span><span style="color:#bfbab0;">args</span><span style="color:#bfbab0cc;">, </span><span style="color:#f29668;">**</span><span style="color:#bfbab0;">kwargs)
 
-    </span><span style="color:#ffa759;">return </span><span style="color:#ccc9c2;">wrapper
+    </span><span style="color:#ff7733;">return </span><span style="color:#bfbab0;">wrapper
 
-</span><span style="color:#ccc9c2cc;">@</span><span style="color:#ffd580;">hi_func
-</span><span style="color:#ffa759;">def </span><span style="color:#ffd580;">hello</span><span style="color:#ccc9c2;">(</span><span style="color:#ffcc66;">name</span><span style="color:#ccc9c2cc;">: </span><span style="font-style:italic;color:#5ccfe6;">str</span><span style="color:#ccc9c2;">):
-    </span><span style="color:#ffa759;">return f</span><span style="color:#bae67e;">&quot;Hello, </span><span style="color:#ccc9c2;">{name}</span><span style="color:#bae67e;">!&quot;
+</span><span style="color:#bfbab0cc;">@</span><span style="color:#ffb454;">hi_func
+</span><span style="color:#ff7733;">def </span><span style="color:#ffb454;">hello</span><span style="color:#bfbab0;">(</span><span style="color:#f29718;">name</span><span style="color:#bfbab0cc;">: </span><span style="font-style:italic;color:#39bae6;">str</span><span style="color:#bfbab0;">):
+    </span><span style="color:#ff7733;">return f</span><span style="color:#c2d94c;">&quot;Hello, </span><span style="color:#bfbab0;">{name}</span><span style="color:#c2d94c;">!&quot;
 
-</span><span style="color:#ccc9c2cc;">@</span><span style="color:#ffd580;">hi_func
-</span><span style="color:#ffa759;">def </span><span style="color:#ffd580;">bye</span><span style="color:#ccc9c2;">(</span><span style="color:#ffcc66;">name</span><span style="color:#ccc9c2cc;">: </span><span style="font-style:italic;color:#5ccfe6;">str</span><span style="color:#ccc9c2;">):
-    </span><span style="color:#ffa759;">return f</span><span style="color:#bae67e;">&quot;Bye, </span><span style="color:#ccc9c2;">{name}</span><span style="color:#bae67e;">!&quot;
+</span><span style="color:#bfbab0cc;">@</span><span style="color:#ffb454;">hi_func
+</span><span style="color:#ff7733;">def </span><span style="color:#ffb454;">bye</span><span style="color:#bfbab0;">(</span><span style="color:#f29718;">name</span><span style="color:#bfbab0cc;">: </span><span style="font-style:italic;color:#39bae6;">str</span><span style="color:#bfbab0;">):
+    </span><span style="color:#ff7733;">return f</span><span style="color:#c2d94c;">&quot;Bye, </span><span style="color:#bfbab0;">{name}</span><span style="color:#c2d94c;">!&quot;
 
-</span><span style="color:#ffa759;">if </span><span style="color:#ccc9c2;">__name__ </span><span style="color:#f29e74;">== </span><span style="color:#bae67e;">&quot;__main__&quot;</span><span style="color:#ccc9c2;">:
-    </span><span style="color:#f28779;">print</span><span style="color:#ccc9c2;">(</span><span style="color:#ffd580;">hello</span><span style="color:#ccc9c2;">(</span><span style="color:#bae67e;">&quot;Sally&quot;</span><span style="color:#ccc9c2;">))
-    </span><span style="color:#f28779;">print</span><span style="color:#ccc9c2;">(</span><span style="color:#ffd580;">hello</span><span style="color:#ccc9c2;">(</span><span style="color:#bae67e;">&quot;Garry&quot;</span><span style="color:#ccc9c2;">))
+</span><span style="color:#ff7733;">if </span><span style="color:#bfbab0;">__name__ </span><span style="color:#f29668;">== </span><span style="color:#c2d94c;">&quot;__main__&quot;</span><span style="color:#bfbab0;">:
+    </span><span style="color:#f07178;">print</span><span style="color:#bfbab0;">(</span><span style="color:#ffb454;">hello</span><span style="color:#bfbab0;">(</span><span style="color:#c2d94c;">&quot;Sally&quot;</span><span style="color:#bfbab0;">))
+    </span><span style="color:#f07178;">print</span><span style="color:#bfbab0;">(</span><span style="color:#ffb454;">hello</span><span style="color:#bfbab0;">(</span><span style="color:#c2d94c;">&quot;Garry&quot;</span><span style="color:#bfbab0;">))
 </span></code></pre>
           </div>
         </article>
