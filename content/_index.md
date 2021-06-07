@@ -13,7 +13,7 @@ improving health outcomes to increase independence and quality of life for
 everyone!
 
 <details>
-<summary align="center"><u>Click Here for Extended Bio</u></summary>
+<summary align="center"><u>Click Here for an Extended Bio</u></summary>
 <p>
 
 Previously, I did an R&D work for [Mayo Clinic][mayo], where I first-authored
