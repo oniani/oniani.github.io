@@ -41,7 +41,7 @@ title = "Projects"
 - [Chudnovsky][chudnovsky] - The Chudnovsky algorithm for calculating the digits of Pi
 - [Huffman][huffman] - A pure Rust implementation of Huffman's algorithm for lossless data compression
 - [lr][lr] - Linear Regression From Scratch in Rust
-- [pt][pt] - A zero-dependency pure Rust prefix tree optimized for alphabets with at most 32 letters
+- [pt][pt] - A zero-dependency pure Rust prefix tree optimized for an English alphabet
 
 ### Other
 
