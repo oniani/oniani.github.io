@@ -12,12 +12,6 @@ title = "Projects"
 
 ---
 
-### C++
-
-- [Arduino Stuff][arduino_stuff] - Tinkering with Arduino
-- [b][b] - A build system
-- [QuickSpell][quickspell] - A simple and minimal spellchecker
-
 ### Haskell
 
 - [MiniFrame][miniframe] - Minimal data frames with relational algebra
@@ -25,7 +19,6 @@ title = "Projects"
 
 ### Python
 
-- [bresenham][bresenham] - Derivation and implementation of Bresenham's Circle Drawing Algorithm
 - [COVID-19 Chatbot](https://github.com/oniani/covid-19-chatbot) - GPT-2-based chatbot enhanced by BERT, BioBERT, USE, and tf-idf.
 - [COVID-19 Network](https://github.com/oniani/covid-19-network) - Co-occurrence network embeddings for COVID-19.
 - [Galton][galton] - Galton board simulations using multithreading to achieve parallelism
@@ -34,6 +27,7 @@ title = "Projects"
 - [Profile Generation][profile_generation] - A simple, on-the-fly user profile generation (with API)
 - [SAT Sudoku Solver][sat_sudoku_solver] - Python implementation of the paper "Sudoku as a SAT Problem"
 - [Tic-tac-toe][tic_tac_toe] - A simple Tic-tac-toe game with the GUI and 3 levels of difficulty
+- [bresenham][bresenham] - Derivation and implementation of Bresenham's Circle Drawing Algorithm
 - [sim-to-real][sim_to_real] - VGG19 and Other Networks for Scene Classification
 
 ### Rust
@@ -45,11 +39,14 @@ title = "Projects"
 
 ### Other
 
+- [Arduino Stuff][arduino_stuff] - Tinkering with Arduino
 - [Blogplate][blogplate] - Simple, fully responsive web template for a blog
 - [Document Preparation][docprep] - Various templates for document preparation purposes
 - [OS Scheduling][os_scheduling] - Process, memory, and disk scheduling simulations
+- [QuickSpell][quickspell] - A simple and minimal spellchecker
 - [Smart Jokes][smart_joke_generator] - "Smart Joke" generator
 - [SpaceworldVR][spaceworldvr] - Galactic VR experience (requires both Unity and Oculus)
+- [b][b] - A build system
 - [dots][dots] - Configurations files and the setup wizard for \*nix (UNIX-like) meta distribution
 - [oniani.github.io][oniani_github_io] - Personal website
 - [walls][walls] - My wallpaper collection
