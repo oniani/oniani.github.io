@@ -1,19 +1,35 @@
 +++
-title = "Bio"
+title = "hello world"
 +++
 
-Hello, I am David. Currently, a Research Engineer at [DawnLight][dawnlight], a
-very cool startup founded by Drs. [Fei-Fei Li][feifei], [Jia Li][jia], and
-[Arnold Milstein][arnold]. I was a Machine Learning Intern first, working under
-Drs. [Nathan Liu][nathan], [Erheng Zhong][erheng], and [S. R.
-Prakash][prakash], and then transitioned into a full-time work. We research,
-design, and build state-of-the-art human-centric Artificial Intelligence (AI)
-technologies with the goal of reducing costs of care and most importantly,
-improving health outcomes to increase independence and quality of life for
-everyone!
+<!-- Bio {{{ -->
+
+# I'm Dave,
+
+a Research Engineer at [DawnLight][dawnlight] ― a very cool startup founded by
+Drs. [Fei-Fei Li][feifei], [Jia Li][jia], and [Arnold Milstein][arnold]. I was
+a Machine Learning Intern first, mentored by Drs. [Nathan Liu][nathan], [Erheng
+Zhong][erheng], and [S. R. Prakash][prakash], and then transitioned into a
+full-time work. We research, design, and build state-of-the-art human-centric
+Artificial Intelligence (AI) technologies with the goal of reducing costs of
+care and most importantly, improving health outcomes to increase independence
+and quality of life for everyone!
+
+Research Interests:
+
+- Artificial Intelligence
+- Programming Languages
+- Emerging Technologies
+
+<!-- }}} -->
+
+<!-- Extended Bio {{{ -->
 
 <details>
-<summary align="center"><u>Click Here for an Extended Bio</u></summary>
+<summary>
+  <u>Click Here for an Extended Bio</u>
+  and <a href="cv.pdf">here</a> for my CV.
+</summary>
 <p>
 
 Previously, I did an R&D work for [Mayo Clinic][mayo], where I first-authored
@@ -48,18 +64,6 @@ international competition medals in math and physics.
 
 Before all that, I was a die hard football (actual football) amateur player and
 fan.
-</p>
-</details>
-
-<br>
-
-My CV is available [here](cv.pdf).
-
-Research interests:
-
-- Artificial Intelligence
-- Programming Languages
-- Emerging Technologies
 
 Other interests include art, economics, recreational programming, music,
 information theory, [video games](gaming), anime and manga, space exploration,
@@ -73,6 +77,13 @@ curl -Ls www.davidoniani.com/card | sh
 
 P.S. [Install curl](https://curl.haxx.se/docs/install.html) if not already
 installed.
+
+</p>
+</details>
+
+<!-- }}} -->
+
+<!-- Links {{{ -->
 
 [dawnlight]: https://www.dawnlight.com/home
 [feifei]: https://profiles.stanford.edu/fei-fei-li
@@ -92,3 +103,5 @@ installed.
 [insta]: https://www.insta.ge/?v=7516fd43adaa
 [warbler]: https://www.linkedin.com/company/warblerltd
 [unleash]: https://www.unleashar.net/
+
+<!-- }}} -->

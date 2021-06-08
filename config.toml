@@ -56,5 +56,6 @@ favicon_32x32 = "favicon-32x32.png"
 
 # Socials
 [extra.social]
+email = "onianidavid@gmail.com"
 github = "oniani"
 linkedin = "davidoniani"
