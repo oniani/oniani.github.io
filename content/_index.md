@@ -11,9 +11,9 @@ Drs. [Fei-Fei Li][feifei], [Jia Li][jia], and [Arnold Milstein][arnold]. I was
 a Machine Learning Intern first, mentored by Drs. [Nathan Liu][nathan], [Erheng
 Zhong][erheng], and [S. R. Prakash][prakash], and then transitioned into a
 full-time work. We research, design, and build state-of-the-art human-centric
-Artificial Intelligence (AI) technologies with the goal of reducing costs of
-care and most importantly, improving health outcomes to increase independence
-and quality of life for everyone!
+Artificial Intelligence technologies with the goal of reducing costs of care
+and most importantly, improving health outcomes to increase independence and
+quality of life for everyone!
 
 Research Interests:
 
@@ -33,19 +33,19 @@ Research Interests:
 <p>
 
 Previously, I did an R&D work for [Mayo Clinic][mayo], where I first-authored
-several papers that got accepted at the world's leading AI and Biomedical
-Informatics conferences and journals, such as [ACM-BCB][acmbcb],
+several papers that got accepted at the world's leading Artificial Intelligence
+and Biomedical Informatics conferences and journals, such as [ACM-BCB][acmbcb],
 [JAMIA][jamia], etc. I worked directly under Drs. [Feichen Shen][feichen] and
 [Yanshan Wang][yanshan] in the division of Dr. [Hongfang Liu][hongfang].
 
 I hold a bachelor's degree in both Computer Science and Mathematics from
 [Luther College][luther], a small liberal arts college located in picturesque
 Decorah, IA. During my time at college, I did collaborative and individual
-research in Topology (math), Automated Unit Testing, AI and authorship
-attribution, and Programming Languages and Type Theory. As the final Computer
-Science project, my team and I have built [Luther Navigator][luthernavigator],
-a project that seeks to provide students a way to share their experiences
-abroad.
+research in Topology (math), Automated Unit Testing, Artificial Intelligence
+and Authorship Attribution, and Programming Languages and Type Theory. As the
+final Computer Science project, my team and I have built [Luther
+Navigator][luthernavigator], a project that seeks to provide students a way to
+share their experiences abroad.
 
 Prior to college, I was a college dropout (I dropped out from a Georgian
 college and eventually obtained my bachelor's from the US college) and worked
