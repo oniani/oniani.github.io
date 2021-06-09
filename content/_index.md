@@ -27,7 +27,7 @@ Research Interests:
 
 <details>
 <summary>
-  <u>Click Here for an Extended Bio</u>
+  <u>Click here for an extended bio</u>
   and <a href="cv.pdf">here</a> for my CV.
 </summary>
 <p>
