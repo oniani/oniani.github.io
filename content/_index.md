@@ -6,7 +6,7 @@ title = "hello world"
 
 # I'm Dave,
 
-a Research Engineer at [DawnLight][dawnlight] ― a very cool startup founded by
+a Research Engineer at [DawnLight][dawnlight] ― a super cool startup founded by
 Drs. [Fei-Fei Li][feifei], [Jia Li][jia], and [Arnold Milstein][arnold]. I was
 a Machine Learning Intern first, mentored by Drs. [Nathan Liu][nathan], [Erheng
 Zhong][erheng], and [S. R. Prakash][prakash], and then transitioned into a
