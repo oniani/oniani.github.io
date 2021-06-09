@@ -65,19 +65,6 @@ international competition medals in math and physics.
 Before all that, I was a die hard football (actual football) amateur player and
 fan.
 
-Other interests include art, economics, recreational programming, music,
-information theory, [video games](gaming), anime and manga, space exploration,
-and cancer research.
-
-If you really really want to reach me, execute the command below:
-
-```sh
-curl -Ls www.davidoniani.com/card | sh
-```
-
-P.S. [Install curl](https://curl.haxx.se/docs/install.html) if not already
-installed.
-
 </p>
 </details>
 
