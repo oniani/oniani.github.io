@@ -16,26 +16,26 @@ jobs:
 
       - name: Authenticate
         run: |
-            git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
 
       - name: Build Website on Branch `code`
         run: |
-            git submodule update --init --recursive
-            git checkout code
-            zola build
+          git submodule update --init --recursive
+          git checkout code
+          zola build
 
       - name: Push Changes to Branch `main`
         env:
-            TOKEN: ${{ secrets.TOKEN }}
+          TOKEN: ${{ secrets.TOKEN }}
         run: |
-            mv public ..
-            git checkout main
-            git rm -rf .
-            git clean -fxd
-            mv ../public/* .
-            rm -rf ../public
-            rm -rf themes
-            git add .
-            git commit -m "Redeployment" || exit 0
-            git push https://${TOKEN}@github.com/oniani/oniani.github.io.git
+          mv public ..
+          git checkout main
+          git rm -rf .
+          git clean -fxd
+          mv ../public/* .
+          rm -rf ../public
+          rm -rf themes
+          git add .
+          git commit -m "Redeployment" || exit 0
+          git push https://${TOKEN}@github.com/oniani/oniani.github.io.git

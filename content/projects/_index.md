@@ -5,8 +5,6 @@ title = "Projects"
 ### Ongoing Projects
 
 - [A minimal machine learning library, implemented from scratch with OpenCL GPU support][miniml]
-- A build system (cross-platform rewrite of [b][b], with better parsing and
-  more options)
 - A tiny interpreted language written in Haskell (a significant portion of it
   is already written, so might consider porting it to Rust for speed)
 
@@ -19,8 +17,6 @@ title = "Projects"
 
 ### Python
 
-- [COVID-19 Chatbot](https://github.com/oniani/covid-19-chatbot) - GPT-2-based chatbot enhanced by BERT, BioBERT, USE, and tf-idf
-- [COVID-19 Network](https://github.com/oniani/covid-19-network) - Co-occurrence network embeddings for COVID-19
 - [Galton][galton] - Galton board simulations using multithreading to achieve parallelism
 - [Nero][nero] - A tiny app that runs in terminal and helps manage daily tasks
 - [Pixelation][pixelation] - Retro style game using Pyxel game engine

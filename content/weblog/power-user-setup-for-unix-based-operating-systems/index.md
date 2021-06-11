@@ -1,6 +1,9 @@
 +++
 title = "Power User Setup for Unix-based Operating Systems"
 date = 2020-02-17
+
+[extra]
+toc = true
 +++
 
 A lot of people have asked me about my setup.

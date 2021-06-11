@@ -1,6 +1,9 @@
 +++
 title = "The Essence of Programming - Functional Approach"
 date = 2018-11-25
+
+[extra]
+toc = true
 +++
 
 This blogpost is a general overview of a rather underappreciated programming
@@ -14,29 +17,6 @@ loops, and recursion.
 It is important to note that the blogpost is just an introduction to the
 paradigms in functional programming and does not cover any of them in great
 detail.
-
-<br>
-
----
-
-**Table of Contents**
-
-- [What is Functional Programming?](#what-is-functional-programming)
-- [Classes VS Functions](#classes-vs-functions)
-- [Natural Results](#natural-results)
-- [Math, Sets, and Haskell](#math-sets-and-haskell)
-- [State Changes and Functional Programming](#state-changes-and-functional-programming)
-- [Control Flow](#control-flow)
-  - [1. Functional Languages Are Declarative](#1-functional-languages-are-declarative)
-  - [2. Functional Programming And Lambda Calculus](#2-functional-programming-and-lambda-calculus)
-  - [3. Getting Rid of Loops](#3-getting-rid-of-loops)
-- [Purely Functional Languages](#purely-functional-languages)
-- [Conclusion](#conclusion)
-- [How to Get Started with Functional Programming?](#how-to-get-started-with-functional-programming)
-
----
-
-<br>
 
 ### [What is Functional Programming?](#what-is-functional-programming)
 

@@ -1,6 +1,9 @@
 +++
 title = "Privacy for the Web"
 date = 2020-01-03
+
+[extra]
+toc = true
 +++
 
 A few words concerning the privacy on the web.
