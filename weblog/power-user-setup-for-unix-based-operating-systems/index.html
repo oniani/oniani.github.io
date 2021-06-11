@@ -265,8 +265,8 @@ startup time.</p>
 </tbody></table>
 <h3 id="automated-installation">Automated Installation</h3>
 <p>Check out the installation wizard!</p>
-<pre style="background-color:#0f1419;">
-<code class="language-console" data-lang="console"><span style="color:#bfbab0;">$ git clone https://github.com/oniani/dots
+<pre style="background-color:#212733;">
+<code class="language-console" data-lang="console"><span style="color:#ccc9c2;">$ git clone https://github.com/oniani/dots
 $ ./setup.py --help
 </span></code></pre>
 <p>Also, please make sure that the system runs the latest macOS operating system.
@@ -276,6 +276,61 @@ Note that the setup script is idempotent: it can safely be run multiple times.</
 
           </div>
         </article>
+      </div>
+      
+      <div class="column is-2 is-hidden-mobile">
+        <aside class="menu" style="position: sticky; top: 48px">
+          <p class="heading has-text-weight-bold">Contents</p>
+          <ul class="menu-list">
+            
+            <li>
+              <a id="link-organization" class="toc is-size-7 is-active"
+                href="https://www.davidoniani.com/weblog/power-user-setup-for-unix-based-operating-systems/#organization">
+                Organization
+              </a>
+              
+            </li>
+            
+            <li>
+              <a id="link-setup" class="toc is-size-7 "
+                href="https://www.davidoniani.com/weblog/power-user-setup-for-unix-based-operating-systems/#setup">
+                Setup
+              </a>
+              
+              <ul>
+                
+                <li>
+                  <a id="link-z-shell" class="toc is-size-7" href="https://www.davidoniani.com/weblog/power-user-setup-for-unix-based-operating-systems/#z-shell">
+                    Z Shell
+                  </a>
+                </li>
+                
+                <li>
+                  <a id="link-neovim" class="toc is-size-7" href="https://www.davidoniani.com/weblog/power-user-setup-for-unix-based-operating-systems/#neovim">
+                    Neovim
+                  </a>
+                </li>
+                
+                <li>
+                  <a id="link-automated-installation" class="toc is-size-7" href="https://www.davidoniani.com/weblog/power-user-setup-for-unix-based-operating-systems/#automated-installation">
+                    Automated Installation
+                  </a>
+                </li>
+                
+              </ul>
+              
+            </li>
+            
+            <li>
+              <a id="link-license" class="toc is-size-7 "
+                href="https://www.davidoniani.com/weblog/power-user-setup-for-unix-based-operating-systems/#license">
+                License
+              </a>
+              
+            </li>
+            
+          </ul>
+        </aside>
       </div>
       
     </div>
@@ -386,6 +441,49 @@ Note that the setup script is idempotent: it can safely be run multiple times.</
   <script src="https:&#x2F;&#x2F;www.davidoniani.com&#x2F;js&#x2F;site.js"></script>
 
   
+
+<script type="text/javascript">
+  const menuBarHeight = $("nav.navbar").height();
+  const tocItems = $('.toc');
+  const navSections = new Array($('.toc').length);
+
+  tocItems.each(function (i) {
+    let id = $(this).attr("id").substring(5);
+    navSections[i] = document.getElementById(id);
+  })
+
+  function isVisible(tocIndex) {
+    const current = navSections[tocIndex];
+    const next = tocIndex < tocItems.length - 1 ? navSections[tocIndex + 1] : $("section.section").get(1);
+
+    const c = current.getBoundingClientRect();
+    const n = next.getBoundingClientRect();
+    const h = (window.innerHeight || document.documentElement.clientHeight);
+
+    return (c.top <= h) && (c.top + (n.top - c.top) - menuBarHeight >= 0);
+  }
+
+  function activateIfVisible() {
+    for (b = true, i = 0; i < tocItems.length; i++) {
+      if (b && isVisible(i)) {
+        tocItems[i].classList.add('is-active');
+        b = false;
+      } else
+        tocItems[i].classList.remove('is-active');
+    }
+  }
+
+  var isTicking = null;
+  window.addEventListener('scroll', () => {
+    if (!isTicking) {
+      window.requestAnimationFrame(() => {
+        activateIfVisible();
+        isTicking = false;
+      });
+      isTicking = true;
+    }
+  }, false);
+</script>
 
 
 

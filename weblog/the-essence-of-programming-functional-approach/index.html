@@ -154,11 +154,11 @@ David Oniani&#x27;s Website | The Essence of Programming - Functional Approach
   <span class="icon">
     <i class="far fa-clock"></i>
   </span>
-  <span>20 min,</span>
+  <span>19 min,</span>
   <span class="icon">
     <i class="fas fa-pencil-alt"></i>
   </span>
-  <span>3804 words</span>
+  <span>3705 words</span>
 </span>
 
             </div>
@@ -180,28 +180,6 @@ loops, and recursion.</p>
 <p>It is important to note that the blogpost is just an introduction to the
 paradigms in functional programming and does not cover any of them in great
 detail.</p>
-<br>
-<hr />
-<p><strong>Table of Contents</strong></p>
-<ul>
-<li><a href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#what-is-functional-programming">What is Functional Programming?</a></li>
-<li><a href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#classes-vs-functions">Classes VS Functions</a></li>
-<li><a href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#natural-results">Natural Results</a></li>
-<li><a href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#math-sets-and-haskell">Math, Sets, and Haskell</a></li>
-<li><a href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#state-changes-and-functional-programming">State Changes and Functional Programming</a></li>
-<li><a href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#control-flow">Control Flow</a>
-<ul>
-<li><a href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#1-functional-languages-are-declarative">1. Functional Languages Are Declarative</a></li>
-<li><a href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#2-functional-programming-and-lambda-calculus">2. Functional Programming And Lambda Calculus</a></li>
-<li><a href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#3-getting-rid-of-loops">3. Getting Rid of Loops</a></li>
-</ul>
-</li>
-<li><a href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#purely-functional-languages">Purely Functional Languages</a></li>
-<li><a href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#conclusion">Conclusion</a></li>
-<li><a href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#how-to-get-started-with-functional-programming">How to Get Started with Functional Programming?</a></li>
-</ul>
-<hr />
-<br>
 <h3 id="what-is-functional-programming"><a href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#what-is-functional-programming">What is Functional Programming?</a></h3>
 <p><img src="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/new-keyboard.png" alt="New keyboard" /></p>
 <p>As mentioned above, functional programming is just an approach to programming.
@@ -250,18 +228,18 @@ Reminds of SQL tables or pandas data frames?</p>
 <p>Because functions are so important, there are natural results and outcomes
 which are shared among most of functional languages.</p>
 <p>Let's write a Haskell function to find the factorial of a positive integer.</p>
-<pre style="background-color:#0f1419;">
+<pre style="background-color:#212733;">
 <code class="language-haskell" data-lang="haskell"><span style="font-style:italic;color:#5c6773;">-- | A function to find the factorial of a positive integer
-</span><span style="color:#bfbab0;">factorial x </span><span style="color:#f29668;">=</span><span style="color:#bfbab0;"> product [</span><span style="color:#f29718;">1</span><span style="color:#f29668;">..</span><span style="color:#bfbab0;">x]  </span><span style="font-style:italic;color:#5c6773;">-- easy as that
+</span><span style="color:#ccc9c2;">factorial x </span><span style="color:#f29e74;">=</span><span style="color:#ccc9c2;"> product [</span><span style="color:#ffcc66;">1</span><span style="color:#f29e74;">..</span><span style="color:#ccc9c2;">x]  </span><span style="font-style:italic;color:#5c6773;">-- easy as that
 </span></code></pre>
 <p>The function builds a list of integers from 1 up to x and then calculates
 the product of these elements. This way we effectively get a product
 \( 1 \times 2 \times 3 .. \times \ x \) which is the same as \( x! \).
 Since we now have a function, we can call it with the actual parameters!</p>
-<pre style="background-color:#0f1419;">
-<code class="language-haskell" data-lang="haskell"><span style="color:#bfbab0;">print (factorial </span><span style="color:#f29718;">1</span><span style="color:#bfbab0;">)  </span><span style="font-style:italic;color:#5c6773;">-- prints out 1
-</span><span style="color:#bfbab0;">print (factorial </span><span style="color:#f29718;">6</span><span style="color:#bfbab0;">)  </span><span style="font-style:italic;color:#5c6773;">-- prints out 720
-</span><span style="color:#bfbab0;">print (factorial </span><span style="color:#f29718;">9</span><span style="color:#bfbab0;">)  </span><span style="font-style:italic;color:#5c6773;">-- prints out 362880
+<pre style="background-color:#212733;">
+<code class="language-haskell" data-lang="haskell"><span style="color:#ccc9c2;">print (factorial </span><span style="color:#ffcc66;">1</span><span style="color:#ccc9c2;">)  </span><span style="font-style:italic;color:#5c6773;">-- prints out 1
+</span><span style="color:#ccc9c2;">print (factorial </span><span style="color:#ffcc66;">6</span><span style="color:#ccc9c2;">)  </span><span style="font-style:italic;color:#5c6773;">-- prints out 720
+</span><span style="color:#ccc9c2;">print (factorial </span><span style="color:#ffcc66;">9</span><span style="color:#ccc9c2;">)  </span><span style="font-style:italic;color:#5c6773;">-- prints out 362880
 </span></code></pre>
 <p>As shown above, something that in imperative languages would require importing
 modules, looping, etc. is a single line in Haskell. This is one of the outcomes
@@ -278,11 +256,11 @@ These are some of the reasons why functional languages are so concise.</p>
 function is called with \( 0 \) (\( 0! = 1 \)). It was done on purpose so
 that now we are able to add some other notation and explain the whole function
 in detail. Below is a better and more complete version of the function.</p>
-<pre style="background-color:#0f1419;">
+<pre style="background-color:#212733;">
 <code class="language-haskell" data-lang="haskell"><span style="font-style:italic;color:#5c6773;">-- | A function to find the factorial of a number
-</span><span style="color:#ffb454;">factorial </span><span style="color:#ff7733;">:: Integer -&gt; Integer
-</span><span style="color:#bfbab0;">factorial </span><span style="color:#f29718;">0 </span><span style="color:#f29668;">= </span><span style="color:#f29718;">1
-</span><span style="color:#bfbab0;">factorial x </span><span style="color:#f29668;">=</span><span style="color:#bfbab0;"> product [</span><span style="color:#f29718;">1</span><span style="color:#f29668;">..</span><span style="color:#bfbab0;">x]
+</span><span style="color:#ffd580;">factorial </span><span style="color:#ffa759;">:: Integer -&gt; Integer
+</span><span style="color:#ccc9c2;">factorial </span><span style="color:#ffcc66;">0 </span><span style="color:#f29e74;">= </span><span style="color:#ffcc66;">1
+</span><span style="color:#ccc9c2;">factorial x </span><span style="color:#f29e74;">=</span><span style="color:#ccc9c2;"> product [</span><span style="color:#ffcc66;">1</span><span style="color:#f29e74;">..</span><span style="color:#ccc9c2;">x]
 </span></code></pre>
 <p><code>::</code> - prompts that it is a function declaration</p>
 <p><code>Integer</code> - type that can hold any number no matter how big, up to the limit of
@@ -302,9 +280,9 @@ from set \( A \) and maps it to the output in the set \( B \).</p>
 is a function that takes an element from the set of integers and maps it to
 some other element in the set of integers. As opposed to math, however, Haskell
 does not use \( \mapsto \) notation and instead has the statements below it.</p>
-<pre style="background-color:#0f1419;">
-<code class="language-haskell" data-lang="haskell"><span style="color:#bfbab0;">factorial </span><span style="color:#f29718;">0 </span><span style="color:#f29668;">= </span><span style="color:#f29718;">1
-</span><span style="color:#bfbab0;">factorial x </span><span style="color:#f29668;">=</span><span style="color:#bfbab0;"> product [</span><span style="color:#f29718;">1</span><span style="color:#f29668;">..</span><span style="color:#bfbab0;">x]
+<pre style="background-color:#212733;">
+<code class="language-haskell" data-lang="haskell"><span style="color:#ccc9c2;">factorial </span><span style="color:#ffcc66;">0 </span><span style="color:#f29e74;">= </span><span style="color:#ffcc66;">1
+</span><span style="color:#ccc9c2;">factorial x </span><span style="color:#f29e74;">=</span><span style="color:#ccc9c2;"> product [</span><span style="color:#ffcc66;">1</span><span style="color:#f29e74;">..</span><span style="color:#ccc9c2;">x]
 </span></code></pre>
 <p>The code above is equivalent to saying that if the element is 0, map it to 1
 and in all other cases, map it to the product from 1 up to the element.</p>
@@ -317,31 +295,31 @@ offer functions and immutable variables.</p>
 <p>To make it clear, let's look at two examples below. One is from Python and the
 other is from Haskell.</p>
 <p>Python example</p>
-<pre style="background-color:#0f1419;">
+<pre style="background-color:#212733;">
 <code class="language-python" data-lang="python"><span style="font-style:italic;color:#5c6773;"># Define a variable &#39;my_number&#39; and assign it to 3
-</span><span style="color:#bfbab0;">my_number </span><span style="color:#f29668;">= </span><span style="color:#f29718;">3
+</span><span style="color:#ccc9c2;">my_number </span><span style="color:#f29e74;">= </span><span style="color:#ffcc66;">3
 
 </span><span style="font-style:italic;color:#5c6773;"># Increment the variable &#39;my_number&#39; by 1 and reassign it to the result
-</span><span style="color:#bfbab0;">my_number </span><span style="color:#f29668;">+= </span><span style="color:#f29718;">1
+</span><span style="color:#ccc9c2;">my_number </span><span style="color:#f29e74;">+= </span><span style="color:#ffcc66;">1
 
-</span><span style="color:#f07178;">print</span><span style="color:#bfbab0;">(my_number)  </span><span style="font-style:italic;color:#5c6773;"># Prints out 4
+</span><span style="color:#f28779;">print</span><span style="color:#ccc9c2;">(my_number)  </span><span style="font-style:italic;color:#5c6773;"># Prints out 4
 </span></code></pre>
 <p>Let's repeat the same steps in Haskell.</p>
-<pre style="background-color:#0f1419;">
-<code class="language-haskell" data-lang="haskell"><span style="color:#bfbab0;">myNumber </span><span style="color:#f29668;">= </span><span style="color:#f29718;">3    </span><span style="font-style:italic;color:#5c6773;">-- Define a variable &#39;myNumber&#39; and assign it to 3
-</span><span style="color:#bfbab0;">myNumber </span><span style="color:#f29668;">+= </span><span style="color:#f29718;">1   </span><span style="font-style:italic;color:#5c6773;">-- Haskell gags here (infinite loop)
+<pre style="background-color:#212733;">
+<code class="language-haskell" data-lang="haskell"><span style="color:#ccc9c2;">myNumber </span><span style="color:#f29e74;">= </span><span style="color:#ffcc66;">3    </span><span style="font-style:italic;color:#5c6773;">-- Define a variable &#39;myNumber&#39; and assign it to 3
+</span><span style="color:#ccc9c2;">myNumber </span><span style="color:#f29e74;">+= </span><span style="color:#ffcc66;">1   </span><span style="font-style:italic;color:#5c6773;">-- Haskell gags here (infinite loop)
 
-</span><span style="color:#bfbab0;">print myNumber  </span><span style="font-style:italic;color:#5c6773;">-- This statement is not reachable
+</span><span style="color:#ccc9c2;">print myNumber  </span><span style="font-style:italic;color:#5c6773;">-- This statement is not reachable
 </span></code></pre>
 <p>Looking at the code above, you might have already noticed that Haskell
 does not allow us to change the state of the program. Now you might be
 wondering how could one increment variables.</p>
 <p>Here is a short answer:</p>
-<pre style="background-color:#0f1419;">
-<code class="language-haskell" data-lang="haskell"><span style="color:#bfbab0;">myNumber </span><span style="color:#f29668;">= </span><span style="color:#f29718;">3                  </span><span style="font-style:italic;color:#5c6773;">-- Define a variable &#39;myNumber&#39; and assign it to 3
-</span><span style="color:#bfbab0;">myOtherNumber </span><span style="color:#f29668;">=</span><span style="color:#bfbab0;"> myNumber </span><span style="color:#f29668;">+ </span><span style="color:#f29718;">1  </span><span style="font-style:italic;color:#5c6773;">-- Define a variable &#39;myOtherNumber&#39; and assign it to &#39;myNumber&#39;
-</span><span style="color:#bfbab0;">myNumber </span><span style="color:#f29668;">=</span><span style="color:#bfbab0;"> myOtherNumber      </span><span style="font-style:italic;color:#5c6773;">-- Redefine &#39;myNumber&#39; and set it to &#39;myOtherNumber&#39;
-</span><span style="color:#bfbab0;">print myNumber                </span><span style="font-style:italic;color:#5c6773;">-- Prints out 4
+<pre style="background-color:#212733;">
+<code class="language-haskell" data-lang="haskell"><span style="color:#ccc9c2;">myNumber </span><span style="color:#f29e74;">= </span><span style="color:#ffcc66;">3                  </span><span style="font-style:italic;color:#5c6773;">-- Define a variable &#39;myNumber&#39; and assign it to 3
+</span><span style="color:#ccc9c2;">myOtherNumber </span><span style="color:#f29e74;">=</span><span style="color:#ccc9c2;"> myNumber </span><span style="color:#f29e74;">+ </span><span style="color:#ffcc66;">1  </span><span style="font-style:italic;color:#5c6773;">-- Define a variable &#39;myOtherNumber&#39; and assign it to &#39;myNumber&#39;
+</span><span style="color:#ccc9c2;">myNumber </span><span style="color:#f29e74;">=</span><span style="color:#ccc9c2;"> myOtherNumber      </span><span style="font-style:italic;color:#5c6773;">-- Redefine &#39;myNumber&#39; and set it to &#39;myOtherNumber&#39;
+</span><span style="color:#ccc9c2;">print myNumber                </span><span style="font-style:italic;color:#5c6773;">-- Prints out 4
 </span></code></pre>
 <p><strong>Longer and better answer</strong></p>
 <p><img src="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/recurse-shall-we.png" alt="Let's recurse, shall we?" /></p>
@@ -352,23 +330,23 @@ gradually get to the target.</p>
 <p>Here is the example of how one could translate a well-known accumulator pattern
 from Python to Haskell.</p>
 <p>Here is a classic Python accumulator pattern.</p>
-<pre style="background-color:#0f1419;">
+<pre style="background-color:#212733;">
 <code class="language-python" data-lang="python"><span style="font-style:italic;color:#5c6773;"># An accumulator pattern approach for finding
 # the sum of the first 100 positive integers.
 
-</span><span style="color:#bfbab0;">total </span><span style="color:#f29668;">= </span><span style="color:#f29718;">0
-</span><span style="color:#ff7733;">for </span><span style="color:#bfbab0;">integer </span><span style="color:#ff7733;">in </span><span style="color:#f07178;">range</span><span style="color:#bfbab0;">(</span><span style="color:#f29718;">1</span><span style="color:#bfbab0cc;">, </span><span style="color:#f29718;">100</span><span style="color:#bfbab0;">):
-    total </span><span style="color:#f29668;">+= </span><span style="color:#bfbab0;">integer
+</span><span style="color:#ccc9c2;">total </span><span style="color:#f29e74;">= </span><span style="color:#ffcc66;">0
+</span><span style="color:#ffa759;">for </span><span style="color:#ccc9c2;">integer </span><span style="color:#ffa759;">in </span><span style="color:#f28779;">range</span><span style="color:#ccc9c2;">(</span><span style="color:#ffcc66;">1</span><span style="color:#ccc9c2cc;">, </span><span style="color:#ffcc66;">100</span><span style="color:#ccc9c2;">):
+    total </span><span style="color:#f29e74;">+= </span><span style="color:#ccc9c2;">integer
 
-</span><span style="color:#f07178;">print</span><span style="color:#bfbab0;">(total)  </span><span style="font-style:italic;color:#5c6773;"># Prints out 5050
+</span><span style="color:#f28779;">print</span><span style="color:#ccc9c2;">(total)  </span><span style="font-style:italic;color:#5c6773;"># Prints out 5050
 </span></code></pre>
 <p>Here is what it looks like in Haskell.</p>
-<pre style="background-color:#0f1419;">
-<code class="language-haskell" data-lang="haskell"><span style="color:#bfbab0;">accumulator </span><span style="color:#f29718;">1 </span><span style="color:#f29668;">= </span><span style="color:#f29718;">1                        </span><span style="font-style:italic;color:#5c6773;">-- The base case for the recursion
-</span><span style="color:#bfbab0;">accumulator x </span><span style="color:#f29668;">=</span><span style="color:#bfbab0;"> x </span><span style="color:#f29668;">+</span><span style="color:#bfbab0;"> accumulator (x </span><span style="color:#f29668;">- </span><span style="color:#f29718;">1</span><span style="color:#bfbab0;">)  </span><span style="font-style:italic;color:#5c6773;">-- The recursive case
+<pre style="background-color:#212733;">
+<code class="language-haskell" data-lang="haskell"><span style="color:#ccc9c2;">accumulator </span><span style="color:#ffcc66;">1 </span><span style="color:#f29e74;">= </span><span style="color:#ffcc66;">1                        </span><span style="font-style:italic;color:#5c6773;">-- The base case for the recursion
+</span><span style="color:#ccc9c2;">accumulator x </span><span style="color:#f29e74;">=</span><span style="color:#ccc9c2;"> x </span><span style="color:#f29e74;">+</span><span style="color:#ccc9c2;"> accumulator (x </span><span style="color:#f29e74;">- </span><span style="color:#ffcc66;">1</span><span style="color:#ccc9c2;">)  </span><span style="font-style:italic;color:#5c6773;">-- The recursive case
 
 
-</span><span style="color:#bfbab0;">main </span><span style="color:#f29668;">=</span><span style="color:#bfbab0;"> print (accumulator </span><span style="color:#f29718;">100</span><span style="color:#bfbab0;">)  </span><span style="font-style:italic;color:#5c6773;">-- Prints out 5050
+</span><span style="color:#ccc9c2;">main </span><span style="color:#f29e74;">=</span><span style="color:#ccc9c2;"> print (accumulator </span><span style="color:#ffcc66;">100</span><span style="color:#ccc9c2;">)  </span><span style="font-style:italic;color:#5c6773;">-- Prints out 5050
 </span></code></pre>
 <p>In the code excerpt above, we did not use any loops. In fact, we could not use
 any loops because functional languages do not support loops. Instead, we
@@ -379,8 +357,8 @@ through function calls.</p>
 accumulator pattern. All we need to do is use the already predefined <code>sum</code>
 function and so-called texas range list notation that we have already
 seen (<code>[1..x]</code>).</p>
-<pre style="background-color:#0f1419;">
-<code class="language-haskell" data-lang="haskell"><span style="color:#bfbab0;">print (sum [</span><span style="color:#f29718;">1</span><span style="color:#f29668;">..</span><span style="color:#f29718;">100</span><span style="color:#bfbab0;">])  </span><span style="font-style:italic;color:#5c6773;">-- Prints out 5050
+<pre style="background-color:#212733;">
+<code class="language-haskell" data-lang="haskell"><span style="color:#ccc9c2;">print (sum [</span><span style="color:#ffcc66;">1</span><span style="color:#f29e74;">..</span><span style="color:#ffcc66;">100</span><span style="color:#ccc9c2;">])  </span><span style="font-style:italic;color:#5c6773;">-- Prints out 5050
 </span></code></pre><h3 id="control-flow"><a href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#control-flow">Control Flow</a></h3>
 <p>As we have already seen, there are no for loops or while loops in functional
 programming languages and there are good reasons why. Let's list a few of them
@@ -407,17 +385,17 @@ and SQL engine figures out the best way to get it.</p>
 <p><em>Example 2</em>: A better example might be comparing two implementations
 of a simple function. Let's implement them in both Python and Haskell.</p>
 <p>The function takes a list of integers and returns the sum of odd integers in it.</p>
-<pre style="background-color:#0f1419;">
-<code class="language-python" data-lang="python"><span style="color:#ff7733;">def </span><span style="color:#ffb454;">odd_sum</span><span style="color:#bfbab0;">(</span><span style="color:#f29718;">list_of_integers</span><span style="color:#bfbab0;">):
+<pre style="background-color:#212733;">
+<code class="language-python" data-lang="python"><span style="color:#ffa759;">def </span><span style="color:#ffd580;">odd_sum</span><span style="color:#ccc9c2;">(</span><span style="color:#ffcc66;">list_of_integers</span><span style="color:#ccc9c2;">):
     </span><span style="font-style:italic;color:#5c6773;">&quot;&quot;&quot;Return the sum of all odd integers in the list.&quot;&quot;&quot;
-    </span><span style="color:#bfbab0;">total </span><span style="color:#f29668;">= </span><span style="color:#f29718;">0
-    </span><span style="color:#ff7733;">for </span><span style="color:#bfbab0;">integer </span><span style="color:#ff7733;">in </span><span style="color:#bfbab0;">list_of_integers:
-        </span><span style="color:#ff7733;">if </span><span style="color:#bfbab0;">integer </span><span style="color:#f29668;">% </span><span style="color:#f29718;">2 </span><span style="color:#f29668;">== </span><span style="color:#f29718;">1</span><span style="color:#bfbab0;">:
-            total </span><span style="color:#f29668;">+= </span><span style="color:#bfbab0;">integer
-    </span><span style="color:#ff7733;">return </span><span style="color:#bfbab0;">total
+    </span><span style="color:#ccc9c2;">total </span><span style="color:#f29e74;">= </span><span style="color:#ffcc66;">0
+    </span><span style="color:#ffa759;">for </span><span style="color:#ccc9c2;">integer </span><span style="color:#ffa759;">in </span><span style="color:#ccc9c2;">list_of_integers:
+        </span><span style="color:#ffa759;">if </span><span style="color:#ccc9c2;">integer </span><span style="color:#f29e74;">% </span><span style="color:#ffcc66;">2 </span><span style="color:#f29e74;">== </span><span style="color:#ffcc66;">1</span><span style="color:#ccc9c2;">:
+            total </span><span style="color:#f29e74;">+= </span><span style="color:#ccc9c2;">integer
+    </span><span style="color:#ffa759;">return </span><span style="color:#ccc9c2;">total
 
 
-</span><span style="color:#f07178;">print</span><span style="color:#bfbab0;">(</span><span style="color:#ffb454;">odd_sum</span><span style="color:#bfbab0;">([</span><span style="color:#f29718;">1</span><span style="color:#bfbab0cc;">, </span><span style="color:#f29718;">2</span><span style="color:#bfbab0cc;">, </span><span style="color:#f29718;">3</span><span style="color:#bfbab0cc;">, </span><span style="color:#f29718;">4</span><span style="color:#bfbab0cc;">, </span><span style="color:#f29718;">5</span><span style="color:#bfbab0;">]))  </span><span style="font-style:italic;color:#5c6773;"># Prints out 9
+</span><span style="color:#f28779;">print</span><span style="color:#ccc9c2;">(</span><span style="color:#ffd580;">odd_sum</span><span style="color:#ccc9c2;">([</span><span style="color:#ffcc66;">1</span><span style="color:#ccc9c2cc;">, </span><span style="color:#ffcc66;">2</span><span style="color:#ccc9c2cc;">, </span><span style="color:#ffcc66;">3</span><span style="color:#ccc9c2cc;">, </span><span style="color:#ffcc66;">4</span><span style="color:#ccc9c2cc;">, </span><span style="color:#ffcc66;">5</span><span style="color:#ccc9c2;">]))  </span><span style="font-style:italic;color:#5c6773;"># Prints out 9
 </span></code></pre>
 <p>Let's do a shallow analysis of the <code>odd_sum</code> function. As seen above, it
 starts by declaring a variable <code>total</code> which is initially set to 0. Then,
@@ -430,10 +408,10 @@ add the integer to <code>total</code> (only if it is odd). Thus, <strong>we tell
 to do step-by-step</strong>. This is an important characteristic that distinguishes
 non-declarative languages from declarative ones.</p>
 <p>Let's now look at the Haskell example.</p>
-<pre style="background-color:#0f1419;">
-<code class="language-haskell" data-lang="haskell"><span style="color:#bfbab0;">oddSum x </span><span style="color:#f29668;">=</span><span style="color:#bfbab0;"> sum (filter odd x)
+<pre style="background-color:#212733;">
+<code class="language-haskell" data-lang="haskell"><span style="color:#ccc9c2;">oddSum x </span><span style="color:#f29e74;">=</span><span style="color:#ccc9c2;"> sum (filter odd x)
 
-main </span><span style="color:#f29668;">=</span><span style="color:#bfbab0;"> print (oddSum [</span><span style="color:#f29718;">1</span><span style="color:#bfbab0cc;">,</span><span style="color:#f29718;">2</span><span style="color:#bfbab0cc;">,</span><span style="color:#f29718;">3</span><span style="color:#bfbab0cc;">,</span><span style="color:#f29718;">4</span><span style="color:#bfbab0cc;">,</span><span style="color:#f29718;">5</span><span style="color:#bfbab0;">])  </span><span style="font-style:italic;color:#5c6773;">-- Prints out 9
+main </span><span style="color:#f29e74;">=</span><span style="color:#ccc9c2;"> print (oddSum [</span><span style="color:#ffcc66;">1</span><span style="color:#ccc9c2cc;">,</span><span style="color:#ffcc66;">2</span><span style="color:#ccc9c2cc;">,</span><span style="color:#ffcc66;">3</span><span style="color:#ccc9c2cc;">,</span><span style="color:#ffcc66;">4</span><span style="color:#ccc9c2cc;">,</span><span style="color:#ffcc66;">5</span><span style="color:#ccc9c2;">])  </span><span style="font-style:italic;color:#5c6773;">-- Prints out 9
 </span></code></pre>
 <p>Notice what we did here. First we defined a function <code>oddSum</code> which takes
 a list. Then we used the function <code>filter</code> (happened to be predefined) in
@@ -499,10 +477,10 @@ the function \( f : \mathbb{Z} \rightarrow \mathbb{Z} : x \mapsto 2x \).
 Thus, we have a function which does a fairly straightforward thing: takes an
 integer and maps it to twice its value (which will also be an integer). Let's
 now look at the Haskell implementation of this function</p>
-<pre style="background-color:#0f1419;">
+<pre style="background-color:#212733;">
 <code class="language-haskell" data-lang="haskell"><span style="font-style:italic;color:#5c6773;">-- | A function that takes an input and outputs twice its value
-</span><span style="color:#ffb454;">f </span><span style="color:#ff7733;">:: Integer -&gt; Integer
-</span><span style="color:#bfbab0;">f x </span><span style="color:#f29668;">= </span><span style="color:#f29718;">2</span><span style="color:#bfbab0;"> * x
+</span><span style="color:#ffd580;">f </span><span style="color:#ffa759;">:: Integer -&gt; Integer
+</span><span style="color:#ccc9c2;">f x </span><span style="color:#f29e74;">= </span><span style="color:#ffcc66;">2</span><span style="color:#ccc9c2;"> * x
 </span></code></pre>
 <p>The function above says that the input (corresponds to the <code>Integer</code> before the
 arrow) is always an integer and the output (corresponds to the <code>integer</code> after
@@ -519,25 +497,25 @@ since we already know what to expect for a given input. <strong>Such functions a
 called pure!</strong></p>
 <p>To further demystify this idea, let's look at the following piece of code
 from a C++ programming language.</p>
-<pre style="background-color:#0f1419;">
+<pre style="background-color:#212733;">
 <code class="language-cpp" data-lang="cpp"><span style="font-style:italic;color:#5c6773;">/*
  * An example of a function that is pretending to be pure.
  *
  */
 
-</span><span style="color:#ff7733;">#include </span><span style="color:#c2d94c;">&lt;iostream&gt;
+</span><span style="color:#ffa759;">#include </span><span style="color:#bae67e;">&lt;iostream&gt;
 
-</span><span style="color:#ff7733;">using namespace</span><span style="color:#bfbab0;"> std</span><span style="color:#bfbab0cc;">;
+</span><span style="color:#ffa759;">using namespace</span><span style="color:#ccc9c2;"> std</span><span style="color:#ccc9c2cc;">;
 
-</span><span style="color:#ff7733;">int </span><span style="color:#ffb454;">not_so_pure_function</span><span style="color:#bfbab0;">(</span><span style="color:#ff7733;">int </span><span style="color:#f29718;">value</span><span style="color:#bfbab0;">) {
-    </span><span style="color:#ff7733;">return</span><span style="color:#bfbab0;"> value </span><span style="color:#f29668;">+ </span><span style="color:#f07178;">rand</span><span style="color:#bfbab0;">() </span><span style="color:#f29668;">% </span><span style="color:#f29718;">3</span><span style="color:#bfbab0cc;">;
-</span><span style="color:#bfbab0;">}
+</span><span style="color:#ffa759;">int </span><span style="color:#ffd580;">not_so_pure_function</span><span style="color:#ccc9c2;">(</span><span style="color:#ffa759;">int </span><span style="color:#ffcc66;">value</span><span style="color:#ccc9c2;">) {
+    </span><span style="color:#ffa759;">return</span><span style="color:#ccc9c2;"> value </span><span style="color:#f29e74;">+ </span><span style="color:#f28779;">rand</span><span style="color:#ccc9c2;">() </span><span style="color:#f29e74;">% </span><span style="color:#ffcc66;">3</span><span style="color:#ccc9c2cc;">;
+</span><span style="color:#ccc9c2;">}
 
-</span><span style="color:#ff7733;">int </span><span style="color:#ffb454;">main</span><span style="color:#bfbab0;">() {
-    cout </span><span style="color:#f29668;">&lt;&lt; </span><span style="color:#c2d94c;">&quot;Returns: &quot; </span><span style="color:#f29668;">&lt;&lt; </span><span style="color:#ffb454;">not_so_pure_function</span><span style="color:#bfbab0;">(</span><span style="color:#f29718;">7</span><span style="color:#bfbab0;">) </span><span style="color:#f29668;">&lt;&lt;</span><span style="color:#bfbab0;"> endl</span><span style="color:#bfbab0cc;">;  </span><span style="font-style:italic;color:#5c6773;">// Prints out 8
-</span><span style="color:#bfbab0;">    cout </span><span style="color:#f29668;">&lt;&lt; </span><span style="color:#c2d94c;">&quot;Returns: &quot; </span><span style="color:#f29668;">&lt;&lt; </span><span style="color:#ffb454;">not_so_pure_function</span><span style="color:#bfbab0;">(</span><span style="color:#f29718;">7</span><span style="color:#bfbab0;">) </span><span style="color:#f29668;">&lt;&lt;</span><span style="color:#bfbab0;"> endl</span><span style="color:#bfbab0cc;">;  </span><span style="font-style:italic;color:#5c6773;">// Prints out 8
-</span><span style="color:#bfbab0;">    cout </span><span style="color:#f29668;">&lt;&lt; </span><span style="color:#c2d94c;">&quot;Returns: &quot; </span><span style="color:#f29668;">&lt;&lt; </span><span style="color:#ffb454;">not_so_pure_function</span><span style="color:#bfbab0;">(</span><span style="color:#f29718;">7</span><span style="color:#bfbab0;">) </span><span style="color:#f29668;">&lt;&lt;</span><span style="color:#bfbab0;"> endl</span><span style="color:#bfbab0cc;">;  </span><span style="font-style:italic;color:#5c6773;">// Prints out 7
-</span><span style="color:#bfbab0;">}
+</span><span style="color:#ffa759;">int </span><span style="color:#ffd580;">main</span><span style="color:#ccc9c2;">() {
+    cout </span><span style="color:#f29e74;">&lt;&lt; </span><span style="color:#bae67e;">&quot;Returns: &quot; </span><span style="color:#f29e74;">&lt;&lt; </span><span style="color:#ffd580;">not_so_pure_function</span><span style="color:#ccc9c2;">(</span><span style="color:#ffcc66;">7</span><span style="color:#ccc9c2;">) </span><span style="color:#f29e74;">&lt;&lt;</span><span style="color:#ccc9c2;"> endl</span><span style="color:#ccc9c2cc;">;  </span><span style="font-style:italic;color:#5c6773;">// Prints out 8
+</span><span style="color:#ccc9c2;">    cout </span><span style="color:#f29e74;">&lt;&lt; </span><span style="color:#bae67e;">&quot;Returns: &quot; </span><span style="color:#f29e74;">&lt;&lt; </span><span style="color:#ffd580;">not_so_pure_function</span><span style="color:#ccc9c2;">(</span><span style="color:#ffcc66;">7</span><span style="color:#ccc9c2;">) </span><span style="color:#f29e74;">&lt;&lt;</span><span style="color:#ccc9c2;"> endl</span><span style="color:#ccc9c2cc;">;  </span><span style="font-style:italic;color:#5c6773;">// Prints out 8
+</span><span style="color:#ccc9c2;">    cout </span><span style="color:#f29e74;">&lt;&lt; </span><span style="color:#bae67e;">&quot;Returns: &quot; </span><span style="color:#f29e74;">&lt;&lt; </span><span style="color:#ffd580;">not_so_pure_function</span><span style="color:#ccc9c2;">(</span><span style="color:#ffcc66;">7</span><span style="color:#ccc9c2;">) </span><span style="color:#f29e74;">&lt;&lt;</span><span style="color:#ccc9c2;"> endl</span><span style="color:#ccc9c2cc;">;  </span><span style="font-style:italic;color:#5c6773;">// Prints out 7
+</span><span style="color:#ccc9c2;">}
 </span></code></pre>
 <p>Here, we defined a function that takes an integer input and it seems like the
 output is also an integer. We now might be lured into thinking that function
@@ -559,28 +537,28 @@ was moved to some other directory etc). Thus, when we deal with uncertainty
 (which usually comes with side effects), Haskell warns us by using the <code>IO</code>
 notation.</p>
 <p>Here is how <code>not_so_pure_function</code> could be made <em>pure</em> in Haskell.</p>
-<pre style="background-color:#0f1419;">
+<pre style="background-color:#212733;">
 <code class="language-haskell" data-lang="haskell"><span style="font-style:italic;color:#5c6773;">{-
 Example of a function that if called with the same argument,
 does not always return the same result.
 -}
 
-</span><span style="color:#ff7733;">import </span><span style="color:#bfbab0;">System.Random (</span><span style="color:#ffb454;">randomRIO</span><span style="color:#bfbab0;">)
+</span><span style="color:#ffa759;">import </span><span style="color:#ccc9c2;">System.Random (</span><span style="color:#ffd580;">randomRIO</span><span style="color:#ccc9c2;">)
 
 
-</span><span style="color:#ffb454;">purifiedFunction </span><span style="color:#ff7733;">:: Int -&gt; IO Int
-</span><span style="color:#bfbab0;">purifiedFunction value </span><span style="color:#f29668;">= </span><span style="color:#ff7733;">do
-</span><span style="color:#bfbab0;">    randomValue </span><span style="color:#f29668;">&lt;-</span><span style="color:#bfbab0;"> randomRIO (</span><span style="color:#f29718;">0</span><span style="color:#bfbab0cc;">,</span><span style="color:#f29718;">2</span><span style="color:#bfbab0;">)
-    return (value </span><span style="color:#f29668;">+</span><span style="color:#bfbab0;"> randomValue)
+</span><span style="color:#ffd580;">purifiedFunction </span><span style="color:#ffa759;">:: Int -&gt; IO Int
+</span><span style="color:#ccc9c2;">purifiedFunction value </span><span style="color:#f29e74;">= </span><span style="color:#ffa759;">do
+</span><span style="color:#ccc9c2;">    randomValue </span><span style="color:#f29e74;">&lt;-</span><span style="color:#ccc9c2;"> randomRIO (</span><span style="color:#ffcc66;">0</span><span style="color:#ccc9c2cc;">,</span><span style="color:#ffcc66;">2</span><span style="color:#ccc9c2;">)
+    return (value </span><span style="color:#f29e74;">+</span><span style="color:#ccc9c2;"> randomValue)
 
 
-main </span><span style="color:#f29668;">= </span><span style="color:#ff7733;">do
-</span><span style="color:#bfbab0;">    x </span><span style="color:#f29668;">&lt;-</span><span style="color:#bfbab0;"> purifiedFunction </span><span style="color:#f29718;">7
-</span><span style="color:#bfbab0;">    print x                  </span><span style="font-style:italic;color:#5c6773;">-- Prints out 9
-</span><span style="color:#bfbab0;">    x </span><span style="color:#f29668;">&lt;-</span><span style="color:#bfbab0;"> purifiedFunction </span><span style="color:#f29718;">7
-</span><span style="color:#bfbab0;">    print x                  </span><span style="font-style:italic;color:#5c6773;">-- Prints out 7
-</span><span style="color:#bfbab0;">    x </span><span style="color:#f29668;">&lt;-</span><span style="color:#bfbab0;"> purifiedFunction </span><span style="color:#f29718;">7
-</span><span style="color:#bfbab0;">    print x                  </span><span style="font-style:italic;color:#5c6773;">-- Prints out 9
+main </span><span style="color:#f29e74;">= </span><span style="color:#ffa759;">do
+</span><span style="color:#ccc9c2;">    x </span><span style="color:#f29e74;">&lt;-</span><span style="color:#ccc9c2;"> purifiedFunction </span><span style="color:#ffcc66;">7
+</span><span style="color:#ccc9c2;">    print x                  </span><span style="font-style:italic;color:#5c6773;">-- Prints out 9
+</span><span style="color:#ccc9c2;">    x </span><span style="color:#f29e74;">&lt;-</span><span style="color:#ccc9c2;"> purifiedFunction </span><span style="color:#ffcc66;">7
+</span><span style="color:#ccc9c2;">    print x                  </span><span style="font-style:italic;color:#5c6773;">-- Prints out 7
+</span><span style="color:#ccc9c2;">    x </span><span style="color:#f29e74;">&lt;-</span><span style="color:#ccc9c2;"> purifiedFunction </span><span style="color:#ffcc66;">7
+</span><span style="color:#ccc9c2;">    print x                  </span><span style="font-style:italic;color:#5c6773;">-- Prints out 9
 </span></code></pre>
 <p>Look at the Haskell code above. You can disregard all the notational fluff.
 Just look at the return type of the function <code>purifiedFunction</code>. It is <code>IO Int</code>!
@@ -632,6 +610,111 @@ page which is full of various educational resources.</p>
 
           </div>
         </article>
+      </div>
+      
+      <div class="column is-2 is-hidden-mobile">
+        <aside class="menu" style="position: sticky; top: 48px">
+          <p class="heading has-text-weight-bold">Contents</p>
+          <ul class="menu-list">
+            
+            <li>
+              <a id="link-what-is-functional-programming" class="toc is-size-7 is-active"
+                href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#what-is-functional-programming">
+                What is Functional Programming?
+              </a>
+              
+            </li>
+            
+            <li>
+              <a id="link-classes-vs-functions" class="toc is-size-7 "
+                href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#classes-vs-functions">
+                Classes VS Functions
+              </a>
+              
+            </li>
+            
+            <li>
+              <a id="link-natural-results" class="toc is-size-7 "
+                href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#natural-results">
+                Natural Results
+              </a>
+              
+            </li>
+            
+            <li>
+              <a id="link-math-sets-and-haskell" class="toc is-size-7 "
+                href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#math-sets-and-haskell">
+                Math, Sets, and Haskell
+              </a>
+              
+            </li>
+            
+            <li>
+              <a id="link-state-changes-and-functional-programming" class="toc is-size-7 "
+                href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#state-changes-and-functional-programming">
+                State Changes and Functional Programming
+              </a>
+              
+            </li>
+            
+            <li>
+              <a id="link-control-flow" class="toc is-size-7 "
+                href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#control-flow">
+                Control Flow
+              </a>
+              
+            </li>
+            
+            <li>
+              <a id="link-1-functional-languages-are-declarative" class="toc is-size-7 "
+                href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#1-functional-languages-are-declarative">
+                1. Functional Languages Are Declarative
+              </a>
+              
+            </li>
+            
+            <li>
+              <a id="link-2-functional-programming-and-lambda-calculus" class="toc is-size-7 "
+                href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#2-functional-programming-and-lambda-calculus">
+                2. Functional Programming And Lambda Calculus
+              </a>
+              
+            </li>
+            
+            <li>
+              <a id="link-3-getting-rid-of-loops" class="toc is-size-7 "
+                href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#3-getting-rid-of-loops">
+                3. Getting Rid of Loops
+              </a>
+              
+            </li>
+            
+            <li>
+              <a id="link-purely-functional-languages" class="toc is-size-7 "
+                href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#purely-functional-languages">
+                Purely Functional Languages
+              </a>
+              
+            </li>
+            
+            <li>
+              <a id="link-conclusion" class="toc is-size-7 "
+                href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#conclusion">
+                Conclusion
+              </a>
+              
+            </li>
+            
+            <li>
+              <a id="link-how-to-get-started-with-functional-programming" class="toc is-size-7 "
+                href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#how-to-get-started-with-functional-programming">
+                How to Get Started with Functional Programming?
+              </a>
+              
+            </li>
+            
+          </ul>
+        </aside>
       </div>
       
     </div>
@@ -734,6 +817,49 @@ page which is full of various educational resources.</p>
   <script src="https:&#x2F;&#x2F;www.davidoniani.com&#x2F;js&#x2F;site.js"></script>
 
   
+
+<script type="text/javascript">
+  const menuBarHeight = $("nav.navbar").height();
+  const tocItems = $('.toc');
+  const navSections = new Array($('.toc').length);
+
+  tocItems.each(function (i) {
+    let id = $(this).attr("id").substring(5);
+    navSections[i] = document.getElementById(id);
+  })
+
+  function isVisible(tocIndex) {
+    const current = navSections[tocIndex];
+    const next = tocIndex < tocItems.length - 1 ? navSections[tocIndex + 1] : $("section.section").get(1);
+
+    const c = current.getBoundingClientRect();
+    const n = next.getBoundingClientRect();
+    const h = (window.innerHeight || document.documentElement.clientHeight);
+
+    return (c.top <= h) && (c.top + (n.top - c.top) - menuBarHeight >= 0);
+  }
+
+  function activateIfVisible() {
+    for (b = true, i = 0; i < tocItems.length; i++) {
+      if (b && isVisible(i)) {
+        tocItems[i].classList.add('is-active');
+        b = false;
+      } else
+        tocItems[i].classList.remove('is-active');
+    }
+  }
+
+  var isTicking = null;
+  window.addEventListener('scroll', () => {
+    if (!isTicking) {
+      window.requestAnimationFrame(() => {
+        activateIfVisible();
+        isTicking = false;
+      });
+      isTicking = true;
+    }
+  }, false);
+</script>
 
 
 
