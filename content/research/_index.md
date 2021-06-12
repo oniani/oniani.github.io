@@ -81,7 +81,7 @@ title = "Research"
   (2019)  
   David Oniani  
   [[PDF]](agv_paper.pdf) -
-  [[TeX]](https://github.com/oniani/ugmath/tree/master/Topology/agv-paper)
+  [[TeX]](https://github.com/oniani/ugmath/tree/master/math459/agv-paper)
 
 - **Unit testing frameworks in the classroom (applied research report)**
   (2018)  
