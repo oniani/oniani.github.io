@@ -31,7 +31,7 @@ title = "Research"
   [[Code]](https://github.com/oniani/covid-19-network) -
   [[Web]](https://www.davidoniani.com/covid-19-network/) -
   [[Webinar]](https://knowledge.amia.org/webinars/journal-club/webinars-journal-club-1.1656098/2020-webinars-1.4584428/2020-jamia-journal-club-webinars-1.4584429/constructing-co-occurrence-network-embeddings-to-assist-association-extraction-for-covid-19-and-othe-1.4593734/constructing-co-occurrence-network-embeddings-to-assist-association-extraction-for-covid-19-and-othe-1.4593735) -
-  [[Presentation]](co-occurrence-network-embeddings-presentation.pdf)
+  [[Presentation]](co_occurrence_network_embeddings_presentation.pdf)
 
 - **Setting Up Python Development Environment for Use in a Small Classroom**
   ([MICS](http://www.micsymposium.org/mics2020/), 2020)  
