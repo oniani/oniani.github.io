@@ -44,7 +44,7 @@ title = "Projects"
 - [Smart Jokes][smart_joke_generator] - "Smart Joke" generator
 - [SpaceworldVR][spaceworldvr] - Galactic VR experience (requires both Unity and Oculus)
 - [b][b] - A build system
-- [dots][dots] - Configurations files and the setup wizard for \*nix (UNIX-like) meta distribution
+- [dots][dots] - Configuration files and the setup wizard for \*nix (UNIX-like) meta distribution
 - [oniani.github.io][oniani_github_io] - Personal website
 - [walls][walls] - My wallpaper collection
 
