@@ -6,14 +6,10 @@ title = "hello world"
 
 # I'm Dave,
 
-a Research Engineer at [DawnLight][dawnlight] ― a super cool startup founded by
-Drs. [Fei-Fei Li][feifei], [Jia Li][jia], and [Arnold Milstein][arnold]. I was
-a Machine Learning Intern first, mentored by Drs. [Nathan Liu][nathan], [Erheng
-Zhong][erheng], and [S. R. Prakash][prakash], and then transitioned into a
-full-time work. We research, design, and build state-of-the-art human-centric
-Artificial Intelligence technologies with the goal of reducing costs of care
-and most importantly, improving health outcomes to increase independence and
-quality of life for everyone!
+a Research Engineer at [DawnLight][dawnlight]. We research, design, and build
+state-of-the-art human-centric Artificial Intelligence technologies with the
+goal of reducing costs of care and most importantly, improving health outcomes
+to increase independence and quality of life for everyone!
 
 Research Interests:
 
