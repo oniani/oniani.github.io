@@ -21,8 +21,9 @@ jobs:
 
       - name: Build Website on Branch `code`
         run: |
-          git submodule update --init --recursive --remote --merge
           git checkout code
+          git submodule update --init --recursive
+          git submodule foreach git pull origin master
           zola build
 
       - name: Push Changes to Branch `main`
