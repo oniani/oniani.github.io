@@ -18,7 +18,6 @@ title = "Projects"
 ### Python
 
 - [Galton][galton] - Galton board simulations using multithreading to achieve parallelism
-- [Nero][nero] - A tiny app that runs in terminal and helps manage daily tasks
 - [Pixelation][pixelation] - Retro style game using Pyxel game engine
 - [Profile Generation][profile_generation] - A simple, on-the-fly user profile generation (with API)
 - [SAT Sudoku Solver][sat_sudoku_solver] - Python implementation of the paper "Sudoku as a SAT Problem"
@@ -31,7 +30,6 @@ title = "Projects"
 - [Chudnovsky][chudnovsky] - The Chudnovsky algorithm for calculating the digits of Pi
 - [Huffman][huffman] - A pure Rust implementation of Huffman's algorithm for lossless data compression
 - [bf][bf] - A zero-dependency pure Rust bloom filter
-- [lr][lr] - Linear Regression from scratch in Rust
 - [pt][pt] - A zero-dependency pure Rust prefix tree optimized for an English alphabet
 
 ### Other
@@ -58,11 +56,9 @@ title = "Projects"
 [dots]: https://github.com/oniani/dots
 [galton]: https://github.com/oniani/galton
 [huffman]: https://github.com/oniani/huffman
-[lr]: https://github.com/oniani/lr
 [luther_navigator]: https://github.com/LutherNavigator/LutherNavigator
 [miniframe]: https://github.com/oniani/miniframe
 [miniml]: https://github.com/oniani/miniml
-[nero]: https://github.com/oniani/nero
 [oniani_github_io]: https://github.com/oniani/oniani.github.io
 [os_scheduling]: https://github.com/oniani/os-scheduling
 [pixelation]: https://github.com/oniani/pixelation
