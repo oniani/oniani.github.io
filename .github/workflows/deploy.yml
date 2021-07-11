@@ -21,8 +21,8 @@ jobs:
 
       - name: Build Website on Branch `code`
         run: |
-          git checkout code
           git submodule update --init --recursive
+          git checkout code
           zola build
 
       - name: Push Changes to Branch `main`
