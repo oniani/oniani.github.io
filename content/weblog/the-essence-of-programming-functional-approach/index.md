@@ -239,12 +239,12 @@ As we have already seen, there are no for loops or while loops in functional pro
 and there are good reasons why. Let's list a few of them and continue our discussion by elaborating
 on those reasons.
 
-1. Functional languages are declarative.
-2. Most of functional languages are heavily influenced by lambda calculus.
-3. If you were to implement a functional programming language,
-   you would yourself get rid of loops.
+- Functional languages are declarative.
+- Most of functional languages are heavily influenced by lambda calculus.
+- If you were to implement a functional programming language,
+  you would yourself get rid of loops.
 
-### [1. Functional Languages Are Declarative](#1-functional-languages-are-declarative)
+#### [Functional Languages Are Declarative](#1-functional-languages-are-declarative)
 
 For those who are new to the idea of declarative languages, let's first discuss what it means for a
 language to be declarative. Here is a simple definition:
@@ -306,7 +306,7 @@ words, in the Haskell example, we do not care how the functions `sum` and `filte
 we only care about the fact that they do their job - sum up the odd numbers in the list and return
 the value.
 
-### [2. Functional Programming And Lambda Calculus](#2-functional-programming-and-lambda-calculus)
+#### [Functional Programming And Lambda Calculus](#2-functional-programming-and-lambda-calculus)
 
 ![Half-Life video game series](half-life-lambda.jpg)
 
@@ -328,7 +328,7 @@ loops, but they would have been redundant. Instead, functional languages use a m
 recursion. This is the part of the reason why loops are not that appreciated in the functional
 world.
 
-### [3. Getting Rid of Loops](#3-getting-rid-of-loops)
+#### [Getting Rid of Loops](#3-getting-rid-of-loops)
 
 ![For loop VS Runtime stack](loop-recursion_stack.png)
 
