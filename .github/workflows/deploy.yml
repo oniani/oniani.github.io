@@ -7,8 +7,6 @@ jobs:
     steps:
       - name: Checkout `code` Branch
         uses: actions/checkout@v2
-        with:
-          path: code
 
       - name: Install Latest Zola
         run: |
