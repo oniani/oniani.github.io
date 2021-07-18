@@ -34,7 +34,6 @@ jobs:
         env:
           TOKEN: ${{ secrets.TOKEN }}
         run: |
-          # git checkout main
           git rm -rf *
           git clean -fxd
           mv ../public/* .
