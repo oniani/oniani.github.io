@@ -485,18 +485,17 @@ effects in advance.
 
 ![Haskell logo](haskell-logo.png)
 
-There are a lot of functional languages. You will obviously have to decide which one to learn first.
+There are lots of functional languages. You will obviously have to decide which one to learn first.
 My recommendation would be learning Haskell. It is a purely functional programming language which
 has most of (if not all) the functional ideas in it. Besides, SPJ ([Simon Payton
 Jones](https://en.wikipedia.org/wiki/Simon_Peyton_Jones)) dedicates most of his time on extending
 the language and adding new features to it. So if there is something new and interesting in the
-world of functional programming, Haskell will probably get it (and probably sooner than other
-functional or imperative languages).
+world of functional programming, Haskell will likely get it too.
 
-After learning one functional language, it is fairly easy ("easy" is relative, but being familiar
-with one functional language automatically makes you somewhat familiar with others) to transition to
-the other. Hence, once you have a good grasp of functional ideas in Haskell, you can then move to
-languages like Clojure, Scheme, F# etc.
+After learning one functional language, it is not difficult (being familiar with one functional
+language automatically makes you somewhat familiar with others) to transition to the other. Hence,
+once you have a good grasp of functional ideas in Haskell, you can then move to languages like
+Clojure, Scheme, F# etc.
 
 To get started, visit the [Haskell documentation](https://www.haskell.org/documentation) page which
 is full of various educational resources.
