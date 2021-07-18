@@ -38,7 +38,9 @@ title = "Research"
   Roman Yasinovskyy, Karina Hoff, David Oniani  
   [[PDF]](mics2020_paper.pdf) -
   [[MICS]](http://www.micsymposium.org/mics_2020_Proceedings/MICS_2020_Proceedings.htm) -
-  [[Code]](https://github.com/yasinovskyy/mics2020-pub)
+  [[Code]](https://github.com/yasinovskyy/mics2020-pub) -
+  [[Report]](summer_2018_research_report.pdf) -
+  [[Article]](https://www.luther.edu/headlines/?story_id=819818)
 
 ## Other Manuscripts
 
@@ -84,12 +86,6 @@ title = "Research"
   David Oniani  
   [[PDF]](agv_paper.pdf) -
   [[TeX]](https://github.com/oniani/ugmath/tree/master/math459/agv-paper)
-
-- **Unit testing frameworks in the classroom (applied research report)**
-  (2018)  
-  David Oniani, Roman Yasinovskyy  
-  [[PDF]](summer_2018_research_report.pdf) -
-  [[Article]](https://www.luther.edu/headlines/?story_id=819818)
 
 - **Photography as a socially influential medium in Jennifer Baichwal's
   Manufactured Landscapes**
