@@ -37,7 +37,8 @@ title = "Research"
   ([MICS](http://www.micsymposium.org/mics2020/), 2020)  
   Roman Yasinovskyy, Karina Hoff, David Oniani  
   [[PDF]](mics2020_paper.pdf) -
-  [[MICS]](http://www.micsymposium.org/mics_2020_Proceedings/MICS_2020_Proceedings.htm)
+  [[MICS]](http://www.micsymposium.org/mics_2020_Proceedings/MICS_2020_Proceedings.htm) -
+  [[Code]](https://github.com/yasinovskyy/mics2020-pub)
 
 ## Other Manuscripts
 
