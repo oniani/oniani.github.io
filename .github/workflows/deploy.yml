@@ -5,7 +5,7 @@ jobs:
   redeploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Clone the repo and checkout `dev` branch
+      - name: Clone the repo and checkout `code` branch
         uses: actions/checkout@v1
 
       - name: Install Latest Zola
