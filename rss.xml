@@ -243,13 +243,13 @@ we have already seen (&lt;code&gt;[1..x]&lt;&#x2F;code&gt;).&lt;&#x2F;p&gt;
 &lt;p&gt;As we have already seen, there are no for loops or while loops in functional programming languages
 and there are good reasons why. Let&#x27;s list a few of them and continue our discussion by elaborating
 on those reasons.&lt;&#x2F;p&gt;
-&lt;ol&gt;
+&lt;ul&gt;
 &lt;li&gt;Functional languages are declarative.&lt;&#x2F;li&gt;
 &lt;li&gt;Most of functional languages are heavily influenced by lambda calculus.&lt;&#x2F;li&gt;
 &lt;li&gt;If you were to implement a functional programming language,
 you would yourself get rid of loops.&lt;&#x2F;li&gt;
-&lt;&#x2F;ol&gt;
-&lt;h3 id=&quot;1-functional-languages-are-declarative&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.davidoniani.com&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#1-functional-languages-are-declarative&quot;&gt;1. Functional Languages Are Declarative&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;functional-languages-are-declarative&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.davidoniani.com&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#1-functional-languages-are-declarative&quot;&gt;Functional Languages Are Declarative&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;p&gt;For those who are new to the idea of declarative languages, let&#x27;s first discuss what it means for a
 language to be declarative. Here is a simple definition:&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
@@ -299,7 +299,7 @@ you eliminate all the even integers, you are obviously left with all the odd int
 words, in the Haskell example, we do not care how the functions &lt;code&gt;sum&lt;&#x2F;code&gt; and &lt;code&gt;filter&lt;&#x2F;code&gt; work internally,
 we only care about the fact that they do their job - sum up the odd numbers in the list and return
 the value.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;2-functional-programming-and-lambda-calculus&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.davidoniani.com&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#2-functional-programming-and-lambda-calculus&quot;&gt;2. Functional Programming And Lambda Calculus&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;functional-programming-and-lambda-calculus&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.davidoniani.com&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#2-functional-programming-and-lambda-calculus&quot;&gt;Functional Programming And Lambda Calculus&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.davidoniani.com&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;half-life-lambda.jpg&quot; alt=&quot;Half-Life video game series&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Lambda calculus (also written as (\( \lambda \)-calculus) is a branch of mathematics which was
 developed by &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Alonzo_Church&quot;&gt;Alonzo Church&lt;&#x2F;a&gt; in the 1930s. It is a
@@ -318,7 +318,7 @@ programming languages have no loops because lambda calculus has no loops. One co
 loops, but they would have been redundant. Instead, functional languages use a mathematical idea of
 recursion. This is the part of the reason why loops are not that appreciated in the functional
 world.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;3-getting-rid-of-loops&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.davidoniani.com&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#3-getting-rid-of-loops&quot;&gt;3. Getting Rid of Loops&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;getting-rid-of-loops&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.davidoniani.com&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#3-getting-rid-of-loops&quot;&gt;Getting Rid of Loops&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.davidoniani.com&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;loop-recursion_stack.png&quot; alt=&quot;For loop VS Runtime stack&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Despite the fact that sometimes they are very useful, loops must not be a part
 of a functional programming language. There are several reasons for this.&lt;&#x2F;p&gt;
