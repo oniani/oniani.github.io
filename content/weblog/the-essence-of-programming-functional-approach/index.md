@@ -391,25 +391,24 @@ language.
 
 using namespace std;
 
-int not_so_pure_function(int value) {
+int rng(int value) {
     return value + rand() % 3;
 }
 
 int main() {
-    cout << "Returns: " << not_so_pure_function(7) << endl;  // Prints out 8
-    cout << "Returns: " << not_so_pure_function(7) << endl;  // Prints out 8
-    cout << "Returns: " << not_so_pure_function(7) << endl;  // Prints out 7
+    cout << "Returns: " << rng(7) << endl;  // Prints out 8
+    cout << "Returns: " << rng(7) << endl;  // Prints out 8
+    cout << "Returns: " << rng(7) << endl;  // Prints out 7
 }
 ```
 
 Here, we defined a function that takes an integer input and it seems like the output is also an
-integer. We now might be lured into thinking that function `not_so_pure_function` gives the same
-output for the same input, but that is clearly not the case here (that is why it's called
-`not_so_pure_function`). Let's take a closer look at what the function does. It takes an integer
-value and returns the value plus some random number which is 0, 1 or 2. When we first called the
-function with the actual parameter 7, we got 8 as an output. The second time, we got 8 again. The
-third time however, we got 7. Hence, for the third time, the output was not the same. Therefore, the
-function is not pure.
+integer. We now might be lured into thinking that function `rng` gives the same output for the same
+input, but that is clearly not the case here. Let's take a closer look at what the function does. It
+takes an integer value and returns the value plus some random number which is 0, 1 or 2. When we
+first called the function with the actual parameter 7, we got 8 as an output. The second time, we
+got 8 again. The third time however, we got 7. Hence, for the third time, the output was not the
+same. Therefore, the function is not pure.
 
 You now might wondering why I could not do the same trick in Haskell. In fact, I certainly can.
 However, in Haskell, such function would not have a type `Int`. It would have a type `IO Int`. `IO`
@@ -418,9 +417,7 @@ functions that are not always "truthful" as File I/O could in fact be one of the
 experiences for a programmer. So many things can go wrong! (e.g., writing to a file which was
 deleted, reading from a file on a USB which was ejected, writing a file that was moved to some other
 directory etc). Thus, when we deal with uncertainty (which usually comes with side effects), Haskell
-warns us by using the `IO` notation.
-
-Here is how `not_so_pure_function` could be made _pure_ in Haskell.
+warns us by using the `IO` notation:
 
 ```haskell
 {-
@@ -431,38 +428,36 @@ does not always return the same result.
 import System.Random (randomRIO)
 
 
-purifiedFunction :: Int -> IO Int
-purifiedFunction value = do
+notAPureFunction :: Int -> IO Int
+notAPureFunction value = do
     randomValue <- randomRIO (0,2)
     return (value + randomValue)
 
 
 main = do
-    x <- purifiedFunction 7
+    x <- notAPureFunction 7
     print x                  -- Prints out 9
-    x <- purifiedFunction 7
+    x <- notAPureFunction 7
     print x                  -- Prints out 7
-    x <- purifiedFunction 7
+    x <- notAPureFunction 7
     print x                  -- Prints out 9
 ```
 
-Look at the Haskell code above. You can disregard all the notational fluff. Just look at the return
-type of the function `purifiedFunction`. It is `IO Int`! In other words, Haskell informs us that
-the function might have side effects. This is exactly why Haskell is pure.
+Take a look at the Haskell code above. You can disregard all the notational fluff. Just look at the
+return type of the function `notAPureFunction`. It is `IO Int`! In other words, Haskell informs us
+that the function might have side effects.
 
 Finally, we can have sort of a definition of a pure functional language.
-
-**<span style="color:RED">NOTE:</span>** Pure might mean a completely different thing in
-non-functional languages.
 
 > A functional language is pure if and only if the user is informed of all the side effects in a
 > language or there are no side effects at all.
 
-Actually, Haskell did not allow random values back in 1990s when its development was first launched.
-Because of this, Haskell was considered useless for all practical purposes. Eventually, developers
-and the Haskell committee decided to change the direction of Haskell. In lieu of getting rid of all
-the side effects, they decided to control the side effects and created a more "regulated"
-programming environment.
+In fact, Haskell did not even allow random values back in 1990s when its development was first
+launched. Furthermore, there was no notion of File IO either and writing to files was done using
+shell redirection commands (i.e., `runhaskell Program.hs > out.txt`). Because of this, Haskell was
+considered useless for all practical purposes. Eventually, developers and the Haskell committee
+decided to change the direction of Haskell. In lieu of getting rid of all the side effects, they
+decided to control the side effects and created a more "regulated" programming environment.
 
 ### [Conclusion](#conclusion)
 
@@ -474,12 +469,6 @@ for a programmer to solve problems. Most of functional languages are also very c
 the time spent on coding and leaving more time for the logic. Pure functional languages are the
 proper subset of functional languages. Purely functional languages inform the user about the side
 effects in advance.
-
-<br>
-
----
-
-<br>
 
 ### [How to Get Started with Functional Programming?](#how-to-get-started-with-functional-programming)
 
