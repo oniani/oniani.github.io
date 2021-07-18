@@ -6,24 +6,22 @@ title = "Research"
 
 ## Publications
 
-- **Social Determinants of Health in the Era of Artificial Intelligence With
-  Electronic Health Records: A Systematic Review**
+- **Social Determinants of Health in the Era of Artificial Intelligence With Electronic Health
+  Records: A Systematic Review**
   ([Health Data Science](https://spj.sciencemag.org/journals/hds/), 2021)  
-  Anusha Bompelli, Yanshan Wang, Ruyuan Wan, Esha Singh, Yuqi Zhou, Lin Xu,
-  David Oniani, Bhavani Singh Agnikula Kshatriya, Joyce (Joy) E. Balls-Berry,
-  Rui Zhang  
+  Anusha Bompelli, Yanshan Wang, Ruyuan Wan, Esha Singh, Yuqi Zhou, Lin Xu, David Oniani, Bhavani
+  Singh Agnikula Kshatriya, Joyce (Joy) E. Balls-Berry, Rui Zhang  
   [[PDF]](sdoh.pdf) - [[arXiv]](https://arxiv.org/abs/2102.04216)
 
-- **A Qualitative Evaluation of Language Models on Automatic Question-Answering
-  for COVID-19**
+- **A Qualitative Evaluation of Language Models on Automatic Question-Answering for COVID-19**
   ([ACM-BCB](https://acm-bcb.org/), 2020)  
   David Oniani, Yanshan Wang  
   [[PDF]](qualitative_evaluation_language_models_covid_19.pdf) -
   [[ACM Digital Library]](https://dl.acm.org/doi/abs/10.1145/3388440.3412413) -
   [[Code]](https://github.com/oniani/covid-19-chatbot)
 
-- **Constructing Co-occurrence Network Embeddings to Assist Association
-  Extraction for COVID-19 and Other Coronavirus Infectious Diseases**
+- **Constructing Co-occurrence Network Embeddings to Assist Association Extraction for COVID-19 and
+  Other Coronavirus Infectious Diseases**
   ([JAMIA](https://academic.oup.com/jamia), 2020)  
   David Oniani, Guoqian Jiang, Hongfang Liu, Feichen Shen  
   [[PDF]](co_occurrence_network_embeddings.pdf) -
@@ -44,23 +42,21 @@ title = "Research"
 
 ## Other Manuscripts
 
-- **Leveraging a Joint of Phenotypic and Genetic Features on Cancer Patient
-  Subgrouping**
+- **Leveraging a Joint of Phenotypic and Genetic Features on Cancer Patient Subgrouping**
   (2021)  
   David Oniani, Chen Wang, Yiqing Zhao, Andrew Wen, Hongfang Liu, Feichen Shen  
   [[PDF]](cancer_patient_subgrouping.pdf) -
   [[arXiv]](https://arxiv.org/abs/2103.16316)
 
-- **Comparisons of Graph Neural Networks on Cancer Classification Leveraging a
-  Joint of Phenotypic and Genetic Features**
+- **Comparisons of Graph Neural Networks on Cancer Classification Leveraging a Joint of Phenotypic
+  and Genetic Features**
   (2021)  
   David Oniani, Chen Wang, Yiqing Zhao, Andrew Wen, Hongfang Liu, Feichen Shen  
   [[PDF]](comparisons_of_gnns_cancer.pdf) -
   [[arXiv]](https://arxiv.org/abs/2101.05866) -
   [[Code]](https://github.com/oniani/cancer_research_gnn)
 
-- **Cosine Similarity and Its Applications in the Domains of Artificial
-  Intelligence**
+- **Cosine Similarity and Its Applications in the Domains of Artificial Intelligence**
   (2020)  
   David Oniani  
   [[PDF]](cosine_similarity_and_ai.pdf) -
