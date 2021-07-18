@@ -37,4 +37,4 @@ jobs:
           rm -rf themes
           git add .
           git commit -m "Redeployment" || exit 0
-          git push https://${TOKEN}@github.com/oniani/oniani.github.io.git
+          git push https://${TOKEN}@github.com/oniani/oniani.github.io
