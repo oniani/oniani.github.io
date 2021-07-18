@@ -371,24 +371,23 @@ language.&lt;&#x2F;p&gt;
 
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;using namespace&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; std&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
 
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;int &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;not_so_pure_function&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;int &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;value&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;) {
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;int &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;rng&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;int &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;value&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;) {
     &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;return&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; value &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;+ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f07178;&quot;&gt;rand&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;() &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;% &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;}
 
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;int &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;() {
-    cout &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;Returns: &amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;not_so_pure_function&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;7&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; endl&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F; Prints out 8
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;    cout &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;Returns: &amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;not_so_pure_function&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;7&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; endl&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F; Prints out 8
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;    cout &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;Returns: &amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;not_so_pure_function&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;7&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; endl&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F; Prints out 7
+    cout &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;Returns: &amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;rng&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;7&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; endl&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F; Prints out 8
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;    cout &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;Returns: &amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;rng&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;7&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; endl&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F; Prints out 8
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;    cout &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;Returns: &amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;rng&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;7&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; endl&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F; Prints out 7
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;}
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Here, we defined a function that takes an integer input and it seems like the output is also an
-integer. We now might be lured into thinking that function &lt;code&gt;not_so_pure_function&lt;&#x2F;code&gt; gives the same
-output for the same input, but that is clearly not the case here (that is why it&#x27;s called
-&lt;code&gt;not_so_pure_function&lt;&#x2F;code&gt;). Let&#x27;s take a closer look at what the function does. It takes an integer
-value and returns the value plus some random number which is 0, 1 or 2. When we first called the
-function with the actual parameter 7, we got 8 as an output. The second time, we got 8 again. The
-third time however, we got 7. Hence, for the third time, the output was not the same. Therefore, the
-function is not pure.&lt;&#x2F;p&gt;
+integer. We now might be lured into thinking that function &lt;code&gt;rng&lt;&#x2F;code&gt; gives the same output for the same
+input, but that is clearly not the case here. Let&#x27;s take a closer look at what the function does. It
+takes an integer value and returns the value plus some random number which is 0, 1 or 2. When we
+first called the function with the actual parameter 7, we got 8 as an output. The second time, we
+got 8 again. The third time however, we got 7. Hence, for the third time, the output was not the
+same. Therefore, the function is not pure.&lt;&#x2F;p&gt;
 &lt;p&gt;You now might wondering why I could not do the same trick in Haskell. In fact, I certainly can.
 However, in Haskell, such function would not have a type &lt;code&gt;Int&lt;&#x2F;code&gt;. It would have a type &lt;code&gt;IO Int&lt;&#x2F;code&gt;. &lt;code&gt;IO&lt;&#x2F;code&gt;
 is usually associated with file input &#x2F; output and it is reasonable that it is associated with
@@ -396,8 +395,7 @@ functions that are not always &amp;quot;truthful&amp;quot; as File I&#x2F;O coul
 experiences for a programmer. So many things can go wrong! (e.g., writing to a file which was
 deleted, reading from a file on a USB which was ejected, writing a file that was moved to some other
 directory etc). Thus, when we deal with uncertainty (which usually comes with side effects), Haskell
-warns us by using the &lt;code&gt;IO&lt;&#x2F;code&gt; notation.&lt;&#x2F;p&gt;
-&lt;p&gt;Here is how &lt;code&gt;not_so_pure_function&lt;&#x2F;code&gt; could be made &lt;em&gt;pure&lt;&#x2F;em&gt; in Haskell.&lt;&#x2F;p&gt;
+warns us by using the &lt;code&gt;IO&lt;&#x2F;code&gt; notation:&lt;&#x2F;p&gt;
 &lt;pre style=&quot;background-color:#0f1419;&quot;&gt;
 &lt;code class=&quot;language-haskell&quot; data-lang=&quot;haskell&quot;&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;{-
 Example of a function that if called with the same argument,
@@ -407,35 +405,34 @@ does not always return the same result.
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;System.Random (&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;randomRIO&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;)
 
 
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;purifiedFunction &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;:: Int -&amp;gt; IO Int
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;purifiedFunction value &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;do
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;notAPureFunction &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;:: Int -&amp;gt; IO Int
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;notAPureFunction value &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;do
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;    randomValue &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; randomRIO (&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;)
     return (value &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; randomValue)
 
 
 main &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;do
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;    x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; purifiedFunction &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;7
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;    x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; notAPureFunction &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;7
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;    print x                  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Prints out 9
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;    x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; purifiedFunction &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;7
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;    x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; notAPureFunction &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;7
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;    print x                  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Prints out 7
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;    x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; purifiedFunction &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;7
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;    x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; notAPureFunction &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;7
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;    print x                  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Prints out 9
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;Look at the Haskell code above. You can disregard all the notational fluff. Just look at the return
-type of the function &lt;code&gt;purifiedFunction&lt;&#x2F;code&gt;. It is &lt;code&gt;IO Int&lt;&#x2F;code&gt;! In other words, Haskell informs us that
-the function might have side effects. This is exactly why Haskell is pure.&lt;&#x2F;p&gt;
+&lt;p&gt;Take a look at the Haskell code above. You can disregard all the notational fluff. Just look at the
+return type of the function &lt;code&gt;notAPureFunction&lt;&#x2F;code&gt;. It is &lt;code&gt;IO Int&lt;&#x2F;code&gt;! In other words, Haskell informs us
+that the function might have side effects.&lt;&#x2F;p&gt;
 &lt;p&gt;Finally, we can have sort of a definition of a pure functional language.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:RED&quot;&gt;NOTE:&lt;&#x2F;span&gt;&lt;&#x2F;strong&gt; Pure might mean a completely different thing in
-non-functional languages.&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;A functional language is pure if and only if the user is informed of all the side effects in a
 language or there are no side effects at all.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
-&lt;p&gt;Actually, Haskell did not allow random values back in 1990s when its development was first launched.
-Because of this, Haskell was considered useless for all practical purposes. Eventually, developers
-and the Haskell committee decided to change the direction of Haskell. In lieu of getting rid of all
-the side effects, they decided to control the side effects and created a more &amp;quot;regulated&amp;quot;
-programming environment.&lt;&#x2F;p&gt;
+&lt;p&gt;In fact, Haskell did not even allow random values back in 1990s when its development was first
+launched. Furthermore, there was no notion of File IO either and writing to files was done using
+shell redirection commands (i.e., &lt;code&gt;runhaskell Program.hs &amp;gt; out.txt&lt;&#x2F;code&gt;). Because of this, Haskell was
+considered useless for all practical purposes. Eventually, developers and the Haskell committee
+decided to change the direction of Haskell. In lieu of getting rid of all the side effects, they
+decided to control the side effects and created a more &amp;quot;regulated&amp;quot; programming environment.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;conclusion&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.davidoniani.com&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#conclusion&quot;&gt;Conclusion&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Functional programming languages are different from imperative ones. Most of them are based on ideas
 in lambda calculus. Functional languages are the proper subset of declarative languages. There are
@@ -445,9 +442,6 @@ for a programmer to solve problems. Most of functional languages are also very c
 the time spent on coding and leaving more time for the logic. Pure functional languages are the
 proper subset of functional languages. Purely functional languages inform the user about the side
 effects in advance.&lt;&#x2F;p&gt;
-&lt;br&gt;
-&lt;hr &#x2F;&gt;
-&lt;br&gt;
 &lt;h3 id=&quot;how-to-get-started-with-functional-programming&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.davidoniani.com&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#how-to-get-started-with-functional-programming&quot;&gt;How to Get Started with Functional Programming?&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.davidoniani.com&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;haskell-logo.png&quot; alt=&quot;Haskell logo&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;There are lots of functional languages. You will obviously have to decide which one to learn first.

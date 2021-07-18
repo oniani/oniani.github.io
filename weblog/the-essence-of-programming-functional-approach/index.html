@@ -143,7 +143,7 @@ David Oniani&#x27;s Website | The Essence of Programming - Functional Approach
   <span class="icon">
     <i class="fas fa-pencil-alt"></i>
   </span>
-  <span>3695 words</span>
+  <span>3681 words</span>
 </span>
 
             </div>
@@ -457,24 +457,23 @@ language.</p>
 
 </span><span style="color:#ff7733;">using namespace</span><span style="color:#bfbab0;"> std</span><span style="color:#bfbab0cc;">;
 
-</span><span style="color:#ff7733;">int </span><span style="color:#ffb454;">not_so_pure_function</span><span style="color:#bfbab0;">(</span><span style="color:#ff7733;">int </span><span style="color:#f29718;">value</span><span style="color:#bfbab0;">) {
+</span><span style="color:#ff7733;">int </span><span style="color:#ffb454;">rng</span><span style="color:#bfbab0;">(</span><span style="color:#ff7733;">int </span><span style="color:#f29718;">value</span><span style="color:#bfbab0;">) {
     </span><span style="color:#ff7733;">return</span><span style="color:#bfbab0;"> value </span><span style="color:#f29668;">+ </span><span style="color:#f07178;">rand</span><span style="color:#bfbab0;">() </span><span style="color:#f29668;">% </span><span style="color:#f29718;">3</span><span style="color:#bfbab0cc;">;
 </span><span style="color:#bfbab0;">}
 
 </span><span style="color:#ff7733;">int </span><span style="color:#ffb454;">main</span><span style="color:#bfbab0;">() {
-    cout </span><span style="color:#f29668;">&lt;&lt; </span><span style="color:#c2d94c;">&quot;Returns: &quot; </span><span style="color:#f29668;">&lt;&lt; </span><span style="color:#ffb454;">not_so_pure_function</span><span style="color:#bfbab0;">(</span><span style="color:#f29718;">7</span><span style="color:#bfbab0;">) </span><span style="color:#f29668;">&lt;&lt;</span><span style="color:#bfbab0;"> endl</span><span style="color:#bfbab0cc;">;  </span><span style="font-style:italic;color:#5c6773;">// Prints out 8
-</span><span style="color:#bfbab0;">    cout </span><span style="color:#f29668;">&lt;&lt; </span><span style="color:#c2d94c;">&quot;Returns: &quot; </span><span style="color:#f29668;">&lt;&lt; </span><span style="color:#ffb454;">not_so_pure_function</span><span style="color:#bfbab0;">(</span><span style="color:#f29718;">7</span><span style="color:#bfbab0;">) </span><span style="color:#f29668;">&lt;&lt;</span><span style="color:#bfbab0;"> endl</span><span style="color:#bfbab0cc;">;  </span><span style="font-style:italic;color:#5c6773;">// Prints out 8
-</span><span style="color:#bfbab0;">    cout </span><span style="color:#f29668;">&lt;&lt; </span><span style="color:#c2d94c;">&quot;Returns: &quot; </span><span style="color:#f29668;">&lt;&lt; </span><span style="color:#ffb454;">not_so_pure_function</span><span style="color:#bfbab0;">(</span><span style="color:#f29718;">7</span><span style="color:#bfbab0;">) </span><span style="color:#f29668;">&lt;&lt;</span><span style="color:#bfbab0;"> endl</span><span style="color:#bfbab0cc;">;  </span><span style="font-style:italic;color:#5c6773;">// Prints out 7
+    cout </span><span style="color:#f29668;">&lt;&lt; </span><span style="color:#c2d94c;">&quot;Returns: &quot; </span><span style="color:#f29668;">&lt;&lt; </span><span style="color:#ffb454;">rng</span><span style="color:#bfbab0;">(</span><span style="color:#f29718;">7</span><span style="color:#bfbab0;">) </span><span style="color:#f29668;">&lt;&lt;</span><span style="color:#bfbab0;"> endl</span><span style="color:#bfbab0cc;">;  </span><span style="font-style:italic;color:#5c6773;">// Prints out 8
+</span><span style="color:#bfbab0;">    cout </span><span style="color:#f29668;">&lt;&lt; </span><span style="color:#c2d94c;">&quot;Returns: &quot; </span><span style="color:#f29668;">&lt;&lt; </span><span style="color:#ffb454;">rng</span><span style="color:#bfbab0;">(</span><span style="color:#f29718;">7</span><span style="color:#bfbab0;">) </span><span style="color:#f29668;">&lt;&lt;</span><span style="color:#bfbab0;"> endl</span><span style="color:#bfbab0cc;">;  </span><span style="font-style:italic;color:#5c6773;">// Prints out 8
+</span><span style="color:#bfbab0;">    cout </span><span style="color:#f29668;">&lt;&lt; </span><span style="color:#c2d94c;">&quot;Returns: &quot; </span><span style="color:#f29668;">&lt;&lt; </span><span style="color:#ffb454;">rng</span><span style="color:#bfbab0;">(</span><span style="color:#f29718;">7</span><span style="color:#bfbab0;">) </span><span style="color:#f29668;">&lt;&lt;</span><span style="color:#bfbab0;"> endl</span><span style="color:#bfbab0cc;">;  </span><span style="font-style:italic;color:#5c6773;">// Prints out 7
 </span><span style="color:#bfbab0;">}
 </span></code></pre>
 <p>Here, we defined a function that takes an integer input and it seems like the output is also an
-integer. We now might be lured into thinking that function <code>not_so_pure_function</code> gives the same
-output for the same input, but that is clearly not the case here (that is why it's called
-<code>not_so_pure_function</code>). Let's take a closer look at what the function does. It takes an integer
-value and returns the value plus some random number which is 0, 1 or 2. When we first called the
-function with the actual parameter 7, we got 8 as an output. The second time, we got 8 again. The
-third time however, we got 7. Hence, for the third time, the output was not the same. Therefore, the
-function is not pure.</p>
+integer. We now might be lured into thinking that function <code>rng</code> gives the same output for the same
+input, but that is clearly not the case here. Let's take a closer look at what the function does. It
+takes an integer value and returns the value plus some random number which is 0, 1 or 2. When we
+first called the function with the actual parameter 7, we got 8 as an output. The second time, we
+got 8 again. The third time however, we got 7. Hence, for the third time, the output was not the
+same. Therefore, the function is not pure.</p>
 <p>You now might wondering why I could not do the same trick in Haskell. In fact, I certainly can.
 However, in Haskell, such function would not have a type <code>Int</code>. It would have a type <code>IO Int</code>. <code>IO</code>
 is usually associated with file input / output and it is reasonable that it is associated with
@@ -482,8 +481,7 @@ functions that are not always &quot;truthful&quot; as File I/O could in fact be 
 experiences for a programmer. So many things can go wrong! (e.g., writing to a file which was
 deleted, reading from a file on a USB which was ejected, writing a file that was moved to some other
 directory etc). Thus, when we deal with uncertainty (which usually comes with side effects), Haskell
-warns us by using the <code>IO</code> notation.</p>
-<p>Here is how <code>not_so_pure_function</code> could be made <em>pure</em> in Haskell.</p>
+warns us by using the <code>IO</code> notation:</p>
 <pre style="background-color:#0f1419;">
 <code class="language-haskell" data-lang="haskell"><span style="font-style:italic;color:#5c6773;">{-
 Example of a function that if called with the same argument,
@@ -493,35 +491,34 @@ does not always return the same result.
 </span><span style="color:#ff7733;">import </span><span style="color:#bfbab0;">System.Random (</span><span style="color:#ffb454;">randomRIO</span><span style="color:#bfbab0;">)
 
 
-</span><span style="color:#ffb454;">purifiedFunction </span><span style="color:#ff7733;">:: Int -&gt; IO Int
-</span><span style="color:#bfbab0;">purifiedFunction value </span><span style="color:#f29668;">= </span><span style="color:#ff7733;">do
+</span><span style="color:#ffb454;">notAPureFunction </span><span style="color:#ff7733;">:: Int -&gt; IO Int
+</span><span style="color:#bfbab0;">notAPureFunction value </span><span style="color:#f29668;">= </span><span style="color:#ff7733;">do
 </span><span style="color:#bfbab0;">    randomValue </span><span style="color:#f29668;">&lt;-</span><span style="color:#bfbab0;"> randomRIO (</span><span style="color:#f29718;">0</span><span style="color:#bfbab0cc;">,</span><span style="color:#f29718;">2</span><span style="color:#bfbab0;">)
     return (value </span><span style="color:#f29668;">+</span><span style="color:#bfbab0;"> randomValue)
 
 
 main </span><span style="color:#f29668;">= </span><span style="color:#ff7733;">do
-</span><span style="color:#bfbab0;">    x </span><span style="color:#f29668;">&lt;-</span><span style="color:#bfbab0;"> purifiedFunction </span><span style="color:#f29718;">7
+</span><span style="color:#bfbab0;">    x </span><span style="color:#f29668;">&lt;-</span><span style="color:#bfbab0;"> notAPureFunction </span><span style="color:#f29718;">7
 </span><span style="color:#bfbab0;">    print x                  </span><span style="font-style:italic;color:#5c6773;">-- Prints out 9
-</span><span style="color:#bfbab0;">    x </span><span style="color:#f29668;">&lt;-</span><span style="color:#bfbab0;"> purifiedFunction </span><span style="color:#f29718;">7
+</span><span style="color:#bfbab0;">    x </span><span style="color:#f29668;">&lt;-</span><span style="color:#bfbab0;"> notAPureFunction </span><span style="color:#f29718;">7
 </span><span style="color:#bfbab0;">    print x                  </span><span style="font-style:italic;color:#5c6773;">-- Prints out 7
-</span><span style="color:#bfbab0;">    x </span><span style="color:#f29668;">&lt;-</span><span style="color:#bfbab0;"> purifiedFunction </span><span style="color:#f29718;">7
+</span><span style="color:#bfbab0;">    x </span><span style="color:#f29668;">&lt;-</span><span style="color:#bfbab0;"> notAPureFunction </span><span style="color:#f29718;">7
 </span><span style="color:#bfbab0;">    print x                  </span><span style="font-style:italic;color:#5c6773;">-- Prints out 9
 </span></code></pre>
-<p>Look at the Haskell code above. You can disregard all the notational fluff. Just look at the return
-type of the function <code>purifiedFunction</code>. It is <code>IO Int</code>! In other words, Haskell informs us that
-the function might have side effects. This is exactly why Haskell is pure.</p>
+<p>Take a look at the Haskell code above. You can disregard all the notational fluff. Just look at the
+return type of the function <code>notAPureFunction</code>. It is <code>IO Int</code>! In other words, Haskell informs us
+that the function might have side effects.</p>
 <p>Finally, we can have sort of a definition of a pure functional language.</p>
-<p><strong><span style="color:RED">NOTE:</span></strong> Pure might mean a completely different thing in
-non-functional languages.</p>
 <blockquote>
 <p>A functional language is pure if and only if the user is informed of all the side effects in a
 language or there are no side effects at all.</p>
 </blockquote>
-<p>Actually, Haskell did not allow random values back in 1990s when its development was first launched.
-Because of this, Haskell was considered useless for all practical purposes. Eventually, developers
-and the Haskell committee decided to change the direction of Haskell. In lieu of getting rid of all
-the side effects, they decided to control the side effects and created a more &quot;regulated&quot;
-programming environment.</p>
+<p>In fact, Haskell did not even allow random values back in 1990s when its development was first
+launched. Furthermore, there was no notion of File IO either and writing to files was done using
+shell redirection commands (i.e., <code>runhaskell Program.hs &gt; out.txt</code>). Because of this, Haskell was
+considered useless for all practical purposes. Eventually, developers and the Haskell committee
+decided to change the direction of Haskell. In lieu of getting rid of all the side effects, they
+decided to control the side effects and created a more &quot;regulated&quot; programming environment.</p>
 <h3 id="conclusion"><a href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#conclusion">Conclusion</a></h3>
 <p>Functional programming languages are different from imperative ones. Most of them are based on ideas
 in lambda calculus. Functional languages are the proper subset of declarative languages. There are
@@ -531,9 +528,6 @@ for a programmer to solve problems. Most of functional languages are also very c
 the time spent on coding and leaving more time for the logic. Pure functional languages are the
 proper subset of functional languages. Purely functional languages inform the user about the side
 effects in advance.</p>
-<br>
-<hr />
-<br>
 <h3 id="how-to-get-started-with-functional-programming"><a href="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/#how-to-get-started-with-functional-programming">How to Get Started with Functional Programming?</a></h3>
 <p><img src="https://www.davidoniani.com/weblog/the-essence-of-programming-functional-approach/haskell-logo.png" alt="Haskell logo" /></p>
 <p>There are lots of functional languages. You will obviously have to decide which one to learn first.
