@@ -143,7 +143,7 @@ David Oniani&#x27;s Website | Privacy for the Web
   <span class="icon">
     <i class="fas fa-pencil-alt"></i>
   </span>
-  <span>143 words</span>
+  <span>131 words</span>
 </span>
 
             </div>
@@ -155,9 +155,7 @@ David Oniani&#x27;s Website | Privacy for the Web
             </div>
           </div>
           <div class="content mt-2">
-            <p>A few words concerning the privacy on the web.</p>
-<p>NOTE: The blogpost will get occasional updates, when needed.</p>
-<p>Here are my recommendations for the web privacy.</p>
+            <p>Just wanted to make a few suggestions and options for improving the web privacy:</p>
 <ul>
 <li>
 <p>Lightweight Privacy: Emphasis on Usability and Speed</p>
@@ -206,15 +204,6 @@ David Oniani&#x27;s Website | Privacy for the Web
         </article>
       </div>
       
-      <div class="column is-2 is-hidden-mobile">
-        <aside class="menu" style="position: sticky; top: 48px">
-          <p class="heading has-text-weight-bold">Contents</p>
-          <ul class="menu-list">
-            
-          </ul>
-        </aside>
-      </div>
-      
     </div>
   </div>
 </section>
@@ -252,11 +241,11 @@ David Oniani&#x27;s Website | Privacy for the Web
         <nav class="level">
           
           <div class="level-item has-text-centered">
-            <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;www.davidoniani.com&#x2F;weblog&#x2F;power-user-setup-for-unix-based-operating-systems&#x2F;">
+            <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;www.davidoniani.com&#x2F;weblog&#x2F;mayo-clinic-first-impressions&#x2F;">
               <span class="icon mr-2">
                 <i class="fas fa-arrow-circle-left"></i>
               </span>
-              Power User Setup for Unix-based Operating Systems
+              Mayo Clinic - First Impressions
             </a>
           </div>
            
@@ -321,49 +310,6 @@ David Oniani&#x27;s Website | Privacy for the Web
   <script src="https:&#x2F;&#x2F;www.davidoniani.com&#x2F;js&#x2F;site.js"></script>
 
   
-
-<script type="text/javascript">
-  const menuBarHeight = $("nav.navbar").height();
-  const tocItems = $('.toc');
-  const navSections = new Array($('.toc').length);
-
-  tocItems.each(function (i) {
-    let id = $(this).attr("id").substring(5);
-    navSections[i] = document.getElementById(id);
-  })
-
-  function isVisible(tocIndex) {
-    const current = navSections[tocIndex];
-    const next = tocIndex < tocItems.length - 1 ? navSections[tocIndex + 1] : $("section.section").get(1);
-
-    const c = current.getBoundingClientRect();
-    const n = next.getBoundingClientRect();
-    const h = (window.innerHeight || document.documentElement.clientHeight);
-
-    return (c.top <= h) && (c.top + (n.top - c.top) - menuBarHeight >= 0);
-  }
-
-  function activateIfVisible() {
-    for (b = true, i = 0; i < tocItems.length; i++) {
-      if (b && isVisible(i)) {
-        tocItems[i].classList.add('is-active');
-        b = false;
-      } else
-        tocItems[i].classList.remove('is-active');
-    }
-  }
-
-  var isTicking = null;
-  window.addEventListener('scroll', () => {
-    if (!isTicking) {
-      window.requestAnimationFrame(() => {
-        activateIfVisible();
-        isTicking = false;
-      });
-      isTicking = true;
-    }
-  }, false);
-</script>
 
 
 

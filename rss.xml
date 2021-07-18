@@ -25,123 +25,11 @@
 </description>
         </item>
         <item>
-            <title>Power User Setup for Unix-based Operating Systems</title>
-            <pubDate>Mon, 17 Feb 2020 00:00:00 +0000</pubDate>
-            <link>https://www.davidoniani.com/weblog/power-user-setup-for-unix-based-operating-systems/</link>
-            <guid>https://www.davidoniani.com/weblog/power-user-setup-for-unix-based-operating-systems/</guid>
-            <description>&lt;p&gt;A lot of people have asked me about my setup.&lt;&#x2F;p&gt;
-&lt;p&gt;Here it is (taken from my &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;oniani&#x2F;dots&quot;&gt;dots&lt;&#x2F;a&gt; repo):&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;organization&quot;&gt;Organization&lt;&#x2F;h2&gt;
-&lt;p&gt;The setup is compliant with the &lt;a href=&quot;https:&#x2F;&#x2F;specifications.freedesktop.org&#x2F;basedir-spec&#x2F;basedir-spec-latest.html&quot;&gt;XDG Base Directory
-Specification&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;setup&quot;&gt;Setup&lt;&#x2F;h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Addressbook: &lt;a href=&quot;http:&#x2F;&#x2F;abook.sourceforge.net&#x2F;&quot;&gt;Abook&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Colorscheme Generator: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;dylanaraps&#x2F;pywal&quot;&gt;pywal&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Default Colorscheme: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;bluz71&#x2F;vim-moonfly-colors&quot;&gt;moonfly&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Document Viewer: &lt;a href=&quot;https:&#x2F;&#x2F;support.apple.com&#x2F;guide&#x2F;preview&#x2F;welcome&#x2F;mac&quot;&gt;Preview&lt;&#x2F;a&gt; &#x2F; &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;zegervdv&#x2F;homebrew-zathura&quot;&gt;Zathura&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Editor: &lt;a href=&quot;https:&#x2F;&#x2F;neovim.io&#x2F;&quot;&gt;Neovim&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;File Format Handler: &lt;a href=&quot;https:&#x2F;&#x2F;pandoc.org&#x2F;&quot;&gt;pandoc&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;File Manager: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;jarun&#x2F;nnn&quot;&gt;nnn&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Font: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ryanoasis&#x2F;nerd-fonts&#x2F;tree&#x2F;master&#x2F;patched-fonts&#x2F;Iosevka&quot;&gt;Iosevka Term Nerd Font Complete Mono&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Fuzzy Finder: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;junegunn&#x2F;fzf&quot;&gt;fzf&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Image Viewer: &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Preview_(macOS)&quot;&gt;Preview&lt;&#x2F;a&gt; &#x2F; &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;muennich&#x2F;sxiv&quot;&gt;sxiv&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Music Player: &lt;a href=&quot;https:&#x2F;&#x2F;rybczak.net&#x2F;ncmpcpp&#x2F;&quot;&gt;ncmpcpp&lt;&#x2F;a&gt; (with &lt;a href=&quot;https:&#x2F;&#x2F;www.musicpd.org&#x2F;&quot;&gt;mpd&lt;&#x2F;a&gt; as a backend)&lt;&#x2F;li&gt;
-&lt;li&gt;Package Manager: &lt;a href=&quot;https:&#x2F;&#x2F;brew.sh&#x2F;&quot;&gt;Homebrew&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Password Manager: &lt;a href=&quot;https:&#x2F;&#x2F;www.passwordstore.org&#x2F;&quot;&gt;Pass&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;RSS Reader: &lt;a href=&quot;https:&#x2F;&#x2F;newsboat.org&#x2F;&quot;&gt;Newsboat&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Shell: &lt;a href=&quot;http:&#x2F;&#x2F;zsh.sourceforge.net&#x2F;&quot;&gt;Z Shell&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Terminal Emulator: &lt;a href=&quot;https:&#x2F;&#x2F;sw.kovidgoyal.net&#x2F;kitty&#x2F;&quot;&gt;kitty&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Version Control: &lt;a href=&quot;https:&#x2F;&#x2F;git-scm.com&#x2F;downloads&quot;&gt;Git&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Video Player: &lt;a href=&quot;https:&#x2F;&#x2F;mpv.io&#x2F;&quot;&gt;mpv&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Web Browser: &lt;a href=&quot;https:&#x2F;&#x2F;brave.com&#x2F;&quot;&gt;Brave&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Window Manager: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ianyh&#x2F;Amethyst&quot;&gt;Amethyst&lt;&#x2F;a&gt; &#x2F; &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;baskerville&#x2F;bspwm&quot;&gt;bspwm&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;p&gt;Code Formatting&lt;&#x2F;p&gt;
-&lt;ul&gt;
-&lt;li&gt;CSS&#x2F;HTML&#x2F;JavaScript&#x2F;Markdown: &lt;a href=&quot;https:&#x2F;&#x2F;prettier.io&#x2F;&quot;&gt;Prettier&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Python: &lt;a href=&quot;https:&#x2F;&#x2F;black.readthedocs.io&#x2F;en&#x2F;stable&#x2F;&quot;&gt;Black&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;p&gt;Code Linting&lt;&#x2F;p&gt;
-&lt;ul&gt;
-&lt;li&gt;Haskell: &lt;a href=&quot;http:&#x2F;&#x2F;hackage.haskell.org&#x2F;package&#x2F;hlint&quot;&gt;hlint&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;JavaScript: &lt;a href=&quot;https:&#x2F;&#x2F;eslint.org&#x2F;&quot;&gt;eslint&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Markdown: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DavidAnson&#x2F;markdownlint&quot;&gt;mdl&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Python: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Microsoft&#x2F;pyright&quot;&gt;pyright&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Shell: &lt;a href=&quot;https:&#x2F;&#x2F;www.shellcheck.net&#x2F;&quot;&gt;ShellCheck&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;z-shell&quot;&gt;Z Shell&lt;&#x2F;h3&gt;
-&lt;h4 id=&quot;plugins&quot;&gt;Plugins&lt;&#x2F;h4&gt;
-&lt;p&gt;No plugin manager is used. Plugins are sourced at the end of &lt;code&gt;.zshrc&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;zsh-users&#x2F;zsh-autosuggestions&quot;&gt;zsh-autosuggestions&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;zsh-users&#x2F;zsh-syntax-highlighting&quot;&gt;zsh-syntax-highlighting&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;neovim&quot;&gt;Neovim&lt;&#x2F;h3&gt;
-&lt;h4 id=&quot;plugins-1&quot;&gt;Plugins&lt;&#x2F;h4&gt;
-&lt;p&gt;Plugins are installed and managed using a minimalist plugin manager
-&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;junegunn&#x2F;vim-plug&quot;&gt;vim-plug&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;neoclide&#x2F;coc.nvim&quot;&gt;coc.nvim&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;junegunn&#x2F;fzf&quot;&gt;fzf&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;junegunn&#x2F;fzf.vim&quot;&gt;fzf.vim&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;itchyny&#x2F;lightline.vim&quot;&gt;lightline.vim&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;nvim-treesitter&#x2F;nvim-treesitter&quot;&gt;nvim-treesitter&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;tpope&#x2F;vim-commentary&quot;&gt;vim-commentary&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;tpope&#x2F;vim-fugitive&quot;&gt;vim-fugitive&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;lifepillar&#x2F;vim-gruvbox8&quot;&gt;vim-gruvbox8&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;h4 id=&quot;current-stats&quot;&gt;Current Stats&lt;&#x2F;h4&gt;
-&lt;p&gt;Plugins arranged according to their startup time.&lt;&#x2F;p&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;TOP&lt;&#x2F;th&gt;&lt;th&gt;Time (ms)&lt;&#x2F;th&gt;&lt;th&gt;Plugin&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;9.349&lt;&#x2F;td&gt;&lt;td&gt;coc.nvim&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;td&gt;4.959&lt;&#x2F;td&gt;&lt;td&gt;vim-gruvbox8&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;3&lt;&#x2F;td&gt;&lt;td&gt;3.270&lt;&#x2F;td&gt;&lt;td&gt;nvim-treesitter&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;td&gt;2.615&lt;&#x2F;td&gt;&lt;td&gt;vim-fugitive&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;5&lt;&#x2F;td&gt;&lt;td&gt;2.034&lt;&#x2F;td&gt;&lt;td&gt;fzf.vim&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;6&lt;&#x2F;td&gt;&lt;td&gt;1.629&lt;&#x2F;td&gt;&lt;td&gt;fzf&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;7&lt;&#x2F;td&gt;&lt;td&gt;0.280&lt;&#x2F;td&gt;&lt;td&gt;vim-commentary&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;8&lt;&#x2F;td&gt;&lt;td&gt;0.067&lt;&#x2F;td&gt;&lt;td&gt;nvim-web-devicons&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-&lt;p&gt;This results in the total average of approximately 24.203 ms delay for the
-startup time.&lt;&#x2F;p&gt;
-&lt;p&gt;The chart was generated using
-&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyiltiz&#x2F;vim-plugins-profile&quot;&gt;vim-plugins-profile&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;key-mappings&quot;&gt;Key Mappings&lt;&#x2F;h4&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Key Mapping&lt;&#x2F;th&gt;&lt;th&gt;Functionality&lt;&#x2F;th&gt;&lt;th&gt;Mnemonic&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;&lt;code&gt;&amp;lt;Space&amp;gt;&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;Space is the Leader key&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;code&gt;&amp;lt;Leader&amp;gt;&amp;lt;Leader&amp;gt;&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;Toggle between buffers&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;code&gt;&amp;lt;Leader&amp;gt;c&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;Generic compiler and runner&lt;&#x2F;td&gt;&lt;td&gt;Compile&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;code&gt;&amp;lt;Leader&amp;gt;f&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;Use fzf for file searching&lt;&#x2F;td&gt;&lt;td&gt;Find&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;code&gt;&amp;lt;Leader&amp;gt;l&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;Search for a line with a pattern in a file&lt;&#x2F;td&gt;&lt;td&gt;Line&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;code&gt;&amp;lt;Leader&amp;gt;r&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;Use fzf and rg for the string search&lt;&#x2F;td&gt;&lt;td&gt;Rg&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;code&gt;&amp;lt;Leader&amp;gt;s&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;Toggle spell checking&lt;&#x2F;td&gt;&lt;td&gt;Spell&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;code&gt;&amp;lt;Leader&amp;gt;w&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;Toggle line-wrapping&lt;&#x2F;td&gt;&lt;td&gt;Wrap&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;code&gt;C-h&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;Switch to the left window&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;code&gt;C-j&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;Switch to the bottom window&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;code&gt;C-k&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;Switch to the top window&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;code&gt;C-l&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;Switch to the right window&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-&lt;h3 id=&quot;automated-installation&quot;&gt;Automated Installation&lt;&#x2F;h3&gt;
-&lt;p&gt;Check out the installation wizard!&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#212733;&quot;&gt;
-&lt;code class=&quot;language-console&quot; data-lang=&quot;console&quot;&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;$ git clone https:&#x2F;&#x2F;github.com&#x2F;oniani&#x2F;dots
-$ .&#x2F;setup.py --help
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;Also, please make sure that the system runs the latest macOS operating system.
-Note that the setup script is idempotent: it can safely be run multiple times.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;license&quot;&gt;License&lt;&#x2F;h2&gt;
-&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.davidoniani.com&#x2F;weblog&#x2F;power-user-setup-for-unix-based-operating-systems&#x2F;LICENSE&quot;&gt;MIT License&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-</description>
-        </item>
-        <item>
             <title>Privacy for the Web</title>
             <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
             <link>https://www.davidoniani.com/weblog/privacy-for-the-web/</link>
             <guid>https://www.davidoniani.com/weblog/privacy-for-the-web/</guid>
-            <description>&lt;p&gt;A few words concerning the privacy on the web.&lt;&#x2F;p&gt;
-&lt;p&gt;NOTE: The blogpost will get occasional updates, when needed.&lt;&#x2F;p&gt;
-&lt;p&gt;Here are my recommendations for the web privacy.&lt;&#x2F;p&gt;
+            <description>&lt;p&gt;Just wanted to make a few suggestions and options for improving the web privacy:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Lightweight Privacy: Emphasis on Usability and Speed&lt;&#x2F;p&gt;
@@ -250,18 +138,18 @@ Reminds of SQL tables or pandas data frames?&lt;&#x2F;p&gt;
 &lt;p&gt;Because functions are so important, there are natural results and outcomes
 which are shared among most of functional languages.&lt;&#x2F;p&gt;
 &lt;p&gt;Let&#x27;s write a Haskell function to find the factorial of a positive integer.&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#212733;&quot;&gt;
+&lt;pre style=&quot;background-color:#0f1419;&quot;&gt;
 &lt;code class=&quot;language-haskell&quot; data-lang=&quot;haskell&quot;&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- | A function to find the factorial of a positive integer
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;factorial x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt; product [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;..&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;x]  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- easy as that
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;factorial x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; product [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;..&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;x]  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- easy as that
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;The function builds a list of integers from 1 up to x and then calculates
 the product of these elements. This way we effectively get a product
 \( 1 \times 2 \times 3 .. \times \ x \) which is the same as \( x! \).
 Since we now have a function, we can call it with the actual parameters!&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#212733;&quot;&gt;
-&lt;code class=&quot;language-haskell&quot; data-lang=&quot;haskell&quot;&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;print (factorial &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;)  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- prints out 1
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;print (factorial &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;6&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;)  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- prints out 720
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;print (factorial &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;9&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;)  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- prints out 362880
+&lt;pre style=&quot;background-color:#0f1419;&quot;&gt;
+&lt;code class=&quot;language-haskell&quot; data-lang=&quot;haskell&quot;&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;print (factorial &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;)  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- prints out 1
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;print (factorial &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;6&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;)  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- prints out 720
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;print (factorial &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;9&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;)  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- prints out 362880
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;As shown above, something that in imperative languages would require importing
 modules, looping, etc. is a single line in Haskell. This is one of the outcomes
@@ -278,11 +166,11 @@ These are some of the reasons why functional languages are so concise.&lt;&#x2F;
 function is called with \( 0 \) (\( 0! = 1 \)). It was done on purpose so
 that now we are able to add some other notation and explain the whole function
 in detail. Below is a better and more complete version of the function.&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#212733;&quot;&gt;
+&lt;pre style=&quot;background-color:#0f1419;&quot;&gt;
 &lt;code class=&quot;language-haskell&quot; data-lang=&quot;haskell&quot;&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- | A function to find the factorial of a number
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffd580;&quot;&gt;factorial &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffa759;&quot;&gt;:: Integer -&amp;gt; Integer
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;factorial &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;0 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;1
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;factorial x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt; product [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;..&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;x]
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;factorial &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;:: Integer -&amp;gt; Integer
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;factorial &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;0 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;1
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;factorial x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; product [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;..&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;x]
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;&lt;code&gt;::&lt;&#x2F;code&gt; - prompts that it is a function declaration&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;code&gt;Integer&lt;&#x2F;code&gt; - type that can hold any number no matter how big, up to the limit of
@@ -302,9 +190,9 @@ from set \( A \) and maps it to the output in the set \( B \).&lt;&#x2F;p&gt;
 is a function that takes an element from the set of integers and maps it to
 some other element in the set of integers. As opposed to math, however, Haskell
 does not use \( \mapsto \) notation and instead has the statements below it.&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#212733;&quot;&gt;
-&lt;code class=&quot;language-haskell&quot; data-lang=&quot;haskell&quot;&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;factorial &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;0 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;1
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;factorial x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt; product [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;..&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;x]
+&lt;pre style=&quot;background-color:#0f1419;&quot;&gt;
+&lt;code class=&quot;language-haskell&quot; data-lang=&quot;haskell&quot;&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;factorial &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;0 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;1
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;factorial x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; product [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;..&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;x]
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;The code above is equivalent to saying that if the element is 0, map it to 1
 and in all other cases, map it to the product from 1 up to the element.&lt;&#x2F;p&gt;
@@ -317,31 +205,31 @@ offer functions and immutable variables.&lt;&#x2F;p&gt;
 &lt;p&gt;To make it clear, let&#x27;s look at two examples below. One is from Python and the
 other is from Haskell.&lt;&#x2F;p&gt;
 &lt;p&gt;Python example&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#212733;&quot;&gt;
+&lt;pre style=&quot;background-color:#0f1419;&quot;&gt;
 &lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;# Define a variable &amp;#39;my_number&amp;#39; and assign it to 3
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;my_number &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;3
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;my_number &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;3
 
 &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;# Increment the variable &amp;#39;my_number&amp;#39; by 1 and reassign it to the result
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;my_number &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;+= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;1
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;my_number &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;+= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;1
 
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f28779;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;(my_number)  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;# Prints out 4
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f07178;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;(my_number)  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;# Prints out 4
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Let&#x27;s repeat the same steps in Haskell.&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#212733;&quot;&gt;
-&lt;code class=&quot;language-haskell&quot; data-lang=&quot;haskell&quot;&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;myNumber &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;3    &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Define a variable &amp;#39;myNumber&amp;#39; and assign it to 3
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;myNumber &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;+= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;1   &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Haskell gags here (infinite loop)
+&lt;pre style=&quot;background-color:#0f1419;&quot;&gt;
+&lt;code class=&quot;language-haskell&quot; data-lang=&quot;haskell&quot;&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;myNumber &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;3    &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Define a variable &amp;#39;myNumber&amp;#39; and assign it to 3
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;myNumber &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;+= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;1   &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Haskell gags here (infinite loop)
 
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;print myNumber  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- This statement is not reachable
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;print myNumber  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- This statement is not reachable
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Looking at the code above, you might have already noticed that Haskell
 does not allow us to change the state of the program. Now you might be
 wondering how could one increment variables.&lt;&#x2F;p&gt;
 &lt;p&gt;Here is a short answer:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#212733;&quot;&gt;
-&lt;code class=&quot;language-haskell&quot; data-lang=&quot;haskell&quot;&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;myNumber &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;3                  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Define a variable &amp;#39;myNumber&amp;#39; and assign it to 3
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;myOtherNumber &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt; myNumber &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;+ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;1  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Define a variable &amp;#39;myOtherNumber&amp;#39; and assign it to &amp;#39;myNumber&amp;#39;
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;myNumber &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt; myOtherNumber      &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Redefine &amp;#39;myNumber&amp;#39; and set it to &amp;#39;myOtherNumber&amp;#39;
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;print myNumber                &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Prints out 4
+&lt;pre style=&quot;background-color:#0f1419;&quot;&gt;
+&lt;code class=&quot;language-haskell&quot; data-lang=&quot;haskell&quot;&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;myNumber &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;3                  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Define a variable &amp;#39;myNumber&amp;#39; and assign it to 3
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;myOtherNumber &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; myNumber &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;+ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;1  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Define a variable &amp;#39;myOtherNumber&amp;#39; and assign it to &amp;#39;myNumber&amp;#39;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;myNumber &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; myOtherNumber      &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Redefine &amp;#39;myNumber&amp;#39; and set it to &amp;#39;myOtherNumber&amp;#39;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;print myNumber                &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Prints out 4
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;&lt;strong&gt;Longer and better answer&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.davidoniani.com&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;recurse-shall-we.png&quot; alt=&quot;Let&#x27;s recurse, shall we?&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
@@ -352,23 +240,23 @@ gradually get to the target.&lt;&#x2F;p&gt;
 &lt;p&gt;Here is the example of how one could translate a well-known accumulator pattern
 from Python to Haskell.&lt;&#x2F;p&gt;
 &lt;p&gt;Here is a classic Python accumulator pattern.&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#212733;&quot;&gt;
+&lt;pre style=&quot;background-color:#0f1419;&quot;&gt;
 &lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;# An accumulator pattern approach for finding
 # the sum of the first 100 positive integers.
 
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;total &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;0
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffa759;&quot;&gt;for &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;integer &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffa759;&quot;&gt;in &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f28779;&quot;&gt;range&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;100&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;):
-    total &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;+= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;integer
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;total &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;0
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;for &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;integer &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;in &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f07178;&quot;&gt;range&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;100&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;):
+    total &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;+= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;integer
 
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f28779;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;(total)  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;# Prints out 5050
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f07178;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;(total)  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;# Prints out 5050
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Here is what it looks like in Haskell.&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#212733;&quot;&gt;
-&lt;code class=&quot;language-haskell&quot; data-lang=&quot;haskell&quot;&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;accumulator &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;1 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;1                        &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- The base case for the recursion
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;accumulator x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt; x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt; accumulator (x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;- &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;)  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- The recursive case
+&lt;pre style=&quot;background-color:#0f1419;&quot;&gt;
+&lt;code class=&quot;language-haskell&quot; data-lang=&quot;haskell&quot;&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;accumulator &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;1 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;1                        &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- The base case for the recursion
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;accumulator x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; accumulator (x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;- &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;)  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- The recursive case
 
 
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;main &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt; print (accumulator &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;100&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;)  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Prints out 5050
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;main &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; print (accumulator &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;100&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;)  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Prints out 5050
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;In the code excerpt above, we did not use any loops. In fact, we could not use
 any loops because functional languages do not support loops. Instead, we
@@ -379,8 +267,8 @@ through function calls.&lt;&#x2F;p&gt;
 accumulator pattern. All we need to do is use the already predefined &lt;code&gt;sum&lt;&#x2F;code&gt;
 function and so-called texas range list notation that we have already
 seen (&lt;code&gt;[1..x]&lt;&#x2F;code&gt;).&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#212733;&quot;&gt;
-&lt;code class=&quot;language-haskell&quot; data-lang=&quot;haskell&quot;&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;print (sum [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;..&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;100&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;])  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Prints out 5050
+&lt;pre style=&quot;background-color:#0f1419;&quot;&gt;
+&lt;code class=&quot;language-haskell&quot; data-lang=&quot;haskell&quot;&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;print (sum [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;..&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;100&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;])  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Prints out 5050
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h3 id=&quot;control-flow&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.davidoniani.com&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#control-flow&quot;&gt;Control Flow&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;As we have already seen, there are no for loops or while loops in functional
 programming languages and there are good reasons why. Let&#x27;s list a few of them
@@ -407,17 +295,17 @@ and SQL engine figures out the best way to get it.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;em&gt;Example 2&lt;&#x2F;em&gt;: A better example might be comparing two implementations
 of a simple function. Let&#x27;s implement them in both Python and Haskell.&lt;&#x2F;p&gt;
 &lt;p&gt;The function takes a list of integers and returns the sum of odd integers in it.&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#212733;&quot;&gt;
-&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span style=&quot;color:#ffa759;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffd580;&quot;&gt;odd_sum&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;list_of_integers&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;):
+&lt;pre style=&quot;background-color:#0f1419;&quot;&gt;
+&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;odd_sum&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;list_of_integers&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;):
     &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&amp;quot;&amp;quot;&amp;quot;Return the sum of all odd integers in the list.&amp;quot;&amp;quot;&amp;quot;
-    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;total &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;0
-    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffa759;&quot;&gt;for &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;integer &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffa759;&quot;&gt;in &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;list_of_integers:
-        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffa759;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;integer &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;% &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;2 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;== &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;:
-            total &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;+= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;integer
-    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffa759;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;total
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;total &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;0
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;for &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;integer &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;in &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;list_of_integers:
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;integer &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;% &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;2 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;== &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;:
+            total &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;+= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;integer
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;total
 
 
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f28779;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffd580;&quot;&gt;odd_sum&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;([&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;4&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;5&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;]))  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;# Prints out 9
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f07178;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;odd_sum&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;([&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;4&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;5&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;]))  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;# Prints out 9
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Let&#x27;s do a shallow analysis of the &lt;code&gt;odd_sum&lt;&#x2F;code&gt; function. As seen above, it
 starts by declaring a variable &lt;code&gt;total&lt;&#x2F;code&gt; which is initially set to 0. Then,
@@ -430,10 +318,10 @@ add the integer to &lt;code&gt;total&lt;&#x2F;code&gt; (only if it is odd). Thus
 to do step-by-step&lt;&#x2F;strong&gt;. This is an important characteristic that distinguishes
 non-declarative languages from declarative ones.&lt;&#x2F;p&gt;
 &lt;p&gt;Let&#x27;s now look at the Haskell example.&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#212733;&quot;&gt;
-&lt;code class=&quot;language-haskell&quot; data-lang=&quot;haskell&quot;&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;oddSum x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt; sum (filter odd x)
+&lt;pre style=&quot;background-color:#0f1419;&quot;&gt;
+&lt;code class=&quot;language-haskell&quot; data-lang=&quot;haskell&quot;&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;oddSum x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; sum (filter odd x)
 
-main &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt; print (oddSum [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2cc;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2cc;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2cc;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;4&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2cc;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;5&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;])  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Prints out 9
+main &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; print (oddSum [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;4&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;5&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;])  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Prints out 9
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Notice what we did here. First we defined a function &lt;code&gt;oddSum&lt;&#x2F;code&gt; which takes
 a list. Then we used the function &lt;code&gt;filter&lt;&#x2F;code&gt; (happened to be predefined) in
@@ -499,10 +387,10 @@ the function \( f : \mathbb{Z} \rightarrow \mathbb{Z} : x \mapsto 2x \).
 Thus, we have a function which does a fairly straightforward thing: takes an
 integer and maps it to twice its value (which will also be an integer). Let&#x27;s
 now look at the Haskell implementation of this function&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#212733;&quot;&gt;
+&lt;pre style=&quot;background-color:#0f1419;&quot;&gt;
 &lt;code class=&quot;language-haskell&quot; data-lang=&quot;haskell&quot;&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- | A function that takes an input and outputs twice its value
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffd580;&quot;&gt;f &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffa759;&quot;&gt;:: Integer -&amp;gt; Integer
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;f x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt; * x
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;f &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;:: Integer -&amp;gt; Integer
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;f x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; * x
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;The function above says that the input (corresponds to the &lt;code&gt;Integer&lt;&#x2F;code&gt; before the
 arrow) is always an integer and the output (corresponds to the &lt;code&gt;integer&lt;&#x2F;code&gt; after
@@ -519,25 +407,25 @@ since we already know what to expect for a given input. &lt;strong&gt;Such funct
 called pure!&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;To further demystify this idea, let&#x27;s look at the following piece of code
 from a C++ programming language.&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#212733;&quot;&gt;
+&lt;pre style=&quot;background-color:#0f1419;&quot;&gt;
 &lt;code class=&quot;language-cpp&quot; data-lang=&quot;cpp&quot;&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;*
  * An example of a function that is pretending to be pure.
  *
  *&#x2F;
 
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffa759;&quot;&gt;#include &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bae67e;&quot;&gt;&amp;lt;iostream&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;#include &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;lt;iostream&amp;gt;
 
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffa759;&quot;&gt;using namespace&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt; std&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;using namespace&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; std&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
 
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffa759;&quot;&gt;int &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffd580;&quot;&gt;not_so_pure_function&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffa759;&quot;&gt;int &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;value&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;) {
-    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffa759;&quot;&gt;return&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt; value &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;+ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f28779;&quot;&gt;rand&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;() &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;% &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2cc;&quot;&gt;;
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;}
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;int &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;not_so_pure_function&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;int &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;value&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;) {
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;return&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; value &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;+ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f07178;&quot;&gt;rand&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;() &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;% &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;}
 
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffa759;&quot;&gt;int &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffd580;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;() {
-    cout &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bae67e;&quot;&gt;&amp;quot;Returns: &amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffd580;&quot;&gt;not_so_pure_function&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;7&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;&amp;lt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt; endl&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2cc;&quot;&gt;;  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F; Prints out 8
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;    cout &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bae67e;&quot;&gt;&amp;quot;Returns: &amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffd580;&quot;&gt;not_so_pure_function&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;7&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;&amp;lt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt; endl&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2cc;&quot;&gt;;  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F; Prints out 8
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;    cout &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bae67e;&quot;&gt;&amp;quot;Returns: &amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffd580;&quot;&gt;not_so_pure_function&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;7&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;&amp;lt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt; endl&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2cc;&quot;&gt;;  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F; Prints out 7
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;}
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;int &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;() {
+    cout &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;Returns: &amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;not_so_pure_function&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;7&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; endl&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F; Prints out 8
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;    cout &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;Returns: &amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;not_so_pure_function&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;7&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; endl&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F; Prints out 8
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;    cout &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;Returns: &amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;not_so_pure_function&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;7&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; endl&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F; Prints out 7
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;}
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Here, we defined a function that takes an integer input and it seems like the
 output is also an integer. We now might be lured into thinking that function
@@ -559,28 +447,28 @@ was moved to some other directory etc). Thus, when we deal with uncertainty
 (which usually comes with side effects), Haskell warns us by using the &lt;code&gt;IO&lt;&#x2F;code&gt;
 notation.&lt;&#x2F;p&gt;
 &lt;p&gt;Here is how &lt;code&gt;not_so_pure_function&lt;&#x2F;code&gt; could be made &lt;em&gt;pure&lt;&#x2F;em&gt; in Haskell.&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#212733;&quot;&gt;
+&lt;pre style=&quot;background-color:#0f1419;&quot;&gt;
 &lt;code class=&quot;language-haskell&quot; data-lang=&quot;haskell&quot;&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;{-
 Example of a function that if called with the same argument,
 does not always return the same result.
 -}
 
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffa759;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;System.Random (&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffd580;&quot;&gt;randomRIO&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;)
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;System.Random (&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;randomRIO&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;)
 
 
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffd580;&quot;&gt;purifiedFunction &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffa759;&quot;&gt;:: Int -&amp;gt; IO Int
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;purifiedFunction value &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffa759;&quot;&gt;do
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;    randomValue &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;&amp;lt;-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt; randomRIO (&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2cc;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;)
-    return (value &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt; randomValue)
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;purifiedFunction &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;:: Int -&amp;gt; IO Int
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;purifiedFunction value &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;do
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;    randomValue &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; randomRIO (&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;)
+    return (value &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; randomValue)
 
 
-main &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffa759;&quot;&gt;do
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;    x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;&amp;lt;-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt; purifiedFunction &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;7
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;    print x                  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Prints out 9
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;    x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;&amp;lt;-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt; purifiedFunction &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;7
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;    print x                  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Prints out 7
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;    x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29e74;&quot;&gt;&amp;lt;-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt; purifiedFunction &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffcc66;&quot;&gt;7
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ccc9c2;&quot;&gt;    print x                  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Prints out 9
+main &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;do
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;    x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; purifiedFunction &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;7
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;    print x                  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Prints out 9
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;    x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; purifiedFunction &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;7
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;    print x                  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Prints out 7
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;    x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;lt;-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt; purifiedFunction &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;7
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0;&quot;&gt;    print x                  &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;-- Prints out 9
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Look at the Haskell code above. You can disregard all the notational fluff.
 Just look at the return type of the function &lt;code&gt;purifiedFunction&lt;&#x2F;code&gt;. It is &lt;code&gt;IO Int&lt;&#x2F;code&gt;!
