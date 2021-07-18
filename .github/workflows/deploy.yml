@@ -23,13 +23,13 @@ jobs:
         run: |
           git submodule update --init --recursive
           zola build
+          mv public ..
 
       - name: Push Changes to Branch `main`
+        uses: actions/checkout@v2
         env:
           TOKEN: ${{ secrets.TOKEN }}
         run: |
-          mv public ..
-          git fetch
           git checkout main
           git rm -rf *
           git clean -fxd
