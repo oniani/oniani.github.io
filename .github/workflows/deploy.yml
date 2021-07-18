@@ -5,10 +5,8 @@ jobs:
   redeploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout `code` Branch
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
+      - name: Clone the repo and checkout `dev` branch
+        uses: actions/checkout@v1
 
       - name: Install Latest Zola
         run: |
@@ -25,25 +23,18 @@ jobs:
         run: |
           git submodule update --init --recursive
           zola build
-          mv public ..
-
-      - name: Checkout `main` branch
-        uses: actions/checkout@v2
-        with:
-          path: main
 
       - name: Push Changes to Branch `main`
         env:
           TOKEN: ${{ secrets.TOKEN }}
         run: |
-          git fetch --all
+          mv public ..
           git checkout main
-          git branch -a
-          git rm -rf *
+          git rm -rf .
           git clean -fxd
           mv ../public/* .
           rm -rf ../public
           rm -rf themes
           git add .
           git commit -m "Redeployment" || exit 0
-          git push https://${TOKEN}@github.com/oniani/oniani.github.io
+          git push https://${TOKEN}@github.com/oniani/oniani.github.io.git
