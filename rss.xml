@@ -450,17 +450,16 @@ effects in advance.&lt;&#x2F;p&gt;
 &lt;br&gt;
 &lt;h3 id=&quot;how-to-get-started-with-functional-programming&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.davidoniani.com&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;#how-to-get-started-with-functional-programming&quot;&gt;How to Get Started with Functional Programming?&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.davidoniani.com&#x2F;weblog&#x2F;the-essence-of-programming-functional-approach&#x2F;haskell-logo.png&quot; alt=&quot;Haskell logo&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;There are a lot of functional languages. You will obviously have to decide which one to learn first.
+&lt;p&gt;There are lots of functional languages. You will obviously have to decide which one to learn first.
 My recommendation would be learning Haskell. It is a purely functional programming language which
 has most of (if not all) the functional ideas in it. Besides, SPJ (&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Simon_Peyton_Jones&quot;&gt;Simon Payton
 Jones&lt;&#x2F;a&gt;) dedicates most of his time on extending
 the language and adding new features to it. So if there is something new and interesting in the
-world of functional programming, Haskell will probably get it (and probably sooner than other
-functional or imperative languages).&lt;&#x2F;p&gt;
-&lt;p&gt;After learning one functional language, it is fairly easy (&amp;quot;easy&amp;quot; is relative, but being familiar
-with one functional language automatically makes you somewhat familiar with others) to transition to
-the other. Hence, once you have a good grasp of functional ideas in Haskell, you can then move to
-languages like Clojure, Scheme, F# etc.&lt;&#x2F;p&gt;
+world of functional programming, Haskell will likely get it too.&lt;&#x2F;p&gt;
+&lt;p&gt;After learning one functional language, it is not difficult (being familiar with one functional
+language automatically makes you somewhat familiar with others) to transition to the other. Hence,
+once you have a good grasp of functional ideas in Haskell, you can then move to languages like
+Clojure, Scheme, F# etc.&lt;&#x2F;p&gt;
 &lt;p&gt;To get started, visit the &lt;a href=&quot;https:&#x2F;&#x2F;www.haskell.org&#x2F;documentation&quot;&gt;Haskell documentation&lt;&#x2F;a&gt; page which
 is full of various educational resources.&lt;&#x2F;p&gt;
 </description>
