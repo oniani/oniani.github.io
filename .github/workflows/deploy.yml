@@ -29,9 +29,7 @@ jobs:
           TOKEN: ${{ secrets.TOKEN }}
         run: |
           mv public ..
-          git remote update
-          git fetch 
-          git checkout --track origin/main
+          git checkout master
           git rm -rf *
           git clean -fxd
           mv ../public/* .
