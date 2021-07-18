@@ -54,7 +54,8 @@ title = "Research"
   (2021)  
   David Oniani, Chen Wang, Yiqing Zhao, Andrew Wen, Hongfang Liu, Feichen Shen  
   [[PDF]](comparisons_of_gnns_cancer.pdf) -
-  [[arXiv]](https://arxiv.org/abs/2101.05866)
+  [[arXiv]](https://arxiv.org/abs/2101.05866) -
+  [[Code]](https://github.com/oniani/cancer_research_gnn)
 
 - **Cosine Similarity and Its Applications in the Domains of Artificial
   Intelligence**
