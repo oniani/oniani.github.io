@@ -1,16 +1,9 @@
 +++
 title = "Privacy for the Web"
 date = 2020-01-03
-
-[extra]
-toc = true
 +++
 
-A few words concerning the privacy on the web.
-
-NOTE: The blogpost will get occasional updates, when needed.
-
-Here are my recommendations for the web privacy.
+Just wanted to make a few suggestions and options for improving the web privacy:
 
 - Lightweight Privacy: Emphasis on Usability and Speed
 
